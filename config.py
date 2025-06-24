@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import os
 
-# Load variables from .env
+# .env variables
 load_dotenv()
 
 # SQLAlchemy database URL

@@ -4,14 +4,14 @@ from sqlalchemy import text
 from dotenv import load_dotenv
 import os
 
-# Load environment variables
+# environment variables
 load_dotenv()
 print("Connecting to host:", os.getenv("host"))
 
-# Flask app init
+# flask app init
 app = Flask(__name__)
 
-# Construct DB URL
+# DB URL variables
 USER = os.getenv("user")
 PASSWORD = os.getenv("password")
 HOST = os.getenv("host")
@@ -22,16 +22,10 @@ DATABASE_URL = f"postgresql+psycopg2://{USER}:{PASSWORD}@{HOST}:{PORT}/{DBNAME}?
 app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-# Initialize database
+# database initialisation
 db = SQLAlchemy(app)
 
-@app.route('/')
-def home():
-    return "<h1>The Boxing Legacy Analyser</h1>"
-
-if __name__ == '__main__':
-    app.run(debug=True)
-
+# test for the Supabase connection
 @app.route('/test-db')
 def test_db():
     try:
@@ -39,3 +33,10 @@ def test_db():
         return f"Database connection successful: {result}"
     except Exception as e:
         return f"Database connection failed: {e}"
+
+@app.route('/')
+def home():
+    return "<h1>The Boxing Legacy Analyser</h1>"
+
+if __name__ == '__main__':
+    app.run(debug=True)

@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from flask_sqlalchemy import SQLAlchemy
+from models import db
 from sqlalchemy import text
 from dotenv import load_dotenv
 import os
@@ -23,7 +23,8 @@ app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # database initialisation
-db = SQLAlchemy(app)
+db.init_app(app)
+
 
 # test for the Supabase connection
 @app.route('/test-db')

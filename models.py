@@ -9,7 +9,7 @@ class Boxer(db.Model):
     name = db.Column(db.Text, nullable=False)
     alias = db.Column(db.Text)
     birth_date = db.Column(db.Date)
-    nationality = db.Column(db.Text)
+    # nationality = db.Column(db.Text)
     stance = db.Column(db.Text)
     height_cm = db.Column(db.Integer)
     reach_cm = db.Column(db.Integer)

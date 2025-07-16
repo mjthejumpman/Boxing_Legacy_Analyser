@@ -1,5 +1,8 @@
-# Ignore environment variable file
+# Ignore file
 .env
+scraper.log
+scraper.py
+
 
 # __pycache__ and virtual env
 __pycache__/

@@ -2,12 +2,17 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+from dateutil import parser
+
 
 URL = "https://en.wikipedia.org/wiki/Joe_Louis"
 page = requests.get(URL)
 
 soup = BeautifulSoup(page.content, "html.parser")
 
+"""
+Sequence of extraction operations to pull data for the "boxers" database table
+"""
 # extract name
 name = soup.find(class_='mw-page-title-main').text
 print(name)
@@ -24,19 +29,23 @@ for row in tr:
     # extract alias
     alias_cell = row.find('td', class_='infobox-data nickname')
 
-    if alias_cell:
-        # check if the alias is inside a list
-        first_li = alias_cell.find('li')
-        if first_li:
-            alias = first_li.get_text(strip=True)
-        # otherwise, just take the raw value
-        else:
-            alias = alias_cell.get_text(strip=True)
+    try:
+        if alias_cell:
+            # check if the alias is inside a list
+            first_li = alias_cell.find('li')
+            if first_li:
+                alias = first_li.get_text(strip=True)
 
-        # strip quotations
-        alias = alias.replace('"', '').replace("'", '').strip()
+            # otherwise, just take the raw value
+            else:
+                alias = alias_cell.get_text(strip=True)
 
-        print("Alias:", alias)
+            # strip quotations
+            alias = alias.replace('"', '').replace("'", '').strip()
+
+            print("Alias:", alias)
+    except Exception as e:
+        print(f'Error extracting {k}: ', e)
 
     th = row.find('th', class_='infobox-label')
     td = row.find('td', class_= 'infobox-data')
@@ -128,3 +137,133 @@ for row in tr:
                     print("Could not find reach value.")
             except Exception as e:
                 print(f'Error extracting {k}: ', e)
+
+
+# extract the dates active from and active to from the wikitable
+fight_table = None
+
+# search for tables with header rows
+for table in soup.find_all('table', class_='wikitable'):
+    header_row = table.find('tr')
+    if not header_row:
+        continue
+
+    headers = [th.get_text(strip=True) for th in header_row.find_all('th')]
+
+    # search for specific columns in the header. if present, extract that table
+    if "Result" in headers and "Opponent" in headers and "Date" in headers:
+        fight_table = table
+        break
+
+# test to see if fight table located
+if fight_table:
+    print("table found")
+    # print(fight_table.prettify())
+else:
+    print("table not found.")
+
+
+# extract the headers and rows from the table
+header_row = fight_table.find('tr')
+headers = [th.get_text(strip=True) for th in header_row.find_all('th')]
+# print("Headers:", headers)
+data_rows = fight_table.find_all('tr')[1:]
+
+# construct matrix
+fight_matrix = []
+for row in data_rows:
+    cells = [td.get_text(strip=True) for td in row.find_all('td')]
+    if len(cells) == len(headers):
+        fight = dict(zip(headers, cells))
+        fight_matrix.append(fight)
+
+# for fight in fight_matrix:
+#     print(fight)
+
+# find and extract date first and last active
+# helper function to parse dates of various formats
+def parse_date(date_str):
+    try:
+        return parser.parse(date_str, fuzzy=True)
+    except Exception:
+        return None
+
+# put all dates in a list
+dates = []
+for fight in fight_matrix:
+    date_str = fight.get('Date')
+    if date_str:
+        dt = parse_date(date_str)
+        if dt:
+            dates.append(dt)
+
+# extract the oldest and newest from the list
+if dates:
+    active_from = min(dates).strftime('%Y-%m-%d')
+    active_until = max(dates).strftime('%Y-%m-%d')
+    print(f'active from: {active_from}, to: {active_until}')
+else:
+    print("None found.")
+
+# define eras that the fighter fought in
+def define_eras(start_year, end_year):
+    eras = []
+
+    # extract year from dates
+    extracted_start_year = start_year.strftime('%Y')
+    extracted_end_year = end_year.strftime('%Y')
+
+    # round the start and end decade down
+    start = (int(extracted_start_year) // 10) * 10
+    end = (int(extracted_end_year) // 10) * 10
+
+    # increment the decade by ten and append to list
+    current_decade = start
+    while current_decade <= end:
+        decade = str(current_decade)[-2:] + "s"
+        eras.append(decade)
+        current_decade += 10
+
+    return eras
+
+# enter the oldest and newest dates from the fight list
+boxer_eras = define_eras(min(dates), max(dates))
+print(boxer_eras)
+
+"""
+Sequence of extraction operations to pull data for the "ranking_metrics" database table
+"""
+
+# extract fighter record wikitable
+record_table = soup.find('table', class_='wikitable')
+# print('\n', record_table)
+
+# extract the headers and rows from the table
+header_row = record_table.find('tr')
+record_headers = [th.get_text(strip=True) for th in header_row.find_all('th')]
+print("Headers:", record_headers)
+data_rows = fight_table.find_all('tr')[1:]
+
+# # extract number of fights
+# number_of_fights = [re.search(r'\d+\s{1}(wins)', record_table) for row in record_table.find_all('tr')[1:]]
+# print(number_of_fights)
+
+# extract number of wins by KO, decision and DQ
+wins_by = [td.get_text(strip=True) for td in record_table.find_all('td', class_='table-yes2')]
+print('\n','wins by: ', wins_by)
+
+# wins by KO
+wins_by_ko = wins_by[0]
+print('wins by KO:', wins_by_ko)
+
+# wins by decision
+wins_by_decision = wins_by[1]
+print('wins by decision:', wins_by_decision)
+
+# wins by DQ
+if wins_by[2]:
+    wins_by_dq = wins_by[2]
+    print('wins by DQ:', wins_by_dq)
+else:
+    wins_by_dq = None
+    print('no wins by DQ')

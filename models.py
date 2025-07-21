@@ -13,7 +13,7 @@ class Boxer(db.Model):
     stance = db.Column(db.Text)
     height_cm = db.Column(db.Integer)
     reach_cm = db.Column(db.Integer)
-    style = db.Column(db.Text)
+    # style = db.Column(db.Text)
     active_from = db.Column(db.Integer)
     active_to = db.Column(db.Integer)
     era = db.Column(db.Text)
@@ -70,11 +70,20 @@ class RankingMetrics(db.Model):
     __tablename__ = 'ranking_metrics'
 
     boxer_id = db.Column(db.Integer, db.ForeignKey('boxers.id'), primary_key=True)
-    win_ratio = db.Column(db.Float)
-    ko_ratio = db.Column(db.Float)
     adjusted_z_score = db.Column(db.Float)
     elo_rating = db.Column(db.Float)
     performance_score = db.Column(db.Float)
+    ko_ratio = db.Column(db.Float)
+    win_ratio = db.Column(db.Float)
+    wins = db.Column(db.Integer)
+    wins_by_ko = db.Column(db.Integer)
+    wins_by_decision = db.Column(db.Integer)
+    wins_by_dq = db.Column(db.Integer)
+    losses = db.Column(db.Integer)
+    losses_by_ko = db.Column(db.Integer)
+    losses_by_decision = db.Column(db.Integer)
+    losses_by_dq = db.Column(db.Integer)
+
 
     # table relationships
     boxer = db.relationship('Boxer', back_populates='ranking')

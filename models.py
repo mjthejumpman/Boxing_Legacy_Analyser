@@ -75,6 +75,7 @@ class RankingMetrics(db.Model):
     performance_score = db.Column(db.Float)
     ko_ratio = db.Column(db.Float)
     win_ratio = db.Column(db.Float)
+    num_of_fights = db.Column(db.Float)
     wins = db.Column(db.Integer)
     wins_by_ko = db.Column(db.Integer)
     wins_by_decision = db.Column(db.Integer)

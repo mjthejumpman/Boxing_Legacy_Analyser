@@ -157,10 +157,10 @@ for table in soup.find_all('table', class_='wikitable'):
 
 # test to see if fight table located
 if fight_table:
-    print("table found")
+    print("fight table found")
     # print(fight_table.prettify())
 else:
-    print("table not found.")
+    print("fight table not found.")
 
 
 # extract the headers and rows from the table
@@ -228,42 +228,117 @@ def define_eras(start_year, end_year):
 
 # enter the oldest and newest dates from the fight list
 boxer_eras = define_eras(min(dates), max(dates))
-print(boxer_eras)
+print("Eras: ", boxer_eras)
 
 """
 Sequence of extraction operations to pull data for the "ranking_metrics" database table
 """
 
-# extract fighter record wikitable
-record_table = soup.find('table', class_='wikitable')
-# print('\n', record_table)
+record_table = None
+
+# search for tables with header rows
+for table in soup.find_all('table', class_='wikitable'):
+    header_row = table.find('tr')
+    if not header_row:
+        continue
+
+    headers = [th.get_text(strip=True) for th in header_row.find_all('th')]
+
+    # search for specific record table columns in the header. if present, return True
+    found_f = False
+    found_w = False
+    found_l = False
+
+    for header in headers:
+        if "fights" in header.lower():
+            found_f = True
+        if "wins" in header.lower():
+            found_w = True
+        if "losses" in header.lower():
+            found_l = True
+
+    # if all three columns present, table successfully identified
+    if found_f and found_w and found_l:
+        record_table = table
+        break
+
+
+# test to see if fight table located
+if record_table:
+    print("record table found")
+else:
+    print("record table not found.")
+
 
 # extract the headers and rows from the table
 header_row = record_table.find('tr')
 record_headers = [th.get_text(strip=True) for th in header_row.find_all('th')]
-print("Headers:", record_headers)
-data_rows = fight_table.find_all('tr')[1:]
+# print("Headers:", headers)
+data_rows = record_table.find_all('tr')[1:]
+# print("Data rows:", data_rows)
 
-# # extract number of fights
-# number_of_fights = [re.search(r'\d+\s{1}(wins)', record_table) for row in record_table.find_all('tr')[1:]]
-# print(number_of_fights)
+# extract number of fights, wins and losses
+number_of_fights = 0
+number_of_wins = 0
+
+for cell in header_row:
+    text = cell.get_text(strip=True)
+
+    if "fights" in text:
+        number_of_fights = int(text.split()[0])
+        print("number_of_fights :", number_of_fights)
+
+    if "wins" in text:
+        number_of_wins = int(text.split()[0])
+        print("number_of_wins :", number_of_wins)
+
+    if "losses" in text:
+        number_of_losses = int(text.split()[0])
+        print("number_of_losses :", number_of_losses)
+
 
 # extract number of wins by KO, decision and DQ
 wins_by = [td.get_text(strip=True) for td in record_table.find_all('td', class_='table-yes2')]
-print('\n','wins by: ', wins_by)
+# print('\n','wins by: ', wins_by)
 
 # wins by KO
-wins_by_ko = wins_by[0]
+wins_by_ko = int(wins_by[0])
 print('wins by KO:', wins_by_ko)
 
 # wins by decision
-wins_by_decision = wins_by[1]
+wins_by_decision = int(wins_by[1])
 print('wins by decision:', wins_by_decision)
 
 # wins by DQ
 if wins_by[2]:
-    wins_by_dq = wins_by[2]
+    wins_by_dq = int(wins_by[2])
     print('wins by DQ:', wins_by_dq)
 else:
     wins_by_dq = None
     print('no wins by DQ')
+
+# extract number of losses by KO, decision and DQ
+losses_by = [td.get_text(strip=True) for td in record_table.find_all('td', class_='table-no2')]
+print('\n','losses by: ', losses_by)
+
+# wins by KO
+losses_by_ko = int(losses_by[0])
+print('losses by KO:', losses_by_ko)
+
+# wins by decision
+losses_by_decision = int(losses_by[1])
+print('losses by decision:',losses_by_decision)
+
+# wins by DQ
+if losses_by[2]:
+    losses_by_dq = int(losses_by[2])
+    print('losses by DQ:', losses_by_dq)
+else:
+    losses_by_dq = None
+    print('no losses by DQ')
+
+# calculate the KO and win ratios
+win_ratio = round((number_of_wins / number_of_fights), 2)
+ko_ratio = round((wins_by_ko / number_of_wins), 2)
+print(f'\nwin ratio: {win_ratio} \nko ratio: {ko_ratio}')
+

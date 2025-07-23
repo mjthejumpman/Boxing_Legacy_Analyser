@@ -1,8 +1,5 @@
 # Ignore file
 .env
-scraper.log
-scraper_transfer.py
-
 
 # __pycache__ and virtual env
 __pycache__/

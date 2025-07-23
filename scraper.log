@@ -1,0 +1,152 @@
+2025-07-23 16:44:08,636 - INFO - name insertion successful
+2025-07-23 16:44:08,638 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,638 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,638 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,639 - INFO - d.o.b. insertion successful
+2025-07-23 16:44:08,639 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,639 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,639 - INFO - alias insertion successful
+2025-07-23 16:44:08,639 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,639 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,639 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,639 - INFO - height insertion successful
+2025-07-23 16:44:08,640 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,640 - INFO - reach insertion successful
+2025-07-23 16:44:08,640 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,640 - INFO - stance insertion successful
+2025-07-23 16:44:08,640 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,640 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,640 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,640 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,640 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,640 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,640 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,641 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,641 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,641 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,641 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,641 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,641 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,641 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,641 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,641 - INFO - photo cell insertion successful
+2025-07-23 16:44:08,655 - INFO - active dates inserted successfully
+2025-07-23 16:44:08,656 - INFO - era insertion successful
+2025-07-23 16:44:08,663 - INFO - fight/win/loss insertion successful
+2025-07-23 16:44:08,663 - INFO - win type insertion successful
+2025-07-23 16:44:08,663 - INFO - loss type insertion successful
+2025-07-23 16:44:08,663 - INFO - ko and win ratio insertion successful
+2025-07-23 16:52:22,970 - INFO - name insertion successful
+2025-07-23 16:52:22,973 - WARNING - No photo URL found
+2025-07-23 16:52:22,973 - INFO - Extracted image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Joe_Louis_by_van_Vechten.jpg/250px-Joe_Louis_by_van_Vechten.jpg
+2025-07-23 16:52:22,973 - WARNING - No photo URL found
+2025-07-23 16:52:22,973 - INFO - d.o.b. insertion successful
+2025-07-23 16:52:22,973 - WARNING - No photo URL found
+2025-07-23 16:52:22,974 - WARNING - No photo URL found
+2025-07-23 16:52:22,974 - INFO - alias insertion successful
+2025-07-23 16:52:22,974 - WARNING - No photo URL found
+2025-07-23 16:52:22,974 - WARNING - No photo URL found
+2025-07-23 16:52:22,974 - WARNING - No photo URL found
+2025-07-23 16:52:22,974 - INFO - height insertion successful
+2025-07-23 16:52:22,974 - WARNING - No photo URL found
+2025-07-23 16:52:22,974 - INFO - reach insertion successful
+2025-07-23 16:52:22,974 - WARNING - No photo URL found
+2025-07-23 16:52:22,974 - INFO - stance insertion successful
+2025-07-23 16:52:22,975 - WARNING - No photo URL found
+2025-07-23 16:52:22,975 - WARNING - No photo URL found
+2025-07-23 16:52:22,975 - WARNING - No photo URL found
+2025-07-23 16:52:22,975 - WARNING - No photo URL found
+2025-07-23 16:52:22,975 - WARNING - No photo URL found
+2025-07-23 16:52:22,975 - WARNING - No photo URL found
+2025-07-23 16:52:22,975 - WARNING - No photo URL found
+2025-07-23 16:52:22,975 - INFO - Extracted image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Gold_medal_icon_%28G_initial%29.svg/16px-Gold_medal_icon_%28G_initial%29.svg.png
+2025-07-23 16:52:22,976 - WARNING - No photo URL found
+2025-07-23 16:52:22,976 - WARNING - No photo URL found
+2025-07-23 16:52:22,976 - WARNING - No photo URL found
+2025-07-23 16:52:22,976 - INFO - Extracted image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Gold_medal_icon_%28G_initial%29.svg/16px-Gold_medal_icon_%28G_initial%29.svg.png
+2025-07-23 16:52:22,976 - WARNING - No photo URL found
+2025-07-23 16:52:22,976 - INFO - Extracted image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Gold_medal_icon_%28G_initial%29.svg/16px-Gold_medal_icon_%28G_initial%29.svg.png
+2025-07-23 16:52:22,976 - WARNING - No photo URL found
+2025-07-23 16:52:22,976 - INFO - Extracted image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Gold_medal_icon_%28G_initial%29.svg/16px-Gold_medal_icon_%28G_initial%29.svg.png
+2025-07-23 16:52:22,990 - INFO - active dates inserted successfully
+2025-07-23 16:52:22,990 - INFO - era insertion successful
+2025-07-23 16:52:22,998 - INFO - fight/win/loss insertion successful
+2025-07-23 16:52:22,998 - INFO - win type insertion successful
+2025-07-23 16:52:22,998 - INFO - loss type insertion successful
+2025-07-23 16:52:22,998 - INFO - ko and win ratio insertion successful
+2025-07-23 17:06:47,339 - INFO - name insertion successful
+2025-07-23 17:06:47,343 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,343 - INFO - Extracted image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Joe_Louis_by_van_Vechten.jpg/250px-Joe_Louis_by_van_Vechten.jpg
+2025-07-23 17:06:47,344 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,344 - INFO - d.o.b. insertion successful
+2025-07-23 17:06:47,344 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,344 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,344 - INFO - alias insertion successful
+2025-07-23 17:06:47,344 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,345 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,345 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,345 - INFO - height insertion successful
+2025-07-23 17:06:47,346 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,346 - INFO - reach insertion successful
+2025-07-23 17:06:47,346 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,346 - INFO - stance insertion successful
+2025-07-23 17:06:47,346 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,346 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,346 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,346 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,346 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,346 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,346 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,347 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,347 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,347 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,347 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,347 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,347 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,347 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,347 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,347 - ERROR - Unable to extract photo cell from page element
+2025-07-23 17:06:47,359 - INFO - active dates inserted successfully
+2025-07-23 17:06:47,359 - INFO - era insertion successful
+2025-07-23 17:06:47,367 - INFO - fight/win/loss insertion successful
+2025-07-23 17:06:47,367 - INFO - win type insertion successful
+2025-07-23 17:06:47,367 - INFO - loss type insertion successful
+2025-07-23 17:06:47,367 - INFO - ko and win ratio insertion successful
+2025-07-23 17:24:00,957 - INFO - name insertion successful
+2025-07-23 17:24:00,959 - WARNING - No photo URL found
+2025-07-23 17:24:00,960 - INFO - Extracted image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Joe_Louis_by_van_Vechten.jpg/250px-Joe_Louis_by_van_Vechten.jpg
+2025-07-23 17:24:00,960 - WARNING - No photo URL found
+2025-07-23 17:24:00,960 - INFO - d.o.b. insertion successful
+2025-07-23 17:24:00,960 - WARNING - No photo URL found
+2025-07-23 17:24:00,961 - WARNING - No photo URL found
+2025-07-23 17:24:00,961 - INFO - alias insertion successful
+2025-07-23 17:24:00,961 - WARNING - No photo URL found
+2025-07-23 17:24:00,961 - WARNING - No photo URL found
+2025-07-23 17:24:00,961 - WARNING - No photo URL found
+2025-07-23 17:24:00,961 - INFO - height insertion successful
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - INFO - reach insertion successful
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - INFO - stance insertion successful
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,962 - WARNING - No photo URL found
+2025-07-23 17:24:00,963 - WARNING - No photo URL found
+2025-07-23 17:24:00,963 - WARNING - No photo URL found
+2025-07-23 17:24:00,963 - WARNING - No photo URL found
+2025-07-23 17:24:00,963 - WARNING - No photo URL found
+2025-07-23 17:24:00,974 - INFO - active dates inserted successfully
+2025-07-23 17:24:00,974 - INFO - era insertion successful
+2025-07-23 17:24:00,981 - INFO - fight/win/loss insertion successful
+2025-07-23 17:24:00,981 - INFO - win type insertion successful
+2025-07-23 17:24:00,981 - INFO - loss type insertion successful
+2025-07-23 17:24:00,981 - INFO - ko and win ratio insertion successful

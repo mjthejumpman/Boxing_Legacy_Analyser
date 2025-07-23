@@ -179,11 +179,11 @@ def parse_data(html):
 
     # search for tables with header rows
     for table in soup.find_all('table', class_='wikitable'):
-        header_row = table.find('tr')
-        if not header_row:
+        fight_header_row = table.find('tr')
+        if not fight_header_row:
             continue
 
-        headers = [th.get_text(strip=True) for th in header_row.find_all('th')]
+        headers = [th.get_text(strip=True) for th in fight_header_row.find_all('th')]
 
         # search for specific columns in the header. if present, extract that table
         if "Result" in headers and "Opponent" in headers and "Date" in headers:
@@ -199,14 +199,14 @@ def parse_data(html):
 
 
     # extract the headers and rows from the table
-    header_row = fight_table.find('tr')
-    headers = [th.get_text(strip=True) for th in header_row.find_all('th')]
+    fight_header_row = fight_table.find('tr')
+    headers = [th.get_text(strip=True) for th in fight_header_row.find_all('th')]
     # print("Headers:", headers)
-    data_rows = fight_table.find_all('tr')[1:]
+    fight_data_rows = fight_table.find_all('tr')[1:]
 
     # construct matrix
     fight_matrix = []
-    for row in data_rows:
+    for row in fight_data_rows:
         cells = [td.get_text(strip=True) for td in row.find_all('td')]
         if len(cells) == len(headers):
             fight = dict(zip(headers, cells))
@@ -273,11 +273,11 @@ def parse_data(html):
 
     # search for tables with header rows
     for table in soup.find_all('table', class_='wikitable'):
-        header_row = table.find('tr')
-        if not header_row:
+        record_header_row = table.find('tr')
+        if not record_header_row:
             continue
 
-        headers = [th.get_text(strip=True) for th in header_row.find_all('th')]
+        headers = [th.get_text(strip=True) for th in record_header_row.find_all('th')]
 
         # search for specific record table columns in the header. if present, return True
         found_f = False
@@ -306,8 +306,8 @@ def parse_data(html):
 
 
     # extract the headers and rows from the table
-    header_row = record_table.find('tr')
-    record_headers = [th.get_text(strip=True) for th in header_row.find_all('th')]
+    record_header_row = record_table.find('tr')
+    record_headers = [th.get_text(strip=True) for th in record_header_row.find_all('th')]
     # print("Headers:", headers)
     data_rows = record_table.find_all('tr')[1:]
     # print("Data rows:", data_rows)
@@ -316,11 +316,12 @@ def parse_data(html):
     number_of_fights = 0
     number_of_wins = 0
 
-    for cell in header_row:
+    for cell in record_header_row:
         text = cell.get_text(strip=True)
 
         if "fights" in text:
             number_of_fights = int(text.split()[0])
+            print(text.split())
             print("number_of_fights :", number_of_fights)
 
         if "wins" in text:
@@ -377,132 +378,84 @@ def parse_data(html):
     ko_ratio = round((wins_by_ko / number_of_wins), 2)
     print(f'\nwin ratio: {win_ratio} \nko ratio: {ko_ratio}')
 
-    """
-    Sequence of extraction operations to pull data for the "fights" database table
-    """
 
-
-
-# map the data to the DB models
-def map_data(data):
-
-    # 'boxer' table
-    name = data.get('name')
-    alias =
-    birth_date =
-    stance =
-    height_cm =
-    reach_cm =
-    active_from =
-    active_to =
-    era =
-
-    # 'fight' table
-    date =
-    rounds_scheduled =
-    rounds_completed =
-    method =
-    location =
-    title_fight =
-
-    # 'ranking_metrics' table
-    ko_ratio =
-    win_ratio =
-    num_of_fights =
-    wins =
-    wins_by_ko =
-    wins_by_decision =
-    wins_by_dq =
-    losses =
-    losses_by_ko =
-    losses_by_decision =
-    losses_by_dq =
-
-
-    return {
-        'name': name,
-        'alias': alias,
-        'birth_date': birth_date,
-        'stance': stance,
-        'height_cm': height_cm,
-        'reach_cm': reach_cm,
-        'active_from': active_from,
-        'active_to': active_to,
-        'era': era,
-        'date': date,
-        'rounds_scheduled': rounds_scheduled,
-        'rounds_completed': rounds_completed,
-        'method': method,
-        'location': location,
-        'title_fight': title_fight,
-        'ko_ratio': ko_ratio,
-        'win_ratio': win_ratio,
-        'num_of_fights': num_of_fights,
-        'wins': wins,
-        'wins_by_ko': wins_by_ko,
-        'wins_by_decision': wins_by_decision,
-        'wins_by_dq': wins_by_dq,
-        'losses': losses,
-        'losses_by_ko': losses_by_ko,
-        'losses_by_decision': losses_by_decision,
-        'losses_by_dq': losses_by_dq,
-    }
-
-
-# database insertion. return error message to log file if boxer already in DB
-def insert_boxer(map_data):
+# mapping of data to DB models and database insertion of boxer and ranking_metrics
+# return error message to log file if boxer already in DB
+def insert_boxer(data):
     with app.app_context():
-        if not map_data.get('name'):
+        if not data.get('name'):
             logging.warning("No name available. Skipping boxer.")
             return
 
-        existing = Boxer.query.filter_by(name=map_data['name']).first()
+        existing = Boxer.query.filter_by(name=data['name']).first()
         if existing:
-            logging.info(f"{map_data['name']} already in DB")
+            logging.info(f"{data['name']} already in DB")
             return
 
         boxer = Boxer(
-            name=map_data['name'],
-            alias=map_data['alias'],
-            birth_date=map_data['birth_date'],
-            stance=map_data['stance'],
-            height_cm=map_data['height_cm'],
-            reach_cm=map_data['reach_cm'],
-            active_from=map_data['active_from'],
-            active_to=map_data['active_to'],
-            era=map_data['era'],
+            name=data.get('name'),
+            photo=data.get('photo_url'),
+            alias=data.get('alias'),
+            birth_date=data.get('birth_date'),
+            stance=data.get('stance'),
+            height_cm=data.get('height_cm'),
+            reach_cm=data.get('reach_cm'),
+            active_from=data.get('active_from'),
+            active_to=data.get('active_to'),
+            era=data.get('era'),
         )
 
-        fight = Fight(
-            date=map_data['date'],
-            rounds_scheduled=map_data['rounds_scheduled'],
-            rounds_completed=map_data['rounds_completed'],
-            method=map_data['method'],
-            location=map_data['location'],
-            title_fight=map_data['title_fight'],
-        )
 
         ranking_metrics = RankingMetrics(
-            ko_ratio=map_data['ko_ratio'],
-            win_ratio=map_data['win_ratio'],
-            num_of_fights=map_data['num_of_fights'],
-            wins=map_data['wins'],
-            wins_by_ko=map_data['wins_by_ko'],
-            wins_by_decision=map_data['wins_by_decision'],
-            wins_by_dq=map_data['wins_by_dq'],
-            losses=map_data['losses'],
-            losses_by_ko=map_data['losses_by_ko'],
-            losses_by_decision=map_data['losses_by_decision'],
-            losses_by_dq=map_data['losses_by_dq'],
+            ko_ratio=data.get('ko_ratio'),
+            win_ratio=data.get('win_ratio'),
+            num_of_fights=data.get('num_of_fights'),
+            wins=data.get('wins'),
+            wins_by_ko=data.get('wins_by_ko'),
+            wins_by_decision=data.get('wins_by_decision'),
+            wins_by_dq=data.get('wins_by_dq'),
+            losses=data.get('losses'),
+            losses_by_ko=data.get('losses_by_ko'),
+            losses_by_decision=data.get('losses_by_decision'),
+            losses_by_dq=data.get('losses_by_dq'),
         )
 
-        db.session.add(boxer, fight, ranking_metrics)
+        db.session.add(boxer)
+        db.session.add(ranking_metrics)
         db.session.commit()
         logging.info(f"Inserted {boxer.name} into DB")
 
 
+# database insertion into 'fights' table for each boxer
+def insert_fights(fight_matrix, data):
+    with app.app_context():
+        boxer = Boxer.query.filter_by(name=data['name']).first()
+        if not boxer:
+            logging.warning(f"No boxer found for: {data['name']}")
+            return
+
+        # temporary opponent and winner. Not all ids available on first scraper pass, will be populated during second pass
+        for fight_data in fight_matrix:
+            fight = Fight(
+                id=fight_data.get('No.'),
+                date=fight_data.get('Date'),
+                rounds_completed=fight_data.get('Round'),
+                method=fight_data.get('Type'),
+                location=fight_data.get('Location'),
+                title_fight=bool(fight_data.get('Notes', '').strip()),
+                boxer_a_id=boxer,
+                boxer_b_id=fight_data['Opponent'],
+                winner_id=boxer if fight_data['Result'] == "Win" else fight_data['Opponent'],
+            )
+            db.session.add(fight)
+
+        db.session.commit()
+        logging.info(f"Inserted {len(fight_matrix)} fights for {boxer.name}")
+
+
+
 # batch URL scraper
-def batch_scrape():
+def batch_scrape(data):
     try:
         with open("urls.txt", 'r') as f:
             url_list = [line.strip() for line in f if line.strip()]
@@ -521,9 +474,9 @@ def batch_scrape():
         if not html:
             continue
 
-        parsed_data = parse_data(html)
-        mapped_data = map_data(parsed_data)
-        insert_boxer(mapped_data)
+        data, fight_matrix = parse_data(html)
+        insert_boxer(data)
+        insert_fights(fight_matrix, data)
 
 
 
@@ -537,9 +490,9 @@ if __name__ == '__main__':
         url = input("Enter Wikipedia Boxer URL: ").strip()
         html = get_html_content(url)
         if html:
-            parsed_data = parse_data(html)
-            cleaned = map_data(parsed_data)
-            insert_boxer(cleaned)
+            data, fight_matrix = parse_data(html)
+            insert_boxer(data)
+            insert_fights(fight_matrix, data)
         print('operation complete')
 
     elif mode == 'b':

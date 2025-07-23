@@ -7,6 +7,7 @@ class Boxer(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.Text, nullable=False)
+    photo = db.Column(db.Text, nullable=False)
     alias = db.Column(db.Text)
     birth_date = db.Column(db.Date)
     # nationality = db.Column(db.Text)
@@ -34,7 +35,6 @@ class Fight(db.Model):
     boxer_b_id = db.Column(db.Integer, db.ForeignKey('boxers.id'))
     winner_id = db.Column(db.Integer, db.ForeignKey('boxers.id'))
     date = db.Column(db.Date)
-    rounds_scheduled = db.Column(db.Integer)
     rounds_completed = db.Column(db.Integer)
     method = db.Column(db.Text)
     location = db.Column(db.Text)

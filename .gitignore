@@ -1,7 +1,7 @@
 # Ignore file
 .env
 scraper.log
-scraper.py
+scraper_transfer.py
 
 
 # __pycache__ and virtual env

@@ -62,8 +62,6 @@ for row in tr:
             complete_image_url = "https:" + img_url
             data['photo_url'] = complete_image_url
             logging.info(f"Extracted image URL: {complete_image_url}")
-        else:
-            logging.warning("No photo URL found")
     except AttributeError as e:
         logging.error("Unable to extract photo cell from page element")
 

@@ -15,8 +15,8 @@ class Boxer(db.Model):
     height_cm = db.Column(db.Integer)
     reach_cm = db.Column(db.Integer)
     # style = db.Column(db.Text)
-    active_from = db.Column(db.Integer)
-    active_to = db.Column(db.Integer)
+    active_from = db.Column(db.Date)
+    active_to = db.Column(db.Date)
     era = db.Column(db.Text)
 
     # table relationships
@@ -39,6 +39,8 @@ class Fight(db.Model):
     method = db.Column(db.Text)
     location = db.Column(db.Text)
     title_fight = db.Column(db.Boolean)
+    opponent_name = db.Column(db.Text, nullable=True)
+    winner_name = db.Column(db.Text, nullable=True)
 
     # table relationships
     boxer_a = db.relationship('Boxer', foreign_keys=[boxer_a_id], back_populates='fights_as_a')

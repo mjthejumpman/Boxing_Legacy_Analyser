@@ -35,7 +35,7 @@ class Fight(db.Model):
     boxer_b_id = db.Column(db.Integer, db.ForeignKey('boxers.id'))
     winner_id = db.Column(db.Integer, db.ForeignKey('boxers.id'))
     date = db.Column(db.Date)
-    rounds_completed = db.Column(db.Integer)
+    rounds_completed = db.Column(db.Text)
     method = db.Column(db.Text)
     location = db.Column(db.Text)
     title_fight = db.Column(db.Boolean)

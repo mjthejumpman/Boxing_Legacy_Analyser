@@ -429,12 +429,14 @@ def parse_data(html):
         logging.info("win type insertion successful")
 
         # wins by DQ
-        if wins_by[2]:
+        try:
             wins_by_dq = int(wins_by[2])
-            # print('wins by DQ:', wins_by_dq)
 
             # insert wins_by_dq into data dictionary
             data['wins_by_dq'] = wins_by_dq
+        except IndexError:
+            data['wins_by_dq'] = 0
+            logging.info("wins_by_dq unavailable, defaulting to 0")
 
         else:
             wins_by_dq = None
@@ -446,14 +448,14 @@ def parse_data(html):
     try:
         losses_by = [td.get_text(strip=True) for td in record_table.find_all('td', class_='table-no2')]
 
-        # wins by KO
+        # losses by KO
         losses_by_ko = int(losses_by[0])
         # print('\nlosses by KO:', losses_by_ko)
 
         # insert losses_by_ko into data dictionary
         data['losses_by_ko'] = losses_by_ko
 
-        # wins by decision
+        # losses by decision
         losses_by_decision = int(losses_by[1])
         # print('losses by decision:', losses_by_decision)
 
@@ -461,14 +463,16 @@ def parse_data(html):
         data['losses_by_decision'] = losses_by_decision
         logging.info("loss type insertion successful")
 
-        # wins by DQ
-        if losses_by[2]:
+        # losses by DQ
+        try:
             losses_by_dq = int(losses_by[2])
             # print('losses by DQ:', losses_by_dq)
 
             # insert losses_by_dq into data dictionary
-
             data['losses_by_dq'] = losses_by_dq
+        except IndexError:
+            data['losses_by_dq'] = 0
+            logging.info("losses_by_dq unavailable, defaulting to 0")
 
         else:
             losses_by_dq = None
@@ -516,7 +520,7 @@ def insert_boxer(data):
             height_cm=data.get('height_cm'),
             reach_cm=data.get('reach_cm'),
             active_from=data.get('active_from'),
-            active_to=data.get('active_to'),
+            active_to=data.get('active_until'),
             era=data.get('era'),
         )
 
@@ -544,6 +548,23 @@ def insert_boxer(data):
         logging.info(f"Inserted {boxer.name} into DB")
 
 
+# mapping the method section to adhere to db constraints
+METHOD_MAPPING = {
+    'KO': 'KO',
+    'TKO': 'TKO',
+    'RTD': 'TKO',
+    'SD': 'Decision',
+    'UD': 'Decision',
+    'MD': 'Decision',
+    'PTS': 'Decision',
+    'DECISION': 'Decision',
+    'TD': 'Decision',
+    'DRAW': 'Draw',
+    'TECHNICAL DRAW': 'Draw',
+    'DQ': 'DQ',
+    'NC': 'NC'
+}
+
 # database insertion into 'fights' table for each boxer
 def insert_fights(fight_matrix, data):
     with app.app_context():
@@ -552,19 +573,37 @@ def insert_fights(fight_matrix, data):
             logging.warning(f"No boxer found for: {data['name']}")
             return
 
-        # temporary opponent and winner. Not all ids available on first scraper pass, will be populated during second pass
+        # Not all ids available on first scraper pass, will be populated during second pass
         for fight_data in fight_matrix:
+            opponent_name = fight_data.get('Opponent')
+            winner_name = boxer.name if fight_data.get('Result') == "Win" else opponent_name
+
+            # search for the id of boxer and opponent in the DB
+            opponent_boxer = Boxer.query.filter_by(name=opponent_name).first()
+            winner_boxer = Boxer.query.filter_by(name=winner_name).first()
+
+            # normalise victory method to db constraints
+            raw_method = fight_data.get('Type', '').strip().upper()
+            method = METHOD_MAPPING.get(raw_method, None)
+
             fight = Fight(
-                id=fight_data.get('No.'),
                 date=fight_data.get('Date'),
-                rounds_completed=fight_data.get('Round'),
-                method=fight_data.get('Type'),
+                rounds_completed=fight_data.get('Round, time') or fight_data.get('Round') or None,
                 location=fight_data.get('Location'),
                 title_fight=bool(fight_data.get('Notes', '').strip()),
                 boxer_a_id=boxer.id,
-                boxer_b_id=fight_data['Opponent'],
-                winner_id=boxer if fight_data['Result'] == "Win" else fight_data['Opponent'],
+                boxer_b_id=opponent_boxer.id if opponent_boxer else None,
+                winner_id=winner_boxer.id if winner_boxer else None,
+                opponent_name=opponent_name,
+                winner_name=winner_name,
+                method=method,
             )
+            if method is None:
+                logging.warning(f"invalid fight method '{raw_method}', for fight {fight_data.get('No.')}")
+
+            if not opponent_boxer or not winner_boxer:
+                logging.warning(f"unable to set all IDs for fight {fight_data.get('No.')}. Opponent: {opponent_name}, winner: {winner_name}")
+
             db.session.add(fight)
 
         db.session.commit()
@@ -594,14 +633,13 @@ def batch_scrape():
 
         data, fight_matrix = parse_data(html)
         insert_boxer(data)
-        insert_fights(fight_matrix, data)
-
+        if fight_matrix:
+            insert_fights(fight_matrix, data)
 
 
 """ command line tool for testing purposes and insertion of fighters into DB
 # s-mode for single URLs, b-mode for batch .txt files with URLs """
-
-if __name__ == '__main__':
+def main():
     mode = input("Choose mode - single (s) or batch (b): ").strip().lower()
 
     if mode == 's':
@@ -616,3 +654,7 @@ if __name__ == '__main__':
     elif mode == 'b':
         batch_scrape()
         print('operation complete')
+
+
+if __name__ == '__main__':
+    main()

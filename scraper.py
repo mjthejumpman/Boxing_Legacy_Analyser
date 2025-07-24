@@ -8,7 +8,7 @@ from dateutil import parser
 from bs4 import BeautifulSoup
 
 # import database models
-from models import db, Boxer, Fight, Statline, RankingMetrics
+from models import db, Boxer, Fight, RankingMetrics
 
 # import .env database credentials
 from dotenv import load_dotenv
@@ -20,12 +20,6 @@ logging.basicConfig(
     filename='scraper.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s')
-
-
-# delete later
-# URL = "https://en.wikipedia.org/wiki/Joe_Louis"
-# page = requests.get(URL)
-# soup = BeautifulSoup(page.content, "html.parser")
 
 
 # function to fetch the contents of wiki pages. return error message to log file if unsuccessful
@@ -55,10 +49,9 @@ def parse_data(html):
 
         # insert name into data dictionary
         data['name'] = name
-        # print(f"\n{name}")
         logging.info("name insertion successful")
     except AttributeError as e:
-        logging.error("Unable to extract name from page element")
+        logging.error(f"Unable to extract name from page element. {e}")
 
     # extract the infobox from the rest of the page elements
     info_card = soup.find(class_='infobox')
@@ -78,7 +71,7 @@ def parse_data(html):
                 data['photo'] = complete_image_url
                 logging.info(f"Extracted image URL: {complete_image_url}")
         except AttributeError as e:
-            logging.error("Unable to extract photo cell from page element")
+            logging.error(f"Unable to extract photo cell from page element. {e}")
 
         # extract alias
         alias_cell = row.find('td', class_='infobox-data nickname')
@@ -100,40 +93,35 @@ def parse_data(html):
                 # insert alias into data dictionary
                 data['alias'] = alias
 
-                # print("Alias:", alias)
                 logging.info("alias insertion successful")
         except AttributeError as e:
-            logging.error(f"Unable to extract {data.get('name')} alias from page element")
+            logging.error(f"unable to extract {data.get('name')} alias from page element. {e}")
 
         th = row.find('th', class_='infobox-label')
         td = row.find('td', class_='infobox-data')
-        # print(th,td)
 
         # extract the labels and values from each row
         if th and td:
             label = th.get_text(strip=True)
             value = td.get_text(strip=True)
-            # print(label, ":", value)
 
             # put labels and values into a dictionary
             info_card_elements = {
                 label: value
             }
 
-            # print(info_card_elements)
 
             for k, v in info_card_elements.items():
                 # extract stance
                 try:
                     if k == 'Stance':
-                        Stance = v
-                        # print("Stance:", Stance)
+                        stance = v
 
                         # insert stance into data dictionary
-                        data['stance'] = Stance
+                        data['stance'] = stance
                         logging.info("stance insertion successful")
                 except AttributeError as e:
-                    logging.error(f"Unable to extract {data.get('name')} stance from page element")
+                    logging.error(f"Unable to extract {data.get('name')} stance from page element. {e}")
 
                 # extract d.o.b.
                 try:
@@ -143,25 +131,22 @@ def parse_data(html):
                         if iso_date_match:
                             iso_date = iso_date_match.group(1)
                             dob = iso_date
-                            # print(dob)
 
                             # insert d.o.b. into data dictionary
                             data['birth_date'] = dob
                             logging.info("d.o.b. insertion successful")
                 except AttributeError as e:
-                    logging.error(f"Unable to extract {data.get('name')} date of birth from page element")
+                    logging.error(f"Unable to extract {data.get('name')} date of birth from page element. {e}")
 
                 # extract height
                 try:
                     if k == 'Height':
                         height_string = v
-                        # print("Height string:", height_string)
 
                         # search the data for cm
                         cm_match = re.search(r'(\d+)\s*cm', height_string)
                         if cm_match:
                             height_cm = int(cm_match.group(1))
-                            # print("Height (cm):", height_cm)
 
                             # insert Height into data dictionary
                             data['height_cm'] = height_cm
@@ -173,29 +158,23 @@ def parse_data(html):
                         if m_match:
                             height_m = float(m_match.group(1))
                             height_cm = round(height_m * 100)
-                            # print("\nHeight (cm):", height_cm)
 
                             # insert Height into data dictionary
                             data['height_cm'] = height_cm
                             logging.info("height insertion successful")
                             continue
-
-                        # Unable to find value
-                        print("Could not find height value.")
                 except AttributeError as e:
-                    logging.error(f"Unable to extract {data.get('name')} height from page element")
+                    logging.error(f"Unable to extract {data.get('name')} height from page element. {e}")
 
                 # extract reach
                 try:
                     if k == 'Reach':
                         reach_string = v
-                        # print("Reach string:", reach_string)
 
                         # search the data for cm
                         cm_match = re.search(r'(\d+)\s*cm', reach_string)
                         if cm_match:
                             reach_cm = int(cm_match.group(1))
-                            # print("Extracted reach (cm):", reach_cm)
 
                             # insert Reach into data dictionary
                             data['reach_cm'] = reach_cm
@@ -207,17 +186,13 @@ def parse_data(html):
                         if m_match:
                             reach_m = float(m_match.group(1))
                             reach_cm = round(reach_m * 100)
-                            # print("Extracted reach (cm):", reach_cm)
 
                             # insert Reach into data dictionary
                             data['reach_cm'] = reach_cm
                             logging.info("reach insertion successful")
                             continue
-
-                        # Unable to find value
-                        print("Could not find reach value.")
                 except AttributeError as e:
-                    logging.error(f"Unable to extract {data.get('name')} reach from page element")
+                    logging.error(f"Unable to extract {data.get('name')} reach from page element. {e}")
 
     """
     Sequence of extraction operations to continue to pull data for the "boxers" database table
@@ -241,16 +216,15 @@ def parse_data(html):
                 fight_table = table
                 break
     except AttributeError as e:
-        logging.error(f"Unable to locate fight table")
+        logging.error(f"Unable to locate fight table. {e}")
 
     # extract the headers and rows from the table
     try:
         fight_header_row = fight_table.find('tr')
         headers = [th.get_text(strip=True) for th in fight_header_row.find_all('th')]
-        # print("Headers:", headers)
         fight_data_rows = fight_table.find_all('tr')[1:]
     except AttributeError as e:
-        logging.error(f"Unable to parse header and data rows from fight table")
+        logging.error(f"Unable to parse header and data rows from fight table. {e}")
 
     # construct matrix
     fight_matrix = []
@@ -260,8 +234,6 @@ def parse_data(html):
             fight = dict(zip(headers, cells))
             fight_matrix.append(fight)
 
-    # for fight in fight_matrix:
-    #     print(fight)
 
     # find and extract date first and last active
     # helper function to parse dates of various formats
@@ -285,7 +257,6 @@ def parse_data(html):
         if dates:
             active_from = min(dates).strftime('%Y-%m-%d')
             active_until = max(dates).strftime('%Y-%m-%d')
-            # print(f'active from: {active_from}, to: {active_until}')
 
             # insert dates active from and until into data dictionary
             data['active_from'] = active_from
@@ -294,7 +265,7 @@ def parse_data(html):
         else:
             print("None found.")
     except AttributeError as e:
-        logging.error(f"Unable to extract {data.get('name')} active to and until dates from page element")
+        logging.error(f"Unable to extract {data.get('name')} active to and until dates from page element. {e}")
 
     # define eras that the fighter fought in
     def define_eras(start_year, end_year):
@@ -318,18 +289,17 @@ def parse_data(html):
 
             return eras
         except AttributeError as e:
-            logging.error(f"Unable to define eras")
+            logging.error(f"Unable to define eras. {e}")
 
     # enter the oldest and newest dates from the fight list
     try:
         boxer_eras = define_eras(min(dates), max(dates))
-        # print("Eras: ", boxer_eras)
 
         # insert eras into data dictionary
         data['era'] = boxer_eras
         logging.info("era insertion successful")
     except AttributeError as e:
-        logging.error(f"Unable to extract {data.get('name')} eras")
+        logging.error(f"Unable to extract {data.get('name')} eras. {e}")
 
     """
     Sequence of extraction operations to pull data for the "ranking_metrics" database table
@@ -363,17 +333,13 @@ def parse_data(html):
                 record_table = table
                 break
     except AttributeError as e:
-        logging.error(f"Unable to locate record table")
+        logging.error(f"Unable to locate record table. {e}")
 
     # extract the headers and rows from the table
     try:
         record_header_row = record_table.find('tr')
-        record_headers = [th.get_text(strip=True) for th in record_header_row.find_all('th')]
-        # print("Headers:", headers)
-        data_rows = record_table.find_all('tr')[1:]
-        # print("Data rows:", data_rows)
     except AttributeError as e:
-        logging.error(f"Unable to parse headers and data rows from record table")
+        logging.error(f"Unable to parse headers and data rows from record table. {e}")
 
     # extract number of fights, wins and losses
     try:
@@ -385,44 +351,37 @@ def parse_data(html):
 
             if "fights" in text:
                 number_of_fights = int(text.split()[0])
-                # print(text.split())
-                # print("number_of_fights :", number_of_fights)
 
                 # insert number_of_fights into data dictionary
                 data['num_of_fights'] = number_of_fights
 
             if "wins" in text:
                 number_of_wins = int(text.split()[0])
-                # print("number_of_wins :", number_of_wins)
 
                 # insert number_of_wins into data dictionary
                 data['wins'] = number_of_wins
 
             if "losses" in text:
                 number_of_losses = int(text.split()[0])
-                # print("number_of_losses :", number_of_losses)
 
                 # insert number_of_losses into data dictionary
                 data['losses'] = number_of_losses
         logging.info("fight/win/loss insertion successful")
     except AttributeError as e:
-        logging.error(f"Unable to extract {data.get('name')} fights, wins and loss figures from page elements")
+        logging.error(f"Unable to extract {data.get('name')} fights, wins and loss figures from page elements. {e}")
 
-    # extract number of wins by KO, decision and DQ
+    # extract number of wins by KO, decision and DQ from data rows
     try:
         wins_by = [td.get_text(strip=True) for td in record_table.find_all('td', class_='table-yes2')]
-        # print('\n','wins by: ', wins_by)
 
         # wins by KO
         wins_by_ko = int(wins_by[0])
-        # print('\nwins by KO:', wins_by_ko)
 
         # insert wins_by_ko into data dictionary
         data['wins_by_ko'] = wins_by_ko
 
         # wins by decision
         wins_by_decision = int(wins_by[1])
-        # print('wins by decision:', wins_by_decision)
 
         # insert wins_by_decision into data dictionary
         data['wins_by_decision'] = wins_by_decision
@@ -440,24 +399,21 @@ def parse_data(html):
 
         else:
             wins_by_dq = None
-            # print('no wins by DQ')
     except AttributeError as e:
-        logging.error(f"Unable to extract {data.get('name')} wins by KO, decision and DQ from page elements")
+        logging.error(f"Unable to extract {data.get('name')} wins by KO, decision and DQ from page elements. {e}")
 
-    # extract number of losses by KO, decision and DQ
+    # extract number of losses by KO, decision and DQ from data rows
     try:
         losses_by = [td.get_text(strip=True) for td in record_table.find_all('td', class_='table-no2')]
 
         # losses by KO
         losses_by_ko = int(losses_by[0])
-        # print('\nlosses by KO:', losses_by_ko)
 
         # insert losses_by_ko into data dictionary
         data['losses_by_ko'] = losses_by_ko
 
         # losses by decision
         losses_by_decision = int(losses_by[1])
-        # print('losses by decision:', losses_by_decision)
 
         # insert losses_by_decision into data dictionary
         data['losses_by_decision'] = losses_by_decision
@@ -466,7 +422,6 @@ def parse_data(html):
         # losses by DQ
         try:
             losses_by_dq = int(losses_by[2])
-            # print('losses by DQ:', losses_by_dq)
 
             # insert losses_by_dq into data dictionary
             data['losses_by_dq'] = losses_by_dq
@@ -476,24 +431,20 @@ def parse_data(html):
 
         else:
             losses_by_dq = None
-            # print('no losses by DQ')
     except AttributeError as e:
-        logging.error(f"Unable to extract {data.get('name')} losses by KO, decision and DQ  from page elements")
+        logging.error(f"Unable to extract {data.get('name')} losses by KO, decision and DQ  from page elements. {e}")
 
     # calculate the KO and win ratios
     try:
         win_ratio = round((number_of_wins / number_of_fights), 2)
         ko_ratio = round((wins_by_ko / number_of_wins), 2)
-        # print(f'\nwin ratio: {win_ratio} \nko ratio: {ko_ratio}')
 
         # insert ko_ratio and win_ratio into data dictionary
         data['ko_ratio'] = ko_ratio
         data['win_ratio'] = win_ratio
         logging.info("ko and win ratio insertion successful")
     except AttributeError as e:
-        logging.error(f"Unable to calculate {data.get('name')} KO and win ratios")
-
-    # print(f'\n{data}')
+        logging.error(f"Unable to calculate {data.get('name')} KO and win ratios. {e}")
 
     return data, fight_matrix
 
@@ -652,8 +603,9 @@ def main():
         print('operation complete')
 
     elif mode == 'b':
+        print('initiating scrape')
         batch_scrape()
-        print('operation complete')
+        print('scraping complete')
 
 
 if __name__ == '__main__':

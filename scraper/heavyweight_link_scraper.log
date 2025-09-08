@@ -1,0 +1,1729 @@
+2025-07-24 19:17:27,631 - INFO - fetching URL: https://en.wikipedia.org/wiki/Category:Heavyweight_boxers
+2025-07-24 19:17:27,821 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pagefrom=Chernyshev%2C+Vladimir%0AVladimir+Chernyshev+%28boxer%29#mw-pages
+2025-07-24 19:17:28,978 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pagefrom=Godoy%2C+Arturo%0AArturo+Godoy#mw-pages
+2025-07-24 19:17:30,157 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pagefrom=Latescu%2C+Stefan%0A%C8%98tefan+L%C4%83tescu#mw-pages
+2025-07-24 19:17:31,320 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pagefrom=Obunga%2C+Harold%0AHarold+Obunga#mw-pages
+2025-07-24 19:17:32,520 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pagefrom=Shami%2C+Nasser+al-%0ANasser+al-Shami#mw-pages
+2025-07-24 19:17:33,696 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pagefrom=Williamson%2C+J.+B.%0AJ.+B.+Williamson#mw-pages
+2025-07-24 19:17:34,853 - INFO - 1253 URLs extracted
+2025-07-24 19:17:34,853 - INFO - fetching URL: https://en.wikipedia.org/wiki/Wikipedia:FAQ/Categorization#Why_might_a_category_list_not_be_up_to_date?
+2025-07-24 19:17:36,042 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pagefrom=Chernyshev%2C+Vladimir%0AVladimir+Chernyshev+%28boxer%29#mw-pages
+2025-07-24 19:17:37,206 - INFO - fetching URL: https://en.wikipedia.org/wiki/List_of_Australian_heavyweight_boxing_champions
+2025-07-24 19:17:38,417 - INFO - fetching URL: https://en.wikipedia.org/wiki/List_of_British_heavyweight_boxing_champions
+2025-07-24 19:17:39,594 - INFO - fetching URL: https://en.wikipedia.org/wiki/List_of_United_States_national_amateur_boxing_heavyweight_champions
+2025-07-24 19:17:40,729 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bridgerweight
+2025-07-24 19:17:41,911 - INFO - fetching URL: https://en.wikipedia.org/wiki/Heavyweight
+2025-07-24 19:17:43,088 - INFO - fetching URL: https://en.wikipedia.org/wiki/Abdulkadir_Abdullayev
+2025-07-24 19:17:44,230 - INFO - fetching URL: https://en.wikipedia.org/wiki/Magomed_Abdusalamov
+2025-07-24 19:17:44,408 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Magomed_Abdusalamov
+2025-07-24 19:17:45,409 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joey_Abell
+2025-07-24 19:17:45,724 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Joey_Abell
+2025-07-24 19:17:46,725 - INFO - fetching URL: https://en.wikipedia.org/wiki/Andrey_Abramov_(boxer)
+2025-07-24 19:17:47,877 - INFO - fetching URL: https://en.wikipedia.org/wiki/Osmay_Acosta
+2025-07-24 19:17:49,050 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tomasz_Adamek
+2025-07-24 19:17:49,262 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tomasz_Adamek
+2025-07-24 19:17:50,263 - INFO - fetching URL: https://en.wikipedia.org/wiki/Benjamin_Adegbuyi
+2025-07-24 19:17:50,562 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Benjamin_Adegbuyi
+2025-07-24 19:17:51,563 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Adeleye
+2025-07-24 19:17:51,742 - INFO - pro boxer added: https://en.wikipedia.org/wiki/David_Adeleye
+2025-07-24 19:17:52,742 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nagy_Aguilera
+2025-07-24 19:17:52,923 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Nagy_Aguilera
+2025-07-24 19:17:53,924 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hemi_Ahio
+2025-07-24 19:17:54,127 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Hemi_Ahio
+2025-07-24 19:17:55,128 - INFO - fetching URL: https://en.wikipedia.org/wiki/Omid_Ahmadisafa
+2025-07-24 19:17:56,326 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dildar_Ahmed
+2025-07-24 19:17:57,482 - INFO - fetching URL: https://en.wikipedia.org/wiki/Omar_Ahmed
+2025-07-24 19:17:58,635 - INFO - fetching URL: https://en.wikipedia.org/wiki/T%C3%B6rner_%C3%85hsman
+2025-07-24 19:17:59,802 - INFO - fetching URL: https://en.wikipedia.org/wiki/Friday_Ahunanya
+2025-07-24 19:18:00,007 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Friday_Ahunanya
+2025-07-24 19:18:01,008 - INFO - fetching URL: https://en.wikipedia.org/wiki/Konstantin_Airich
+2025-07-24 19:18:01,174 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Konstantin_Airich
+2025-07-24 19:18:02,174 - INFO - fetching URL: https://en.wikipedia.org/wiki/Efe_Ajagba
+2025-07-24 19:18:02,351 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Efe_Ajagba
+2025-07-24 19:18:03,352 - INFO - fetching URL: https://en.wikipedia.org/wiki/Naasan_Ajjoub
+2025-07-24 19:18:04,497 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joseph_Akhasamba
+2025-07-24 19:18:05,653 - INFO - fetching URL: https://en.wikipedia.org/wiki/Henry_Akinwande
+2025-07-24 19:18:05,863 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Henry_Akinwande
+2025-07-24 19:18:06,864 - INFO - fetching URL: https://en.wikipedia.org/wiki/Raphael_Akpejiori
+2025-07-24 19:18:07,199 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Raphael_Akpejiori
+2025-07-24 19:18:08,200 - INFO - fetching URL: https://en.wikipedia.org/wiki/Igor_Alborov
+2025-07-24 19:18:09,336 - INFO - fetching URL: https://en.wikipedia.org/wiki/Aleksandr_Alekseyev_(boxer)
+2025-07-24 19:18:10,520 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ion_Alexe
+2025-07-24 19:18:11,657 - INFO - fetching URL: https://en.wikipedia.org/wiki/Robert_Alfonso
+2025-07-24 19:18:11,816 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Robert_Alfonso
+2025-07-24 19:18:12,817 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rahaman_Ali
+2025-07-24 19:18:12,996 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Rahaman_Ali
+2025-07-24 19:18:13,997 - INFO - fetching URL: https://en.wikipedia.org/wiki/Elchin_Alizade
+2025-07-24 19:18:15,151 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Allen_(boxer)
+2025-07-24 19:18:15,416 - INFO - pro boxer added: https://en.wikipedia.org/wiki/David_Allen_(boxer)
+2025-07-24 19:18:16,417 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gyula_Alvics
+2025-07-24 19:18:17,570 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mohamed_Amanissi
+2025-07-24 19:18:18,718 - INFO - fetching URL: https://en.wikipedia.org/wiki/Karl_Ameisbichler
+2025-07-24 19:18:19,910 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tsolak_Ananikyan
+2025-07-24 19:18:21,053 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bernd_Anders
+2025-07-24 19:18:22,539 - INFO - fetching URL: https://en.wikipedia.org/wiki/Andre_Anderson_(boxer)
+2025-07-24 19:18:23,918 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jared_Anderson_(boxer)
+2025-07-24 19:18:24,097 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jared_Anderson_(boxer)
+2025-07-24 19:18:25,098 - INFO - fetching URL: https://en.wikipedia.org/wiki/Olanda_Anderson
+2025-07-24 19:18:26,460 - INFO - fetching URL: https://en.wikipedia.org/wiki/Frank_Androff
+2025-07-24 19:18:27,890 - INFO - fetching URL: https://en.wikipedia.org/wiki/Aliaksandr_Apanasionak
+2025-07-24 19:18:29,245 - INFO - fetching URL: https://en.wikipedia.org/wiki/Efetobor_Wesley_Apochi
+2025-07-24 19:18:29,908 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Efetobor_Wesley_Apochi
+2025-07-24 19:18:30,909 - INFO - fetching URL: https://en.wikipedia.org/wiki/Red_Applegate
+2025-07-24 19:18:32,357 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Arias_(boxer)
+2025-07-24 19:18:33,112 - INFO - pro boxer added: https://en.wikipedia.org/wiki/George_Arias_(boxer)
+2025-07-24 19:18:34,113 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mohamed_Arjaoui
+2025-07-24 19:18:35,562 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bob_Armstrong_(boxer)
+2025-07-24 19:18:35,864 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bob_Armstrong_(boxer)
+2025-07-24 19:18:36,865 - INFO - fetching URL: https://en.wikipedia.org/wiki/Chris_Arreola
+2025-07-24 19:18:37,098 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Chris_Arreola
+2025-07-24 19:18:38,099 - INFO - fetching URL: https://en.wikipedia.org/wiki/Harold_Arroyo
+2025-07-24 19:18:39,548 - INFO - fetching URL: https://en.wikipedia.org/wiki/John_Arthur_(boxer)
+2025-07-24 19:18:41,113 - INFO - fetching URL: https://en.wikipedia.org/wiki/Solomon_Ataga
+2025-07-24 19:18:42,503 - INFO - fetching URL: https://en.wikipedia.org/wiki/Charles_Joseph_Atkinson
+2025-07-24 19:18:44,057 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jean-Pierre_Augustin
+2025-07-24 19:18:45,624 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ray_Austin_(boxer)
+2025-07-24 19:18:46,123 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ray_Austin_(boxer)
+2025-07-24 19:18:47,123 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hector_Alfredo_Avila
+2025-07-24 19:18:47,313 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Hector_Alfredo_Avila
+2025-07-24 19:18:48,314 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dennis_Avoth
+2025-07-24 19:18:50,026 - INFO - fetching URL: https://en.wikipedia.org/wiki/Cam_F._Awesome
+2025-07-24 19:18:51,472 - INFO - fetching URL: https://en.wikipedia.org/wiki/Julius_Awome
+2025-07-24 19:18:52,866 - INFO - fetching URL: https://en.wikipedia.org/wiki/Fatai_Ayinla
+2025-07-24 19:18:54,376 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mohamed_Azzaoui
+2025-07-24 19:18:54,795 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mohamed_Azzaoui
+2025-07-24 19:18:55,796 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alen_Babi%C4%87
+2025-07-24 19:18:55,959 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alen_Babi%C4%87
+2025-07-24 19:18:56,961 - INFO - fetching URL: https://en.wikipedia.org/wiki/Uber_Baccilieri
+2025-07-24 19:18:58,549 - INFO - fetching URL: https://en.wikipedia.org/wiki/Parviz_Badpa
+2025-07-24 19:19:00,064 - INFO - fetching URL: https://en.wikipedia.org/wiki/Buddy_Baer
+2025-07-24 19:19:00,330 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Buddy_Baer
+2025-07-24 19:19:01,331 - INFO - fetching URL: https://en.wikipedia.org/wiki/Max_Baer_(boxer)
+2025-07-24 19:19:01,598 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Max_Baer_(boxer)
+2025-07-24 19:19:02,599 - INFO - fetching URL: https://en.wikipedia.org/wiki/Baik_Hyun-man
+2025-07-24 19:19:04,123 - INFO - fetching URL: https://en.wikipedia.org/wiki/Xhavit_Bajrami
+2025-07-24 19:19:04,451 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Xhavit_Bajrami
+2025-07-24 19:19:05,452 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bob_Baker_(boxer)
+2025-07-24 19:19:06,890 - INFO - fetching URL: https://en.wikipedia.org/wiki/Carl_Baker_(boxer)
+2025-07-24 19:19:07,290 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Carl_Baker_(boxer)
+2025-07-24 19:19:08,291 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dennis_Bakhtov
+2025-07-24 19:19:10,030 - INFO - fetching URL: https://en.wikipedia.org/wiki/Martin_Bakole
+2025-07-24 19:19:10,311 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Martin_Bakole
+2025-07-24 19:19:11,312 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Baksi
+2025-07-24 19:19:12,619 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ovidiu_Bali
+2025-07-24 19:19:14,012 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Balogun
+2025-07-24 19:19:14,189 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mike_Balogun
+2025-07-24 19:19:15,190 - INFO - fetching URL: https://en.wikipedia.org/wiki/Giorgio_Bambini
+2025-07-24 19:19:16,628 - INFO - fetching URL: https://en.wikipedia.org/wiki/Johnathon_Banks
+2025-07-24 19:19:18,081 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sonny_Banks
+2025-07-24 19:19:19,546 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mariano_Barbaresi
+2025-07-24 19:19:20,813 - INFO - fetching URL: https://en.wikipedia.org/wiki/Val_Barker
+2025-07-24 19:19:22,090 - INFO - fetching URL: https://en.wikipedia.org/wiki/Iran_Barkley
+2025-07-24 19:19:22,411 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Iran_Barkley
+2025-07-24 19:19:23,412 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gunnar_B%C3%A4rlund
+2025-07-24 19:19:24,709 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nick_Barone
+2025-07-24 19:19:26,298 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sam_Baroudi
+2025-07-24 19:19:26,856 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sam_Baroudi
+2025-07-24 19:19:27,857 - INFO - fetching URL: https://en.wikipedia.org/wiki/Coleman_Barrett
+2025-07-24 19:19:30,322 - INFO - fetching URL: https://en.wikipedia.org/wiki/Monte_Barrett
+2025-07-24 19:19:30,737 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Monte_Barrett
+2025-07-24 19:19:31,738 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alexis_Barriere
+2025-07-24 19:19:32,116 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alexis_Barriere
+2025-07-24 19:19:33,117 - INFO - fetching URL: https://en.wikipedia.org/wiki/Wojciech_Bartnik
+2025-07-24 19:19:34,630 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jean_Bassomben
+2025-07-24 19:19:36,042 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jeremy_Bates_(boxer)
+2025-07-24 19:19:36,568 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jeremy_Bates_(boxer)
+2025-07-24 19:19:37,569 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hal_Baylor
+2025-07-24 19:19:39,211 - INFO - fetching URL: https://en.wikipedia.org/wiki/Daniel_Beahan
+2025-07-24 19:19:40,600 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vaughn_Bean
+2025-07-24 19:19:42,161 - INFO - fetching URL: https://en.wikipedia.org/wiki/Owen_Beck_(boxer)
+2025-07-24 19:19:42,500 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Owen_Beck_(boxer)
+2025-07-24 19:19:43,501 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Beckett
+2025-07-24 19:19:44,787 - INFO - fetching URL: https://en.wikipedia.org/wiki/Daniel_Bekker
+2025-07-24 19:19:45,940 - INFO - fetching URL: https://en.wikipedia.org/wiki/Taoufik_Belbouli
+2025-07-24 19:19:46,227 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Taoufik_Belbouli
+2025-07-24 19:19:47,229 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tony_Bellew
+2025-07-24 19:19:47,486 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tony_Bellew
+2025-07-24 19:19:48,487 - INFO - fetching URL: https://en.wikipedia.org/wiki/Scott_Belshaw
+2025-07-24 19:19:49,903 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ab_van_Bemmel
+2025-07-24 19:19:51,284 - INFO - fetching URL: https://en.wikipedia.org/wiki/Didier_Bence
+2025-07-24 19:19:53,076 - INFO - fetching URL: https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Bene
+2025-07-24 19:19:54,466 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bernard_Benton
+2025-07-24 19:19:55,037 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bernard_Benton
+2025-07-24 19:19:56,038 - INFO - fetching URL: https://en.wikipedia.org/wiki/Samuel_Berger_(boxer)
+2025-07-24 19:19:57,758 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Bergeron_(boxer)
+2025-07-24 19:19:59,151 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Bernardo
+2025-07-24 19:19:59,337 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mike_Bernardo
+2025-07-24 19:20:00,338 - INFO - fetching URL: https://en.wikipedia.org/wiki/Riccardo_Bertazzolo
+2025-07-24 19:20:01,601 - INFO - fetching URL: https://en.wikipedia.org/wiki/Claus_Bertino
+2025-07-24 19:20:03,122 - INFO - fetching URL: https://en.wikipedia.org/wiki/Willi_Besmanoff
+2025-07-24 19:20:04,682 - INFO - fetching URL: https://en.wikipedia.org/wiki/Henk_de_Best
+2025-07-24 19:20:06,266 - INFO - fetching URL: https://en.wikipedia.org/wiki/Artur_Beterbiev
+2025-07-24 19:20:06,554 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Artur_Beterbiev
+2025-07-24 19:20:07,555 - INFO - fetching URL: https://en.wikipedia.org/wiki/Daniel_Betti
+2025-07-24 19:20:09,105 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Bey
+2025-07-24 19:20:10,567 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dmitri_Bezus
+2025-07-24 19:20:11,226 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Dmitri_Bezus
+2025-07-24 19:20:12,228 - INFO - fetching URL: https://en.wikipedia.org/wiki/Taras_Bidenko
+2025-07-24 19:20:13,841 - INFO - fetching URL: https://en.wikipedia.org/wiki/Andrzej_Biegalski
+2025-07-24 19:20:15,219 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tyrell_Biggs
+2025-07-24 19:20:15,541 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tyrell_Biggs
+2025-07-24 19:20:16,542 - INFO - fetching URL: https://en.wikipedia.org/wiki/V%C3%ADctor_Bignon
+2025-07-24 19:20:18,244 - INFO - fetching URL: https://en.wikipedia.org/wiki/Art_Binkowski
+2025-07-24 19:20:19,547 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gerardo_Bisbal
+2025-07-24 19:20:20,812 - INFO - fetching URL: https://en.wikipedia.org/wiki/Victor_Bisbal
+2025-07-24 19:20:21,006 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Victor_Bisbal
+2025-07-24 19:20:22,008 - INFO - fetching URL: https://en.wikipedia.org/wiki/Daniel_Bispo
+2025-07-24 19:20:23,422 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jimmy_Bivins
+2025-07-24 19:20:23,760 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jimmy_Bivins
+2025-07-24 19:20:24,762 - INFO - fetching URL: https://en.wikipedia.org/wiki/J%C3%BCrgen_Blin
+2025-07-24 19:20:25,964 - INFO - fetching URL: https://en.wikipedia.org/wiki/Josu%C3%A9_Blocus
+2025-07-24 19:20:27,427 - INFO - fetching URL: https://en.wikipedia.org/wiki/Duane_Bobick
+2025-07-24 19:20:28,614 - INFO - fetching URL: https://en.wikipedia.org/wiki/Peter_Boddington
+2025-07-24 19:20:29,774 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_Bodell
+2025-07-24 19:20:29,977 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jack_Bodell
+2025-07-24 19:20:30,978 - INFO - fetching URL: https://en.wikipedia.org/wiki/Davlat_Boltaev
+2025-07-24 19:20:32,279 - INFO - fetching URL: https://en.wikipedia.org/wiki/Oscar_Bonavena
+2025-07-24 19:20:32,628 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Oscar_Bonavena
+2025-07-24 19:20:33,629 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tomasz_Bonin
+2025-07-24 19:20:35,010 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rydell_Booker
+2025-07-24 19:20:35,527 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Rydell_Booker
+2025-07-24 19:20:36,529 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vitali_Boot
+2025-07-24 19:20:37,797 - INFO - fetching URL: https://en.wikipedia.org/wiki/Max_B%C3%B6siger
+2025-07-24 19:20:39,230 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Bostice
+2025-07-24 19:20:40,764 - INFO - fetching URL: https://en.wikipedia.org/wiki/Cedric_Boswell
+2025-07-24 19:20:42,338 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lucian_Bot
+2025-07-24 19:20:43,504 - INFO - fetching URL: https://en.wikipedia.org/wiki/Francois_Botha
+2025-07-24 19:20:43,701 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Francois_Botha
+2025-07-24 19:20:44,702 - INFO - fetching URL: https://en.wikipedia.org/wiki/Fernand_Bothy
+2025-07-24 19:20:46,115 - INFO - fetching URL: https://en.wikipedia.org/wiki/Biko_Botowamungu
+2025-07-24 19:20:46,408 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Biko_Botowamungu
+2025-07-24 19:20:47,409 - INFO - fetching URL: https://en.wikipedia.org/wiki/Markus_Bott
+2025-07-24 19:20:47,920 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Markus_Bott
+2025-07-24 19:20:48,922 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mohamed_Bouchiche
+2025-07-24 19:20:50,456 - INFO - fetching URL: https://en.wikipedia.org/wiki/Chouaib_Bouloudinat
+2025-07-24 19:20:51,983 - INFO - fetching URL: https://en.wikipedia.org/wiki/Anis_Bouzid
+2025-07-24 19:20:52,544 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Anis_Bouzid
+2025-07-24 19:20:53,546 - INFO - fetching URL: https://en.wikipedia.org/wiki/Denis_Boytsov
+2025-07-24 19:20:54,039 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Denis_Boytsov
+2025-07-24 19:20:55,040 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bob_Bozic
+2025-07-24 19:20:55,437 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bob_Bozic
+2025-07-24 19:20:56,437 - INFO - fetching URL: https://en.wikipedia.org/wiki/Giacomo_Bozzano
+2025-07-24 19:20:58,136 - INFO - fetching URL: https://en.wikipedia.org/wiki/James_J._Braddock
+2025-07-24 19:20:58,382 - INFO - pro boxer added: https://en.wikipedia.org/wiki/James_J._Braddock
+2025-07-24 19:20:59,383 - INFO - fetching URL: https://en.wikipedia.org/wiki/Adam_Braidwood
+2025-07-24 19:21:00,213 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Adam_Braidwood
+2025-07-24 19:21:01,214 - INFO - fetching URL: https://en.wikipedia.org/wiki/Wayne_Braithwaite
+2025-07-24 19:21:01,716 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Wayne_Braithwaite
+2025-07-24 19:21:02,717 - INFO - fetching URL: https://en.wikipedia.org/wiki/John_Bray_(boxer)
+2025-07-24 19:21:04,210 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dominic_Breazeale
+2025-07-24 19:21:04,419 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Dominic_Breazeale
+2025-07-24 19:21:05,419 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bill_Brennan_(boxer)
+2025-07-24 19:21:06,961 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bert_Brewer
+2025-07-24 19:21:08,356 - INFO - fetching URL: https://en.wikipedia.org/wiki/Craig_Brinson
+2025-07-24 19:21:09,913 - INFO - fetching URL: https://en.wikipedia.org/wiki/Antwain_Britt
+2025-07-24 19:21:10,327 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Antwain_Britt
+2025-07-24 19:21:11,328 - INFO - fetching URL: https://en.wikipedia.org/wiki/James_Broad
+2025-07-24 19:21:12,949 - INFO - fetching URL: https://en.wikipedia.org/wiki/Calvin_Brock
+2025-07-24 19:21:13,137 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Calvin_Brock
+2025-07-24 19:21:14,137 - INFO - fetching URL: https://en.wikipedia.org/wiki/H%C3%A5kan_Brock
+2025-07-24 19:21:15,630 - INFO - fetching URL: https://en.wikipedia.org/wiki/Trevor_Bryan
+2025-07-24 19:21:15,910 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Trevor_Bryan
+2025-07-24 19:21:16,910 - INFO - fetching URL: https://en.wikipedia.org/wiki/Derek_Bryant_(boxer)
+2025-07-24 19:21:17,403 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Derek_Bryant_(boxer)
+2025-07-24 19:21:18,403 - INFO - fetching URL: https://en.wikipedia.org/wiki/Roman_Bugaj
+2025-07-24 19:21:19,865 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Bugner
+2025-07-24 19:21:20,080 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Joe_Bugner
+2025-07-24 19:21:21,081 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nick_Burley
+2025-07-24 19:21:22,503 - INFO - fetching URL: https://en.wikipedia.org/wiki/Red_Burman
+2025-07-24 19:21:23,645 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tommy_Burns_(Canadian_boxer)
+2025-07-24 19:21:23,984 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tommy_Burns_(Canadian_boxer)
+2025-07-24 19:21:24,985 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alonzo_Butler
+2025-07-24 19:21:26,150 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lionel_Butler
+2025-07-24 19:21:26,348 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Lionel_Butler
+2025-07-24 19:21:27,349 - INFO - fetching URL: https://en.wikipedia.org/wiki/Raphael_Butler
+2025-07-24 19:21:28,096 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Raphael_Butler
+2025-07-24 19:21:29,096 - INFO - fetching URL: https://en.wikipedia.org/wiki/Paul_Butlin
+2025-07-24 19:21:29,390 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Paul_Butlin
+2025-07-24 19:21:30,391 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Byers_(boxer)
+2025-07-24 19:21:30,989 - INFO - pro boxer added: https://en.wikipedia.org/wiki/George_Byers_(boxer)
+2025-07-24 19:21:31,991 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Bygraves
+2025-07-24 19:21:33,728 - INFO - fetching URL: https://en.wikipedia.org/wiki/Simon_Byrne
+2025-07-24 19:21:35,196 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Cadieux
+2025-07-24 19:21:36,622 - INFO - fetching URL: https://en.wikipedia.org/wiki/Shane_Cameron
+2025-07-24 19:21:36,824 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Shane_Cameron
+2025-07-24 19:21:37,825 - INFO - fetching URL: https://en.wikipedia.org/wiki/Frankie_Campbell
+2025-07-24 19:21:39,279 - INFO - fetching URL: https://en.wikipedia.org/wiki/Eric_Cardouza
+2025-07-24 19:21:40,637 - INFO - fetching URL: https://en.wikipedia.org/wiki/Primo_Carnera
+2025-07-24 19:21:41,083 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Primo_Carnera
+2025-07-24 19:21:42,084 - INFO - fetching URL: https://en.wikipedia.org/wiki/Georges_Carpentier
+2025-07-24 19:21:42,807 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Georges_Carpentier
+2025-07-24 19:21:43,807 - INFO - fetching URL: https://en.wikipedia.org/wiki/Eric_Carr_(boxer)
+2025-07-24 19:21:45,161 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nancio_Carrillo
+2025-07-24 19:21:46,590 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Casey_(boxer)
+2025-07-24 19:21:48,000 - INFO - fetching URL: https://en.wikipedia.org/wiki/Eliecer_Castillo
+2025-07-24 19:21:48,638 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Eliecer_Castillo
+2025-07-24 19:21:49,640 - INFO - fetching URL: https://en.wikipedia.org/wiki/Julio_Castillo
+2025-07-24 19:21:51,304 - INFO - fetching URL: https://en.wikipedia.org/wiki/Luis_Castillo_(Ecuadorian_boxer)
+2025-07-24 19:21:52,813 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jonas_%C4%8Cepulis
+2025-07-24 19:21:53,978 - INFO - fetching URL: https://en.wikipedia.org/wiki/Abel_Cestac
+2025-07-24 19:21:55,375 - INFO - fetching URL: https://en.wikipedia.org/wiki/Chae_Sung-bae
+2025-07-24 19:21:56,859 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rakhim_Chakhkiev
+2025-07-24 19:21:57,185 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Rakhim_Chakhkiev
+2025-07-24 19:21:58,186 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hassen_Chaktami
+2025-07-24 19:21:59,626 - INFO - fetching URL: https://en.wikipedia.org/wiki/Eddie_Chambers
+2025-07-24 19:21:59,837 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Eddie_Chambers
+2025-07-24 19:22:00,838 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ernest_Chandler
+2025-07-24 19:22:02,299 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jackson_Chanet
+2025-07-24 19:22:03,748 - INFO - fetching URL: https://en.wikipedia.org/wiki/Cassius_Chaney
+2025-07-24 19:22:04,063 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Cassius_Chaney
+2025-07-24 19:22:05,064 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vladimer_Chanturia
+2025-07-24 19:22:06,498 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Chaplin_(boxer)
+2025-07-24 19:22:08,071 - INFO - fetching URL: https://en.wikipedia.org/wiki/J._D._Chapman
+2025-07-24 19:22:09,425 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ezzard_Charles
+2025-07-24 19:22:09,756 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ezzard_Charles
+2025-07-24 19:22:10,756 - INFO - fetching URL: https://en.wikipedia.org/wiki/Pierre_Charles_(boxer)
+2025-07-24 19:22:12,070 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mahmoud_Charr
+2025-07-24 19:22:12,387 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mahmoud_Charr
+2025-07-24 19:22:13,387 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pageuntil=Chernyshev%2C+Vladimir%0AVladimir+Chernyshev+%28boxer%29#mw-pages
+2025-07-24 19:22:15,002 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pagefrom=Godoy%2C+Arturo%0AArturo+Godoy#mw-pages
+2025-07-24 19:22:16,176 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vladimir_Chernyshev_(boxer)
+2025-07-24 19:22:17,636 - INFO - fetching URL: https://en.wikipedia.org/wiki/Biagio_Chianese
+2025-07-24 19:22:18,892 - INFO - fetching URL: https://en.wikipedia.org/wiki/Frank_Childs
+2025-07-24 19:22:19,384 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Frank_Childs
+2025-07-24 19:22:20,385 - INFO - fetching URL: https://en.wikipedia.org/wiki/Derek_Chisora
+2025-07-24 19:22:20,740 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Derek_Chisora
+2025-07-24 19:22:21,741 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Choynski
+2025-07-24 19:22:21,961 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Joe_Choynski
+2025-07-24 19:22:22,962 - INFO - fetching URL: https://en.wikipedia.org/wiki/Aleksey_Chudinov
+2025-07-24 19:22:24,540 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_Churchill_(athlete)
+2025-07-24 19:22:26,222 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Chuvalo
+2025-07-24 19:22:26,421 - INFO - pro boxer added: https://en.wikipedia.org/wiki/George_Chuvalo
+2025-07-24 19:22:27,422 - INFO - fetching URL: https://en.wikipedia.org/wiki/LaMar_Clark
+2025-07-24 19:22:27,958 - INFO - pro boxer added: https://en.wikipedia.org/wiki/LaMar_Clark
+2025-07-24 19:22:28,958 - INFO - fetching URL: https://en.wikipedia.org/wiki/Randy_Clark_(boxer)
+2025-07-24 19:22:30,312 - INFO - fetching URL: https://en.wikipedia.org/wiki/Cheavon_Clarke
+2025-07-24 19:22:30,509 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Cheavon_Clarke
+2025-07-24 19:22:31,510 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lawrence_Clay-Bey
+2025-07-24 19:22:33,031 - INFO - fetching URL: https://en.wikipedia.org/wiki/Arthur_Clifton_(boxer)
+2025-07-24 19:22:34,539 - INFO - fetching URL: https://en.wikipedia.org/wiki/Randall_%22Tex%22_Cobb
+2025-07-24 19:22:34,747 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Randall_%22Tex%22_Cobb
+2025-07-24 19:22:35,749 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Coburn
+2025-07-24 19:22:37,461 - INFO - fetching URL: https://en.wikipedia.org/wiki/Don_Cockell
+2025-07-24 19:22:37,648 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Don_Cockell
+2025-07-24 19:22:38,649 - INFO - fetching URL: https://en.wikipedia.org/wiki/Pierre_Coetzer
+2025-07-24 19:22:39,815 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jim_Coffey
+2025-07-24 19:22:41,126 - INFO - fetching URL: https://en.wikipedia.org/wiki/R%C4%83zvan_Cojanu
+2025-07-24 19:22:41,431 - INFO - pro boxer added: https://en.wikipedia.org/wiki/R%C4%83zvan_Cojanu
+2025-07-24 19:22:42,432 - INFO - fetching URL: https://en.wikipedia.org/wiki/John_Coker_(boxer)
+2025-07-24 19:22:43,890 - INFO - fetching URL: https://en.wikipedia.org/wiki/Al_Cole
+2025-07-24 19:22:44,318 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Al_Cole
+2025-07-24 19:22:45,319 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gerry_%C3%93_Colm%C3%A1in
+2025-07-24 19:22:46,790 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Conley_(boxer)
+2025-07-24 19:22:48,326 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tony_Conquest
+2025-07-24 19:22:49,880 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gerry_Cooney
+2025-07-24 19:22:50,200 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Gerry_Cooney
+2025-07-24 19:22:51,202 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bert_Cooper
+2025-07-24 19:22:51,632 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bert_Cooper
+2025-07-24 19:22:52,633 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dewey_Cooper
+2025-07-24 19:22:53,993 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Dewey_Cooper
+2025-07-24 19:22:54,995 - INFO - fetching URL: https://en.wikipedia.org/wiki/Henry_Cooper
+2025-07-24 19:22:55,215 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Henry_Cooper
+2025-07-24 19:22:56,216 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jean-Pierre_Coopman
+2025-07-24 19:22:57,819 - INFO - fetching URL: https://en.wikipedia.org/wiki/James_J._Corbett
+2025-07-24 19:22:58,024 - INFO - pro boxer added: https://en.wikipedia.org/wiki/James_J._Corbett
+2025-07-24 19:22:59,024 - INFO - fetching URL: https://en.wikipedia.org/wiki/Eduardo_Corletti
+2025-07-24 19:22:59,568 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Eduardo_Corletti
+2025-07-24 19:23:00,569 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gary_Cornish
+2025-07-24 19:23:00,999 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Gary_Cornish
+2025-07-24 19:23:02,000 - INFO - fetching URL: https://en.wikipedia.org/wiki/Cliff_Couser
+2025-07-24 19:23:03,963 - INFO - fetching URL: https://en.wikipedia.org/wiki/Peter_Crawley_(boxer)
+2025-07-24 19:23:05,322 - INFO - fetching URL: https://en.wikipedia.org/wiki/Frank_Creagh
+2025-07-24 19:23:06,970 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jean_Creusen
+2025-07-24 19:23:08,418 - INFO - fetching URL: https://en.wikipedia.org/wiki/Harry_Crossley
+2025-07-24 19:23:09,899 - INFO - fetching URL: https://en.wikipedia.org/wiki/Herbert_Crossley
+2025-07-24 19:23:11,447 - INFO - fetching URL: https://en.wikipedia.org/wiki/Floyd_Cummings
+2025-07-24 19:23:13,091 - INFO - fetching URL: https://en.wikipedia.org/wiki/Steve_Cunningham
+2025-07-24 19:23:13,384 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Steve_Cunningham
+2025-07-24 19:23:14,385 - INFO - fetching URL: https://en.wikipedia.org/wiki/Matthew_Curran
+2025-07-24 19:23:15,896 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hughroy_Currie
+2025-07-24 19:23:17,425 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bobby_Czyz
+2025-07-24 19:23:18,028 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bobby_Czyz
+2025-07-24 19:23:19,029 - INFO - fetching URL: https://en.wikipedia.org/wiki/Garth_da_Silva
+2025-07-24 19:23:20,371 - INFO - fetching URL: https://en.wikipedia.org/wiki/Solomon_Dacres
+2025-07-24 19:23:20,706 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Solomon_Dacres
+2025-07-24 19:23:21,707 - INFO - fetching URL: https://en.wikipedia.org/wiki/Talaat_Dahshan
+2025-07-24 19:23:23,150 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_Dallas
+2025-07-24 19:23:23,599 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tom_Dallas
+2025-07-24 19:23:24,599 - INFO - fetching URL: https://en.wikipedia.org/wiki/Daniel_D%C4%83ncu%C8%9B%C4%83
+2025-07-24 19:23:25,022 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Daniel_D%C4%83ncu%C8%9B%C4%83
+2025-07-24 19:23:26,022 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tanzee_Daniel
+2025-07-24 19:23:26,780 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tanzee_Daniel
+2025-07-24 19:23:27,781 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lani_Daniels
+2025-07-24 19:23:28,003 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Lani_Daniels
+2025-07-24 19:23:29,004 - INFO - fetching URL: https://en.wikipedia.org/wiki/Robert_Daniels_(boxer)
+2025-07-24 19:23:29,738 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Robert_Daniels_(boxer)
+2025-07-24 19:23:30,738 - INFO - fetching URL: https://en.wikipedia.org/wiki/Les_Darcy
+2025-07-24 19:23:31,952 - INFO - fetching URL: https://en.wikipedia.org/wiki/John_Davey_(actor)
+2025-07-24 19:23:33,266 - INFO - fetching URL: https://en.wikipedia.org/wiki/Charles_Davis_(boxer)
+2025-07-24 19:23:33,776 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Charles_Davis_(boxer)
+2025-07-24 19:23:34,777 - INFO - fetching URL: https://en.wikipedia.org/wiki/Apti_Davtaev
+2025-07-24 19:23:35,335 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Apti_Davtaev
+2025-07-24 19:23:36,336 - INFO - fetching URL: https://en.wikipedia.org/wiki/Antonio_De_La_Fuente
+2025-07-24 19:23:37,705 - INFO - fetching URL: https://en.wikipedia.org/wiki/Secondo_De_Marchi
+2025-07-24 19:23:39,229 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mark_de_Mori
+2025-07-24 19:23:40,671 - INFO - fetching URL: https://en.wikipedia.org/wiki/Franco_De_Piccoli
+2025-07-24 19:23:42,371 - INFO - fetching URL: https://en.wikipedia.org/wiki/William_J._Dees
+2025-07-24 19:23:43,773 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_Delaney
+2025-07-24 19:23:44,136 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jack_Delaney
+2025-07-24 19:23:45,137 - INFO - fetching URL: https://en.wikipedia.org/wiki/%C5%9Eennur_Demir
+2025-07-24 19:23:46,564 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ludwik_Denderys
+2025-07-24 19:23:47,946 - INFO - fetching URL: https://en.wikipedia.org/wiki/Willie_deWit
+2025-07-24 19:23:49,669 - INFO - fetching URL: https://en.wikipedia.org/wiki/Juan_Antonio_D%C3%ADaz
+2025-07-24 19:23:51,062 - INFO - fetching URL: https://en.wikipedia.org/wiki/Yanqui_D%C3%ADaz
+2025-07-24 19:23:52,685 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alexander_Dimitrenko
+2025-07-24 19:23:52,912 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alexander_Dimitrenko
+2025-07-24 19:23:53,913 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bogdan_Dinu
+2025-07-24 19:23:54,502 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bogdan_Dinu
+2025-07-24 19:23:55,503 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vedran_%C4%90ipalo
+2025-07-24 19:23:57,008 - INFO - fetching URL: https://en.wikipedia.org/wiki/Derrell_Dixon
+2025-07-24 19:23:58,443 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Dolan_(boxer)
+2025-07-24 19:23:59,883 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marcelo_Dom%C3%ADnguez
+2025-07-24 19:24:00,526 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Marcelo_Dom%C3%ADnguez
+2025-07-24 19:24:01,527 - INFO - fetching URL: https://en.wikipedia.org/wiki/Larry_Donald
+2025-07-24 19:24:02,167 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Larry_Donald
+2025-07-24 19:24:03,168 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ed_Donaldson
+2025-07-24 19:24:04,611 - INFO - fetching URL: https://en.wikipedia.org/wiki/Taishan_Dong
+2025-07-24 19:24:06,451 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dan_Donnelly_(boxer)
+2025-07-24 19:24:07,801 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lord_David_Douglas-Hamilton
+2025-07-24 19:24:08,955 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jason_Douglas_(boxer)
+2025-07-24 19:24:10,368 - INFO - fetching URL: https://en.wikipedia.org/wiki/Paul_Douglas_(boxer)
+2025-07-24 19:24:11,880 - INFO - fetching URL: https://en.wikipedia.org/wiki/Frank_Dove
+2025-07-24 19:24:13,815 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_Doyle_(boxer)
+2025-07-24 19:24:15,589 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mamadou_Drame
+2025-07-24 19:24:16,953 - INFO - fetching URL: https://en.wikipedia.org/wiki/Carl_Davis_Drumond
+2025-07-24 19:24:18,249 - INFO - fetching URL: https://en.wikipedia.org/wiki/Thamsanqa_Dube
+2025-07-24 19:24:19,689 - INFO - fetching URL: https://en.wikipedia.org/wiki/Johann_Duhaupas
+2025-07-24 19:24:20,123 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Johann_Duhaupas
+2025-07-24 19:24:21,124 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bob_Dunlop_(boxer)
+2025-07-24 19:24:22,566 - INFO - fetching URL: https://en.wikipedia.org/wiki/Richard_Dunn_(boxer)
+2025-07-24 19:24:23,756 - INFO - fetching URL: https://en.wikipedia.org/wiki/Johnny_du_Plooy
+2025-07-24 19:24:25,054 - INFO - fetching URL: https://en.wikipedia.org/wiki/Olanrewaju_Durodola
+2025-07-24 19:24:25,710 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Olanrewaju_Durodola
+2025-07-24 19:24:26,710 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ivan_Dychko
+2025-07-24 19:24:26,868 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ivan_Dychko
+2025-07-24 19:24:27,869 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sergey_Dychkov
+2025-07-24 19:24:29,152 - INFO - fetching URL: https://en.wikipedia.org/wiki/Chief_Don_Eagle
+2025-07-24 19:24:29,808 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Chief_Don_Eagle
+2025-07-24 19:24:30,809 - INFO - fetching URL: https://en.wikipedia.org/wiki/Walter_Edgeworth-Johnstone
+2025-07-24 19:24:32,402 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ben_Edwards_(kickboxer)
+2025-07-24 19:24:33,288 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ben_Edwards_(kickboxer)
+2025-07-24 19:24:34,289 - INFO - fetching URL: https://en.wikipedia.org/wiki/Onorede_Ehwareme
+2025-07-24 19:24:35,571 - INFO - fetching URL: https://en.wikipedia.org/wiki/Anders_Eklund_(boxer)
+2025-07-24 19:24:37,184 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ngozika_Ekwelum
+2025-07-24 19:24:37,584 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ngozika_Ekwelum
+2025-07-24 19:24:38,585 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jimmy_Elliott
+2025-07-24 19:24:39,918 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jim_Ellis_(American_football)
+2025-07-24 19:24:41,215 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jimmy_Ellis_(boxer)
+2025-07-24 19:24:41,549 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jimmy_Ellis_(boxer)
+2025-07-24 19:24:42,550 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mohamed_Elsayed
+2025-07-24 19:24:44,061 - INFO - fetching URL: https://en.wikipedia.org/wiki/Xavier_Elu%C3%A8re
+2025-07-24 19:24:45,609 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alexander_Emelianenko
+2025-07-24 19:24:45,904 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alexander_Emelianenko
+2025-07-24 19:24:46,905 - INFO - fetching URL: https://en.wikipedia.org/wiki/Herman_Ene-Purcell
+2025-07-24 19:24:47,386 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Herman_Ene-Purcell
+2025-07-24 19:24:48,387 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ertu%C4%9Frul_Ergezen
+2025-07-24 19:24:49,727 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Erskine_(Welsh_boxer)
+2025-07-24 19:24:50,909 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lou_Esa
+2025-07-24 19:24:52,503 - INFO - fetching URL: https://en.wikipedia.org/wiki/Eric_Esch
+2025-07-24 19:24:52,748 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Eric_Esch
+2025-07-24 19:24:53,748 - INFO - fetching URL: https://en.wikipedia.org/wiki/Clifford_Etienne
+2025-07-24 19:24:54,958 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alfredo_Evangelista
+2025-07-24 19:24:55,275 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alfredo_Evangelista
+2025-07-24 19:24:56,276 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Ronay_Evans
+2025-07-24 19:24:57,956 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sidney_Evans_(boxer)
+2025-07-24 19:24:59,495 - INFO - fetching URL: https://en.wikipedia.org/wiki/Carlette_Ewell
+2025-07-24 19:25:00,125 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Carlette_Ewell
+2025-07-24 19:25:01,126 - INFO - fetching URL: https://en.wikipedia.org/wiki/Junior_Fa
+2025-07-24 19:25:01,448 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Junior_Fa
+2025-07-24 19:25:02,448 - INFO - fetching URL: https://en.wikipedia.org/wiki/Loi_Faaeteete
+2025-07-24 19:25:03,860 - INFO - fetching URL: https://en.wikipedia.org/wiki/P%C3%A5l_Arne_Fagernes
+2025-07-24 19:25:06,304 - INFO - fetching URL: https://en.wikipedia.org/wiki/Emerio_Fainuulua
+2025-07-24 19:25:07,465 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tualau_Fale
+2025-07-24 19:25:08,906 - INFO - fetching URL: https://en.wikipedia.org/wiki/J%C3%BCrgen_Fangh%C3%A4nel
+2025-07-24 19:25:10,061 - INFO - fetching URL: https://en.wikipedia.org/wiki/Saul_Farah
+2025-07-24 19:25:10,734 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Saul_Farah
+2025-07-24 19:25:11,734 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bill_Farnan
+2025-07-24 19:25:13,096 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tommy_Farr
+2025-07-24 19:25:14,278 - INFO - fetching URL: https://en.wikipedia.org/wiki/Adam_Faul
+2025-07-24 19:25:15,618 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ruslan_Fayfer
+2025-07-24 19:25:15,920 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ruslan_Fayfer
+2025-07-24 19:25:16,921 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jos%C3%A9_Feans
+2025-07-24 19:25:18,326 - INFO - fetching URL: https://en.wikipedia.org/wiki/Frederick_Feary
+2025-07-24 19:25:19,686 - INFO - fetching URL: https://en.wikipedia.org/wiki/Igor_Fedorov
+2025-07-24 19:25:20,973 - INFO - fetching URL: https://en.wikipedia.org/wiki/Peter_Felix
+2025-07-24 19:25:22,570 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dave_Ferguson_(boxer)
+2025-07-24 19:25:24,015 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jesse_Ferguson
+2025-07-24 19:25:25,208 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sandy_Ferguson
+2025-07-24 19:25:26,950 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gordon_Ferris
+2025-07-24 19:25:28,128 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tye_Fields
+2025-07-24 19:25:29,761 - INFO - fetching URL: https://en.wikipedia.org/wiki/Luis_%C3%81ngel_Firpo
+2025-07-24 19:25:30,951 - INFO - fetching URL: https://en.wikipedia.org/wiki/Wilhelm_Fischer_(boxer)
+2025-07-24 19:25:31,659 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Wilhelm_Fischer_(boxer)
+2025-07-24 19:25:32,660 - INFO - fetching URL: https://en.wikipedia.org/wiki/Johnny_Fisher
+2025-07-24 19:25:33,311 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Johnny_Fisher
+2025-07-24 19:25:34,312 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nathaniel_Fitch
+2025-07-24 19:25:35,483 - INFO - fetching URL: https://en.wikipedia.org/wiki/Carl_Fitzgerald_(boxer)
+2025-07-24 19:25:37,023 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bob_Fitzsimmons
+2025-07-24 19:25:37,548 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bob_Fitzsimmons
+2025-07-24 19:25:38,549 - INFO - fetching URL: https://en.wikipedia.org/wiki/Matt_Flanagan_(boxer)
+2025-07-24 19:25:39,848 - INFO - fetching URL: https://en.wikipedia.org/wiki/Adam_Flores
+2025-07-24 19:25:41,218 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alexander_Flores
+2025-07-24 19:25:41,586 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alexander_Flores
+2025-07-24 19:25:42,587 - INFO - fetching URL: https://en.wikipedia.org/wiki/Pat_Floyd
+2025-07-24 19:25:43,766 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dan_Flynn_(boxer)
+2025-07-24 19:25:45,297 - INFO - fetching URL: https://en.wikipedia.org/wiki/Fireman_Jim_Flynn
+2025-07-24 19:25:45,705 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Fireman_Jim_Flynn
+2025-07-24 19:25:46,706 - INFO - fetching URL: https://en.wikipedia.org/wiki/Adam_Fogerty
+2025-07-24 19:25:47,984 - INFO - fetching URL: https://en.wikipedia.org/wiki/Zora_Folley
+2025-07-24 19:25:49,562 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ben_Foord
+2025-07-24 19:25:50,852 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kevin_Ford_(boxer)
+2025-07-24 19:25:52,275 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Foreman_III
+2025-07-24 19:25:53,921 - INFO - fetching URL: https://en.wikipedia.org/wiki/Scott_Forrest_(boxer)
+2025-07-24 19:25:55,603 - INFO - fetching URL: https://en.wikipedia.org/wiki/Adam_Forsyth
+2025-07-24 19:25:56,997 - INFO - fetching URL: https://en.wikipedia.org/wiki/Polataivao_Fosi
+2025-07-24 19:25:57,434 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Polataivao_Fosi
+2025-07-24 19:25:58,434 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mac_Foster
+2025-07-24 19:25:59,612 - INFO - fetching URL: https://en.wikipedia.org/wiki/Melvin_Foster
+2025-07-24 19:26:01,070 - INFO - fetching URL: https://en.wikipedia.org/wiki/Giacobbe_Fragomeni
+2025-07-24 19:26:01,365 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Giacobbe_Fragomeni
+2025-07-24 19:26:02,366 - INFO - fetching URL: https://en.wikipedia.org/wiki/Julius_Francis
+2025-07-24 19:26:02,691 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Julius_Francis
+2025-07-24 19:26:03,692 - INFO - fetching URL: https://en.wikipedia.org/wiki/Scott_Frank_(boxer)
+2025-07-24 19:26:05,166 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jermaine_Franklin
+2025-07-24 19:26:05,316 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jermaine_Franklin
+2025-07-24 19:26:06,317 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marvis_Frazier
+2025-07-24 19:26:07,496 - INFO - fetching URL: https://en.wikipedia.org/wiki/Virgilio_Frias
+2025-07-24 19:26:09,517 - INFO - fetching URL: https://en.wikipedia.org/wiki/Don_Frye
+2025-07-24 19:26:09,757 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Don_Frye
+2025-07-24 19:26:10,758 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kyotaro_Fujimoto
+2025-07-24 19:26:11,086 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Kyotaro_Fujimoto
+2025-07-24 19:26:12,086 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tony_Fulilangi
+2025-07-24 19:26:13,654 - INFO - fetching URL: https://en.wikipedia.org/wiki/Fred_Fulton
+2025-07-24 19:26:15,366 - INFO - fetching URL: https://en.wikipedia.org/wiki/Travis_Fulton
+2025-07-24 19:26:17,249 - INFO - fetching URL: https://en.wikipedia.org/wiki/Geza_Furetz
+2025-07-24 19:26:19,636 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hughie_Fury
+2025-07-24 19:26:19,863 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Hughie_Fury
+2025-07-24 19:26:20,864 - INFO - fetching URL: https://en.wikipedia.org/wiki/Muslim_Gadzhimagomedov
+2025-07-24 19:26:21,177 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Muslim_Gadzhimagomedov
+2025-07-24 19:26:22,178 - INFO - fetching URL: https://en.wikipedia.org/wiki/Larry_Gains
+2025-07-24 19:26:22,642 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Larry_Gains
+2025-07-24 19:26:23,643 - INFO - fetching URL: https://en.wikipedia.org/wiki/Milorad_Gajovi%C4%87
+2025-07-24 19:26:24,908 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tony_Galento
+2025-07-24 19:26:25,209 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tony_Galento
+2025-07-24 19:26:26,210 - INFO - fetching URL: https://en.wikipedia.org/wiki/Georges_Galinat
+2025-07-24 19:26:27,725 - INFO - fetching URL: https://en.wikipedia.org/wiki/Paul_Gallen
+2025-07-24 19:26:28,130 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Paul_Gallen
+2025-07-24 19:26:29,131 - INFO - fetching URL: https://en.wikipedia.org/wiki/James_Galli
+2025-07-24 19:26:30,662 - INFO - fetching URL: https://en.wikipedia.org/wiki/Scott_Gammer
+2025-07-24 19:26:30,820 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Scott_Gammer
+2025-07-24 19:26:31,820 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alex_Garc%C3%ADa_(boxer)
+2025-07-24 19:26:33,482 - INFO - fetching URL: https://en.wikipedia.org/wiki/Israel_Garcia_(boxer)
+2025-07-24 19:26:35,009 - INFO - fetching URL: https://en.wikipedia.org/wiki/Manuel_Garc%C3%ADa_(boxer)
+2025-07-24 19:26:36,544 - INFO - fetching URL: https://en.wikipedia.org/wiki/Thompson_Garc%C3%ADa
+2025-07-24 19:26:37,983 - INFO - fetching URL: https://en.wikipedia.org/wiki/Georges_Gardebois
+2025-07-24 19:26:39,422 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_Gardner_(boxer)
+2025-07-24 19:26:40,928 - INFO - fetching URL: https://en.wikipedia.org/wiki/John_L._Gardner_(boxer)
+2025-07-24 19:26:41,091 - INFO - pro boxer added: https://en.wikipedia.org/wiki/John_L._Gardner_(boxer)
+2025-07-24 19:26:42,091 - INFO - fetching URL: https://en.wikipedia.org/wiki/Senad_Gashi
+2025-07-24 19:26:42,317 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Senad_Gashi
+2025-07-24 19:26:43,319 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mark_Gastineau
+2025-07-24 19:26:44,866 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mick_Gatto
+2025-07-24 19:26:46,471 - INFO - fetching URL: https://en.wikipedia.org/wiki/Luigi_Gaudiano
+2025-07-24 19:26:47,870 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rudy_Gauwe
+2025-07-24 19:26:48,295 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Rudy_Gauwe
+2025-07-24 19:26:49,298 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rudolf_Gaven%C4%8Diak
+2025-07-24 19:26:50,759 - INFO - fetching URL: https://en.wikipedia.org/wiki/Edmund_Gerber
+2025-07-24 19:26:50,936 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Edmund_Gerber
+2025-07-24 19:26:51,937 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mohammad_Ghossoun
+2025-07-24 19:26:53,484 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tommy_Gibbons
+2025-07-24 19:26:53,718 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tommy_Gibbons
+2025-07-24 19:26:54,718 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jos%C3%A9_Giorgetti
+2025-07-24 19:26:56,131 - INFO - fetching URL: https://en.wikipedia.org/wiki/Arnold_Gjergjaj
+2025-07-24 19:26:56,446 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Arnold_Gjergjaj
+2025-07-24 19:26:57,447 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_Glesby
+2025-07-24 19:26:58,867 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rodney_Glunder
+2025-07-24 19:26:59,502 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Rodney_Glunder
+2025-07-24 19:27:00,502 - INFO - fetching URL: https://en.wikipedia.org/wiki/Frank_Goddard
+2025-07-24 19:27:02,010 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Goddard_(boxer)
+2025-07-24 19:27:03,554 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Godfrey_(boxer,_born_1853)
+2025-07-24 19:27:05,039 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Godfrey_(boxer,_born_1897)
+2025-07-24 19:27:05,598 - INFO - pro boxer added: https://en.wikipedia.org/wiki/George_Godfrey_(boxer,_born_1897)
+2025-07-24 19:27:06,599 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pageuntil=Godoy%2C+Arturo%0AArturo+Godoy#mw-pages
+2025-07-24 19:27:08,333 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pagefrom=Latescu%2C+Stefan%0A%C8%98tefan+L%C4%83tescu#mw-pages
+2025-07-24 19:27:10,525 - INFO - fetching URL: https://en.wikipedia.org/wiki/Arturo_Godoy
+2025-07-24 19:27:10,972 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Arturo_Godoy
+2025-07-24 19:27:11,972 - INFO - fetching URL: https://en.wikipedia.org/wiki/Andrew_Golota
+2025-07-24 19:27:12,196 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Andrew_Golota
+2025-07-24 19:27:13,197 - INFO - fetching URL: https://en.wikipedia.org/wiki/Juan_Carlos_G%C3%B3mez
+2025-07-24 19:27:13,393 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Juan_Carlos_G%C3%B3mez
+2025-07-24 19:27:14,393 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tommy_G%C3%B3mez
+2025-07-24 19:27:15,743 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jorge_Luis_Gonz%C3%A1lez
+2025-07-24 19:27:15,913 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jorge_Luis_Gonz%C3%A1lez
+2025-07-24 19:27:16,914 - INFO - fetching URL: https://en.wikipedia.org/wiki/Edgar_Gorgas
+2025-07-24 19:27:18,297 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nathan_Gorman
+2025-07-24 19:27:18,461 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Nathan_Gorman
+2025-07-24 19:27:19,462 - INFO - fetching URL: https://en.wikipedia.org/wiki/Evgeny_Gorstkov
+2025-07-24 19:27:20,957 - INFO - fetching URL: https://en.wikipedia.org/wiki/Antoni_Go%C5%9Bcia%C5%84ski
+2025-07-24 19:27:22,384 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Goss
+2025-07-24 19:27:23,781 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dmitriy_Gotfrid
+2025-07-24 19:27:25,042 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Goyder
+2025-07-24 19:27:26,508 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Graf_(boxer)
+2025-07-24 19:27:28,017 - INFO - fetching URL: https://en.wikipedia.org/wiki/Patrick_Graham_(boxer)
+2025-07-24 19:27:28,440 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Patrick_Graham_(boxer)
+2025-07-24 19:27:29,441 - INFO - fetching URL: https://en.wikipedia.org/wiki/Peter_Graham_(fighter)
+2025-07-24 19:27:29,668 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Peter_Graham_(fighter)
+2025-07-24 19:27:30,669 - INFO - fetching URL: https://en.wikipedia.org/wiki/Adrian_Granat
+2025-07-24 19:27:30,823 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Adrian_Granat
+2025-07-24 19:27:31,824 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tony_Grano
+2025-07-24 19:27:33,266 - INFO - fetching URL: https://en.wikipedia.org/wiki/Michael_Grant_(boxer)
+2025-07-24 19:27:33,586 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Michael_Grant_(boxer)
+2025-07-24 19:27:34,587 - INFO - fetching URL: https://en.wikipedia.org/wiki/Morris_Grant
+2025-07-24 19:27:35,058 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Morris_Grant
+2025-07-24 19:27:36,059 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ed_Greathouse
+2025-07-24 19:27:37,573 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mitch_Green
+2025-07-24 19:27:38,060 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mitch_Green
+2025-07-24 19:27:39,061 - INFO - fetching URL: https://en.wikipedia.org/wiki/Roman_Greenberg
+2025-07-24 19:27:40,714 - INFO - fetching URL: https://en.wikipedia.org/wiki/Corn_Griffin
+2025-07-24 19:27:41,897 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tuffy_Griffiths
+2025-07-24 19:27:43,422 - INFO - fetching URL: https://en.wikipedia.org/wiki/Crawford_Grimsley
+2025-07-24 19:27:44,710 - INFO - fetching URL: https://en.wikipedia.org/wiki/Reggie_Gross
+2025-07-24 19:27:46,339 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mohamed_Ben_Guesmia
+2025-07-24 19:27:47,790 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jes%C3%BAs_Guevara
+2025-07-24 19:27:49,228 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dominick_Guinn
+2025-07-24 19:27:50,538 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_Gummer
+2025-07-24 19:27:52,098 - INFO - fetching URL: https://en.wikipedia.org/wiki/Juho_Haapoja
+2025-07-24 19:27:52,600 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Juho_Haapoja
+2025-07-24 19:27:53,601 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rachid_El-Haddak
+2025-07-24 19:27:54,976 - INFO - fetching URL: https://en.wikipedia.org/wiki/Charles_Hadley
+2025-07-24 19:27:55,355 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Charles_Hadley
+2025-07-24 19:27:56,356 - INFO - fetching URL: https://en.wikipedia.org/wiki/Memnun_Had%C5%BEi%C4%87
+2025-07-24 19:27:57,934 - INFO - fetching URL: https://en.wikipedia.org/wiki/Claire_Hafner
+2025-07-24 19:27:58,565 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Claire_Hafner
+2025-07-24 19:27:59,566 - INFO - fetching URL: https://en.wikipedia.org/wiki/Harry_Haft
+2025-07-24 19:28:00,857 - INFO - fetching URL: https://en.wikipedia.org/wiki/William_Hague_(boxer)
+2025-07-24 19:28:02,344 - INFO - fetching URL: https://en.wikipedia.org/wiki/Johnny_Halafihi
+2025-07-24 19:28:03,687 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tony_Halme
+2025-07-24 19:28:03,941 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tony_Halme
+2025-07-24 19:28:04,942 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bobby_Halpern
+2025-07-24 19:28:05,446 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bobby_Halpern
+2025-07-24 19:28:06,446 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tor_Hamer
+2025-07-24 19:28:07,603 - INFO - fetching URL: https://en.wikipedia.org/wiki/Christian_Hammer
+2025-07-24 19:28:07,788 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Christian_Hammer
+2025-07-24 19:28:08,789 - INFO - fetching URL: https://en.wikipedia.org/wiki/Han_Xuezhen
+2025-07-24 19:28:10,342 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Hanks
+2025-07-24 19:28:10,838 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Joe_Hanks
+2025-07-24 19:28:11,839 - INFO - fetching URL: https://en.wikipedia.org/wiki/Leif_Hansen_(Norwegian_boxer)
+2025-07-24 19:28:13,247 - INFO - fetching URL: https://en.wikipedia.org/wiki/Harold_Hardwick
+2025-07-24 19:28:14,951 - INFO - fetching URL: https://en.wikipedia.org/wiki/Leslie_Harley
+2025-07-24 19:28:16,306 - INFO - fetching URL: https://en.wikipedia.org/wiki/Maurice_Harris
+2025-07-24 19:28:16,995 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Maurice_Harris
+2025-07-24 19:28:17,996 - INFO - fetching URL: https://en.wikipedia.org/wiki/Roy_Harris_(boxer)
+2025-07-24 19:28:19,620 - INFO - fetching URL: https://en.wikipedia.org/wiki/Seal_Harris
+2025-07-24 19:28:21,295 - INFO - fetching URL: https://en.wikipedia.org/wiki/Audley_Harrison
+2025-07-24 19:28:21,501 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Audley_Harrison
+2025-07-24 19:28:22,502 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marvin_Hart
+2025-07-24 19:28:22,805 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Marvin_Hart
+2025-07-24 19:28:23,806 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jasmin_Hasi%C4%87
+2025-07-24 19:28:25,141 - INFO - fetching URL: https://en.wikipedia.org/wiki/Solomon_Haumono
+2025-07-24 19:28:25,621 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Solomon_Haumono
+2025-07-24 19:28:26,622 - INFO - fetching URL: https://en.wikipedia.org/wiki/Thomas_Hayes_(boxer)
+2025-07-24 19:28:26,932 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Thomas_Hayes_(boxer)
+2025-07-24 19:28:27,932 - INFO - fetching URL: https://en.wikipedia.org/wiki/Edgar_Hearn
+2025-07-24 19:28:29,326 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_Heeney
+2025-07-24 19:28:29,658 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tom_Heeney
+2025-07-24 19:28:30,659 - INFO - fetching URL: https://en.wikipedia.org/wiki/Robert_Helenius
+2025-07-24 19:28:30,865 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Robert_Helenius
+2025-07-24 19:28:31,866 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nailini_Helu
+2025-07-24 19:28:32,275 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Nailini_Helu
+2025-07-24 19:28:33,276 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tore_Hem
+2025-07-24 19:28:34,553 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sequita_Hemingway
+2025-07-24 19:28:35,004 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sequita_Hemingway
+2025-07-24 19:28:36,005 - INFO - fetching URL: https://en.wikipedia.org/wiki/Clarence_Henry_(boxer)
+2025-07-24 19:28:37,369 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mario_Heredia
+2025-07-24 19:28:37,779 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mario_Heredia
+2025-07-24 19:28:38,780 - INFO - fetching URL: https://en.wikipedia.org/wiki/Omar_Hermansen
+2025-07-24 19:28:40,124 - INFO - fetching URL: https://en.wikipedia.org/wiki/Yoan_Pablo_Hern%C3%A1ndez
+2025-07-24 19:28:40,850 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Yoan_Pablo_Hern%C3%A1ndez
+2025-07-24 19:28:41,851 - INFO - fetching URL: https://en.wikipedia.org/wiki/Richel_Hersisia
+2025-07-24 19:28:43,426 - INFO - fetching URL: https://en.wikipedia.org/wiki/Adolf_Heuser
+2025-07-24 19:28:44,994 - INFO - fetching URL: https://en.wikipedia.org/wiki/Herbie_Hide
+2025-07-24 19:28:45,325 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Herbie_Hide
+2025-07-24 19:28:46,326 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alonzo_Highsmith
+2025-07-24 19:28:47,836 - INFO - fetching URL: https://en.wikipedia.org/wiki/Clarence_Hill_(boxer)
+2025-07-24 19:28:49,294 - INFO - fetching URL: https://en.wikipedia.org/wiki/Odai_Al-Hindawi
+2025-07-24 19:28:50,457 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Hipp
+2025-07-24 19:28:52,138 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sigurd_Hoel_(boxer)
+2025-07-24 19:28:53,520 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hein_ten_Hoff
+2025-07-24 19:28:54,027 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Hein_ten_Hoff
+2025-07-24 19:28:55,029 - INFO - fetching URL: https://en.wikipedia.org/wiki/Timo_Hoffmann
+2025-07-24 19:28:56,380 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Holden
+2025-07-24 19:28:56,776 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mike_Holden
+2025-07-24 19:28:57,777 - INFO - fetching URL: https://en.wikipedia.org/wiki/Donnell_Holmes
+2025-07-24 19:28:59,165 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Holt
+2025-07-24 19:29:00,535 - INFO - fetching URL: https://en.wikipedia.org/wiki/Evander_Holyfield
+2025-07-24 19:29:00,833 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Evander_Holyfield
+2025-07-24 19:29:01,834 - INFO - fetching URL: https://en.wikipedia.org/wiki/Wilhelm_von_Homburg
+2025-07-24 19:29:03,028 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gurgen_Hovhannisyan
+2025-07-24 19:29:03,755 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Gurgen_Hovhannisyan
+2025-07-24 19:29:04,757 - INFO - fetching URL: https://en.wikipedia.org/wiki/Filip_Hrgovi%C4%87
+2025-07-24 19:29:05,007 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Filip_Hrgovi%C4%87
+2025-07-24 19:29:06,009 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hans_Huber_(boxer)
+2025-07-24 19:29:07,513 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marco_Huck
+2025-07-24 19:29:07,747 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Marco_Huck
+2025-07-24 19:29:08,747 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mark_Hulstr%C3%B8m
+2025-07-24 19:29:10,134 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_Humbeeck
+2025-07-24 19:29:11,695 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mark_Hunt
+2025-07-24 19:29:12,965 - INFO - fetching URL: https://en.wikipedia.org/wiki/Michael_Hunter_(American_boxer)
+2025-07-24 19:29:13,157 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Michael_Hunter_(American_boxer)
+2025-07-24 19:29:14,158 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Hunter_(boxer)
+2025-07-24 19:29:15,471 - INFO - fetching URL: https://en.wikipedia.org/wiki/Peter_Hussing
+2025-07-24 19:29:16,990 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jacob_Hyer
+2025-07-24 19:29:18,342 - INFO - fetching URL: https://en.wikipedia.org/wiki/Harold_Hylton
+2025-07-24 19:29:19,884 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ionu%C8%9B_Iancu
+2025-07-24 19:29:20,067 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ionu%C8%9B_Iancu
+2025-07-24 19:29:21,067 - INFO - fetching URL: https://en.wikipedia.org/wiki/Elio_Ibarra
+2025-07-24 19:29:22,515 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ike_Ibeabuchi
+2025-07-24 19:29:22,810 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ike_Ibeabuchi
+2025-07-24 19:29:23,811 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rafael_Iglesias_(boxer)
+2025-07-24 19:29:25,463 - INFO - fetching URL: https://en.wikipedia.org/wiki/Albert_Ireton
+2025-07-24 19:29:26,739 - INFO - fetching URL: https://en.wikipedia.org/wiki/Derek_Isaman
+2025-07-24 19:29:27,895 - INFO - fetching URL: https://en.wikipedia.org/wiki/William_Isangura
+2025-07-24 19:29:29,345 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dina_Islambekova
+2025-07-24 19:29:30,699 - INFO - fetching URL: https://en.wikipedia.org/wiki/Moses_Itauma
+2025-07-24 19:29:30,864 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Moses_Itauma
+2025-07-24 19:29:31,865 - INFO - fetching URL: https://en.wikipedia.org/wiki/Viktor_Ivanov_(boxer)
+2025-07-24 19:29:33,423 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Izonritei
+2025-07-24 19:29:35,120 - INFO - fetching URL: https://en.wikipedia.org/wiki/Emmanuel_Izonritei
+2025-07-24 19:29:36,690 - INFO - fetching URL: https://en.wikipedia.org/wiki/Peter_Jackson_(boxer)
+2025-07-24 19:29:37,070 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Peter_Jackson_(boxer)
+2025-07-24 19:29:38,071 - INFO - fetching URL: https://en.wikipedia.org/wiki/Phil_Jackson_(boxer)
+2025-07-24 19:29:39,259 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tommy_Jackson_(boxer)
+2025-07-24 19:29:39,664 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tommy_Jackson_(boxer)
+2025-07-24 19:29:40,665 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Jaco
+2025-07-24 19:29:42,213 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jacklord_Jacobs
+2025-07-24 19:29:43,498 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jaroslavas_Jak%C5%A1to
+2025-07-24 19:29:45,005 - INFO - fetching URL: https://en.wikipedia.org/wiki/Igor_Jakubowski
+2025-07-24 19:29:46,505 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mohammad_Jamshidabadi
+2025-07-24 19:29:47,949 - INFO - fetching URL: https://en.wikipedia.org/wiki/Charles_Jardine
+2025-07-24 19:29:49,397 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Jeanette
+2025-07-24 19:29:49,787 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Joe_Jeanette
+2025-07-24 19:29:50,787 - INFO - fetching URL: https://en.wikipedia.org/wiki/W%C5%82adys%C5%82aw_J%C4%99drzejewski_(boxer)
+2025-07-24 19:29:52,316 - INFO - fetching URL: https://en.wikipedia.org/wiki/Derrick_Jefferson
+2025-07-24 19:29:53,802 - INFO - fetching URL: https://en.wikipedia.org/wiki/James_J._Jeffries
+2025-07-24 19:29:53,995 - INFO - pro boxer added: https://en.wikipedia.org/wiki/James_J._Jeffries
+2025-07-24 19:29:54,996 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bryant_Jennings
+2025-07-24 19:29:55,179 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bryant_Jennings
+2025-07-24 19:29:56,179 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jiang_Tao_(boxer)
+2025-07-24 19:29:57,749 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alejandra_Jim%C3%A9nez
+2025-07-24 19:29:58,366 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alejandra_Jim%C3%A9nez
+2025-07-24 19:29:59,367 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vassiliy_Jirov
+2025-07-24 19:30:00,004 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Vassiliy_Jirov
+2025-07-24 19:30:01,005 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ingemar_Johansson
+2025-07-24 19:30:01,214 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ingemar_Johansson
+2025-07-24 19:30:02,215 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bunny_Johnson
+2025-07-24 19:30:03,896 - INFO - fetching URL: https://en.wikipedia.org/wiki/Floyd_Johnson
+2025-07-24 19:30:05,060 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Johnson_(boxer)
+2025-07-24 19:30:06,229 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jim_Johnson_(boxer)
+2025-07-24 19:30:07,132 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jim_Johnson_(boxer)
+2025-07-24 19:30:08,133 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kevin_Johnson_(boxer)
+2025-07-24 19:30:08,347 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Kevin_Johnson_(boxer)
+2025-07-24 19:30:09,348 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kirk_Johnson
+2025-07-24 19:30:09,523 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Kirk_Johnson
+2025-07-24 19:30:10,525 - INFO - fetching URL: https://en.wikipedia.org/wiki/Len_Johnson_(boxer)
+2025-07-24 19:30:12,105 - INFO - fetching URL: https://en.wikipedia.org/wiki/Billy_Joiner
+2025-07-24 19:30:13,577 - INFO - fetching URL: https://en.wikipedia.org/wiki/Doug_Jones_(boxer)
+2025-07-24 19:30:13,894 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Doug_Jones_(boxer)
+2025-07-24 19:30:14,895 - INFO - fetching URL: https://en.wikipedia.org/wiki/Guillermo_Jones
+2025-07-24 19:30:15,069 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Guillermo_Jones
+2025-07-24 19:30:16,070 - INFO - fetching URL: https://en.wikipedia.org/wiki/Leroy_Jones_(boxer)
+2025-07-24 19:30:17,698 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nate_Jones_(boxer)
+2025-07-24 19:30:19,124 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hans_Jost
+2025-07-24 19:30:20,511 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Joyce_(boxer)
+2025-07-24 19:30:20,812 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Joe_Joyce_(boxer)
+2025-07-24 19:30:21,813 - INFO - fetching URL: https://en.wikipedia.org/wiki/Deivi_Julio
+2025-07-24 19:30:23,399 - INFO - fetching URL: https://en.wikipedia.org/wiki/Agit_Kabayel
+2025-07-24 19:30:23,596 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Agit_Kabayel
+2025-07-24 19:30:24,596 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ulli_Kaden
+2025-07-24 19:30:26,156 - INFO - fetching URL: https://en.wikipedia.org/wiki/Peter_Kadiru
+2025-07-24 19:30:26,444 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Peter_Kadiru
+2025-07-24 19:30:27,444 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alexander_Kaletchitz
+2025-07-24 19:30:28,986 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kaspars_Kambala
+2025-07-24 19:30:29,470 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Kaspars_Kambala
+2025-07-24 19:30:30,471 - INFO - fetching URL: https://en.wikipedia.org/wiki/Georgi_Kandelaki
+2025-07-24 19:30:30,813 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Georgi_Kandelaki
+2025-07-24 19:30:31,814 - INFO - fetching URL: https://en.wikipedia.org/wiki/Roman_Kapitonenko
+2025-07-24 19:30:33,094 - INFO - fetching URL: https://en.wikipedia.org/wiki/Siarhei_Karneyeu
+2025-07-24 19:30:34,464 - INFO - fetching URL: https://en.wikipedia.org/wiki/Fred_Kassi
+2025-07-24 19:30:35,243 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Fred_Kassi
+2025-07-24 19:30:36,244 - INFO - fetching URL: https://en.wikipedia.org/wiki/Janne_Katajisto
+2025-07-24 19:30:36,801 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Janne_Katajisto
+2025-07-24 19:30:37,802 - INFO - fetching URL: https://en.wikipedia.org/wiki/Travis_Kauffman
+2025-07-24 19:30:38,131 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Travis_Kauffman
+2025-07-24 19:30:39,132 - INFO - fetching URL: https://en.wikipedia.org/wiki/Al_Kaufman
+2025-07-24 19:30:40,615 - INFO - fetching URL: https://en.wikipedia.org/wiki/Katsiaryna_Kavaleva
+2025-07-24 19:30:41,775 - INFO - fetching URL: https://en.wikipedia.org/wiki/Colin_Kenna
+2025-07-24 19:30:43,461 - INFO - fetching URL: https://en.wikipedia.org/wiki/Grzegorz_Kielsa
+2025-07-24 19:30:44,825 - INFO - fetching URL: https://en.wikipedia.org/wiki/Iago_Kiladze
+2025-07-24 19:30:45,334 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Iago_Kiladze
+2025-07-24 19:30:46,335 - INFO - fetching URL: https://en.wikipedia.org/wiki/Proud_Kilimanjaro
+2025-07-24 19:30:47,748 - INFO - fetching URL: https://en.wikipedia.org/wiki/Patrick_Killen
+2025-07-24 19:30:48,236 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Patrick_Killen
+2025-07-24 19:30:49,237 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jake_Kilrain
+2025-07-24 19:30:49,562 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jake_Kilrain
+2025-07-24 19:30:50,563 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kim_Yoo-hyun
+2025-07-24 19:30:51,849 - INFO - fetching URL: https://en.wikipedia.org/wiki/Demetrice_King
+2025-07-24 19:30:52,400 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Demetrice_King
+2025-07-24 19:30:53,401 - INFO - fetching URL: https://en.wikipedia.org/wiki/Howard_King_(boxer)
+2025-07-24 19:30:54,770 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bill_Kini
+2025-07-24 19:30:56,263 - INFO - fetching URL: https://en.wikipedia.org/wiki/Boone_Kirkman
+2025-07-24 19:30:56,984 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Boone_Kirkman
+2025-07-24 19:30:57,984 - INFO - fetching URL: https://en.wikipedia.org/wiki/Charles_Kizza
+2025-07-24 19:30:59,534 - INFO - fetching URL: https://en.wikipedia.org/wiki/Spyridon_Kladouchas
+2025-07-24 19:31:01,229 - INFO - fetching URL: https://en.wikipedia.org/wiki/Klitschko_brothers
+2025-07-24 19:31:02,470 - INFO - fetching URL: https://en.wikipedia.org/wiki/Klondike_(boxer)
+2025-07-24 19:31:03,140 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Klondike_(boxer)
+2025-07-24 19:31:04,141 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kallie_Knoetze
+2025-07-24 19:31:05,790 - INFO - fetching URL: https://en.wikipedia.org/wiki/Damian_Knyba
+2025-07-24 19:31:05,944 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Damian_Knyba
+2025-07-24 19:31:06,944 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ko_Young-sam
+2025-07-24 19:31:08,334 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sebastian_K%C3%B6ber
+2025-07-24 19:31:09,791 - INFO - fetching URL: https://en.wikipedia.org/wiki/Heinz_Kohlhaas
+2025-07-24 19:31:11,317 - INFO - fetching URL: https://en.wikipedia.org/wiki/Arno_K%C3%B6lblin
+2025-07-24 19:31:12,866 - INFO - fetching URL: https://en.wikipedia.org/wiki/Pawe%C5%82_Ko%C5%82odziej
+2025-07-24 19:31:14,377 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tomasz_Konarzewski
+2025-07-24 19:31:15,889 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ilkka_Koski
+2025-07-24 19:31:17,418 - INFO - fetching URL: https://en.wikipedia.org/wiki/Brent_Kosolofski
+2025-07-24 19:31:18,796 - INFO - fetching URL: https://en.wikipedia.org/wiki/Zhan_Kossobutskiy
+2025-07-24 19:31:18,965 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Zhan_Kossobutskiy
+2025-07-24 19:31:19,965 - INFO - fetching URL: https://en.wikipedia.org/wiki/Adam_Kownacki
+2025-07-24 19:31:20,281 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Adam_Kownacki
+2025-07-24 19:31:21,282 - INFO - fetching URL: https://en.wikipedia.org/wiki/Luan_Krasniqi
+2025-07-24 19:31:22,994 - INFO - fetching URL: https://en.wikipedia.org/wiki/Steffen_Kretschmann
+2025-07-24 19:31:24,445 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tomislav_Krizmani%C4%87_(boxer)
+2025-07-24 19:31:25,834 - INFO - fetching URL: https://en.wikipedia.org/wiki/J%C3%B6rgen_Kruth
+2025-07-24 19:31:26,139 - INFO - pro boxer added: https://en.wikipedia.org/wiki/J%C3%B6rgen_Kruth
+2025-07-24 19:31:27,141 - INFO - fetching URL: https://en.wikipedia.org/wiki/Igor_Kshinin
+2025-07-24 19:31:28,591 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rom%C4%81ns_Kuk%C4%BCins
+2025-07-24 19:31:29,980 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rudolf_Kus
+2025-07-24 19:31:31,345 - INFO - fetching URL: https://en.wikipedia.org/wiki/Georgii_Kushitashvili
+2025-07-24 19:31:32,521 - INFO - fetching URL: https://en.wikipedia.org/wiki/Aleksy_Kuziemski
+2025-07-24 19:31:33,830 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sergey_Kuzmin_(boxer)
+2025-07-24 19:31:34,475 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sergey_Kuzmin_(boxer)
+2025-07-24 19:31:35,476 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Kyle
+2025-07-24 19:31:35,686 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mike_Kyle
+2025-07-24 19:31:36,687 - INFO - fetching URL: https://en.wikipedia.org/wiki/Julio_C%C3%A9sar_La_Cruz
+2025-07-24 19:31:36,894 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Julio_C%C3%A9sar_La_Cruz
+2025-07-24 19:31:37,895 - INFO - fetching URL: https://en.wikipedia.org/wiki/Roland_La_Starza
+2025-07-24 19:31:38,599 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Roland_La_Starza
+2025-07-24 19:31:39,599 - INFO - fetching URL: https://en.wikipedia.org/wiki/Pauga_Lalau
+2025-07-24 19:31:41,043 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jay_Lambert
+2025-07-24 19:31:42,225 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sonya_Lamonakis
+2025-07-24 19:31:42,645 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sonya_Lamonakis
+2025-07-24 19:31:43,645 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jeff_Lampkin
+2025-07-24 19:31:44,199 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jeff_Lampkin
+2025-07-24 19:31:45,200 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bill_Lang
+2025-07-24 19:31:46,762 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sam_Langford
+2025-07-24 19:31:47,193 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sam_Langford
+2025-07-24 19:31:48,194 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jean_Lansiaux
+2025-07-24 19:31:49,718 - INFO - fetching URL: https://en.wikipedia.org/wiki/Leif_Larsen_(American_football)
+2025-07-24 19:31:51,134 - INFO - fetching URL: https://en.wikipedia.org/wiki/Robert_Larsen_(boxer)
+2025-07-24 19:31:52,569 - INFO - fetching URL: https://en.wikipedia.org/wiki/Art_Lasky
+2025-07-24 19:31:54,248 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pageuntil=Latescu%2C+Stefan%0A%C8%98tefan+L%C4%83tescu#mw-pages
+2025-07-24 19:31:55,750 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pagefrom=Obunga%2C+Harold%0AHarold+Obunga#mw-pages
+2025-07-24 19:31:56,909 - INFO - fetching URL: https://en.wikipedia.org/wiki/%C8%98tefan_L%C4%83tescu
+2025-07-24 19:31:57,552 - INFO - pro boxer added: https://en.wikipedia.org/wiki/%C8%98tefan_L%C4%83tescu
+2025-07-24 19:31:58,554 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ed_Latimore
+2025-07-24 19:31:58,947 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ed_Latimore
+2025-07-24 19:31:59,948 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kitione_Lave
+2025-07-24 19:32:01,523 - INFO - fetching URL: https://en.wikipedia.org/wiki/Stephen_Lavelle
+2025-07-24 19:32:03,009 - INFO - fetching URL: https://en.wikipedia.org/wiki/Zuri_Lawrence
+2025-07-24 19:32:04,525 - INFO - fetching URL: https://en.wikipedia.org/wiki/Paul_Lawson_(boxer)
+2025-07-24 19:32:05,977 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rex_Layne
+2025-07-24 19:32:07,439 - INFO - fetching URL: https://en.wikipedia.org/wiki/Heinz_Lazek
+2025-07-24 19:32:09,096 - INFO - fetching URL: https://en.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Le_Banner
+2025-07-24 19:32:09,356 - INFO - pro boxer added: https://en.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Le_Banner
+2025-07-24 19:32:10,357 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alex_Leapai
+2025-07-24 19:32:10,914 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alex_Leapai
+2025-07-24 19:32:11,916 - INFO - fetching URL: https://en.wikipedia.org/wiki/Scott_LeDoux
+2025-07-24 19:32:12,632 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Scott_LeDoux
+2025-07-24 19:32:13,632 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ski_Hi_Lee
+2025-07-24 19:32:14,011 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ski_Hi_Lee
+2025-07-24 19:32:15,012 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_Lees_(boxer)
+2025-07-24 19:32:16,628 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vanessa_Lepage-Joanisse
+2025-07-24 19:32:17,277 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Vanessa_Lepage-Joanisse
+2025-07-24 19:32:18,278 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_Lester_(boxer)
+2025-07-24 19:32:19,729 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Letele
+2025-07-24 19:32:21,817 - INFO - fetching URL: https://en.wikipedia.org/wiki/Emilio_Leti
+2025-07-24 19:32:23,298 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sam_Leuii
+2025-07-24 19:32:23,739 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sam_Leuii
+2025-07-24 19:32:24,740 - INFO - fetching URL: https://en.wikipedia.org/wiki/Istv%C3%A1n_L%C3%A9vai
+2025-07-24 19:32:26,449 - INFO - fetching URL: https://en.wikipedia.org/wiki/Attila_Levin
+2025-07-24 19:32:27,767 - INFO - fetching URL: https://en.wikipedia.org/wiki/King_Levinsky
+2025-07-24 19:32:28,426 - INFO - pro boxer added: https://en.wikipedia.org/wiki/King_Levinsky
+2025-07-24 19:32:29,427 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vassiliy_Levit
+2025-07-24 19:32:30,791 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alvin_Lewis_(boxer)
+2025-07-24 19:32:31,413 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alvin_Lewis_(boxer)
+2025-07-24 19:32:32,415 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ian_Lewison
+2025-07-24 19:32:32,560 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ian_Lewison
+2025-07-24 19:32:33,561 - INFO - fetching URL: https://en.wikipedia.org/wiki/Patrice_L%27Heureux
+2025-07-24 19:32:34,869 - INFO - fetching URL: https://en.wikipedia.org/wiki/Siarhei_Liakhovich
+2025-07-24 19:32:35,174 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Siarhei_Liakhovich
+2025-07-24 19:32:36,176 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Light_(boxer)
+2025-07-24 19:32:36,895 - INFO - pro boxer added: https://en.wikipedia.org/wiki/David_Light_(boxer)
+2025-07-24 19:32:37,896 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rafael_Lima_(boxer)
+2025-07-24 19:32:39,542 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Linberger
+2025-07-24 19:32:40,882 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bjarne_Ling%C3%A5s
+2025-07-24 19:32:42,358 - INFO - fetching URL: https://en.wikipedia.org/wiki/List_of_New_Zealand_heavyweight_boxing_champions
+2025-07-24 19:32:43,632 - INFO - fetching URL: https://en.wikipedia.org/wiki/Stewart_Lithgo
+2025-07-24 19:32:45,336 - INFO - fetching URL: https://en.wikipedia.org/wiki/Trevor_Llewellyn
+2025-07-24 19:32:47,909 - INFO - fetching URL: https://en.wikipedia.org/wiki/Brian_London
+2025-07-24 19:32:49,101 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_London_(boxer)
+2025-07-24 19:32:51,421 - INFO - fetching URL: https://en.wikipedia.org/wiki/Pamela_London
+2025-07-24 19:32:52,995 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Pamela_London
+2025-07-24 19:32:53,996 - INFO - fetching URL: https://en.wikipedia.org/wiki/Julius_Long
+2025-07-24 19:32:54,504 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Julius_Long
+2025-07-24 19:32:55,505 - INFO - fetching URL: https://en.wikipedia.org/wiki/Michel_L%C3%B3pez_(boxer)
+2025-07-24 19:32:56,887 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tommy_Loughran
+2025-07-24 19:32:57,314 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tommy_Loughran
+2025-07-24 19:32:58,315 - INFO - fetching URL: https://en.wikipedia.org/wiki/Santiago_Lovell_Jr.
+2025-07-24 19:33:00,860 - INFO - fetching URL: https://en.wikipedia.org/wiki/Guillermo_Lovell
+2025-07-24 19:33:02,237 - INFO - fetching URL: https://en.wikipedia.org/wiki/Pedro_Lovell
+2025-07-24 19:33:03,402 - INFO - fetching URL: https://en.wikipedia.org/wiki/Santiago_Lovell
+2025-07-24 19:33:04,889 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ted_Lowry
+2025-07-24 19:33:06,434 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bozhil_Lozanov
+2025-07-24 19:33:07,964 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rudi_Lubbers
+2025-07-24 19:33:08,592 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Rudi_Lubbers
+2025-07-24 19:33:09,593 - INFO - fetching URL: https://en.wikipedia.org/wiki/Oscar_Lude%C3%B1a
+2025-07-24 19:33:11,112 - INFO - fetching URL: https://en.wikipedia.org/wiki/Karl_Lutz
+2025-07-24 19:33:12,547 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jimmy_Lyggett_Sr
+2025-07-24 19:33:14,129 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ron_Lyle
+2025-07-24 19:33:14,458 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ron_Lyle
+2025-07-24 19:33:15,459 - INFO - fetching URL: https://en.wikipedia.org/wiki/John_Lyttle
+2025-07-24 19:33:16,843 - INFO - fetching URL: https://en.wikipedia.org/wiki/John_M%27Bumba
+2025-07-24 19:33:18,098 - INFO - fetching URL: https://en.wikipedia.org/wiki/Eddie_Machen
+2025-07-24 19:33:19,429 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vinny_Maddalone
+2025-07-24 19:33:21,098 - INFO - fetching URL: https://en.wikipedia.org/wiki/Peter_Maher_(boxer)
+2025-07-24 19:33:22,738 - INFO - fetching URL: https://en.wikipedia.org/wiki/Imtiaz_Mahmood
+2025-07-24 19:33:24,269 - INFO - fetching URL: https://en.wikipedia.org/wiki/Samir_El-Mais
+2025-07-24 19:33:25,865 - INFO - fetching URL: https://en.wikipedia.org/wiki/Evgeny_Makarenko
+2025-07-24 19:33:27,037 - INFO - fetching URL: https://en.wikipedia.org/wiki/Arslanbek_Makhmudov
+2025-07-24 19:33:27,239 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Arslanbek_Makhmudov
+2025-07-24 19:33:28,240 - INFO - fetching URL: https://en.wikipedia.org/wiki/F%C3%A1bio_Maldonado
+2025-07-24 19:33:28,488 - INFO - pro boxer added: https://en.wikipedia.org/wiki/F%C3%A1bio_Maldonado
+2025-07-24 19:33:29,489 - INFO - fetching URL: https://en.wikipedia.org/wiki/Teymur_Mammadov
+2025-07-24 19:33:30,798 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alvin_Manley
+2025-07-24 19:33:32,172 - INFO - fetching URL: https://en.wikipedia.org/wiki/Amir_Mansour
+2025-07-24 19:33:32,730 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Amir_Mansour
+2025-07-24 19:33:33,731 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kertson_Manswell
+2025-07-24 19:33:35,382 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gevorg_Manukian
+2025-07-24 19:33:36,827 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vasile_Mariu%C8%9Ban
+2025-07-24 19:33:38,532 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vidas_Markevi%C4%8Dius
+2025-07-24 19:33:39,983 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_Marley_(boxer)
+2025-07-24 19:33:41,203 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Marrone
+2025-07-24 19:33:42,644 - INFO - fetching URL: https://en.wikipedia.org/wiki/Max_Marsille
+2025-07-24 19:33:44,061 - INFO - fetching URL: https://en.wikipedia.org/wiki/Walter_Marti
+2025-07-24 19:33:45,422 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bob_Martin_(boxer)
+2025-07-24 19:33:46,883 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ed_Martin_(boxer)
+2025-07-24 19:33:47,510 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ed_Martin_(boxer)
+2025-07-24 19:33:48,511 - INFO - fetching URL: https://en.wikipedia.org/wiki/Leotis_Martin
+2025-07-24 19:33:48,805 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Leotis_Martin
+2025-07-24 19:33:49,806 - INFO - fetching URL: https://en.wikipedia.org/wiki/Anthony_Martinez_(boxer)
+2025-07-24 19:33:49,987 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Anthony_Martinez_(boxer)
+2025-07-24 19:33:50,988 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tadayuki_Maruyama
+2025-07-24 19:33:52,501 - INFO - fetching URL: https://en.wikipedia.org/wiki/Benson_Masanda
+2025-07-24 19:33:54,105 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gary_Mason_(boxer)
+2025-07-24 19:33:54,441 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Gary_Mason_(boxer)
+2025-07-24 19:33:55,441 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jasur_Matchanov
+2025-07-24 19:33:57,026 - INFO - fetching URL: https://en.wikipedia.org/wiki/Buster_Mathis
+2025-07-24 19:33:58,201 - INFO - fetching URL: https://en.wikipedia.org/wiki/Buster_Mathis_Jr.
+2025-07-24 19:33:59,413 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Maughan
+2025-07-24 19:34:00,744 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tami_Mauriello
+2025-07-24 19:34:02,049 - INFO - fetching URL: https://en.wikipedia.org/wiki/%C5%BDeljko_Mavrovi%C4%87
+2025-07-24 19:34:03,221 - INFO - fetching URL: https://en.wikipedia.org/wiki/Charles_Mayer_(boxer)
+2025-07-24 19:34:04,694 - INFO - fetching URL: https://en.wikipedia.org/wiki/Imamu_Mayfield
+2025-07-24 19:34:05,213 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Imamu_Mayfield
+2025-07-24 19:34:06,215 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ali_Mazaheri
+2025-07-24 19:34:07,645 - INFO - fetching URL: https://en.wikipedia.org/wiki/Oleksiy_Mazikin
+2025-07-24 19:34:07,804 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Oleksiy_Mazikin
+2025-07-24 19:34:08,805 - INFO - fetching URL: https://en.wikipedia.org/wiki/Danny_McAlinden
+2025-07-24 19:34:10,311 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kevin_McBride
+2025-07-24 19:34:10,480 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Kevin_McBride
+2025-07-24 19:34:11,481 - INFO - fetching URL: https://en.wikipedia.org/wiki/Elijah_McCall
+2025-07-24 19:34:13,190 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jim_McCarter
+2025-07-24 19:34:14,799 - INFO - fetching URL: https://en.wikipedia.org/wiki/Luther_McCarty
+2025-07-24 19:34:15,525 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Luther_McCarty
+2025-07-24 19:34:16,525 - INFO - fetching URL: https://en.wikipedia.org/wiki/Brian_McCleary
+2025-07-24 19:34:17,987 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jameel_McCline
+2025-07-24 19:34:18,148 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jameel_McCline
+2025-07-24 19:34:19,150 - INFO - fetching URL: https://en.wikipedia.org/wiki/Noel_%22Boy%22_McCormick
+2025-07-24 19:34:20,728 - INFO - fetching URL: https://en.wikipedia.org/wiki/Glenn_McCrory
+2025-07-24 19:34:22,461 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Glenn_McCrory
+2025-07-24 19:34:23,462 - INFO - fetching URL: https://en.wikipedia.org/wiki/John_McDermott_(boxer)
+2025-07-24 19:34:23,665 - INFO - pro boxer added: https://en.wikipedia.org/wiki/John_McDermott_(boxer)
+2025-07-24 19:34:24,665 - INFO - fetching URL: https://en.wikipedia.org/wiki/Garfield_McEwan
+2025-07-24 19:34:26,041 - INFO - fetching URL: https://en.wikipedia.org/wiki/Danny_McFarlane_(boxing_referee)
+2025-07-24 19:34:27,457 - INFO - fetching URL: https://en.wikipedia.org/wiki/Terry_McGroom
+2025-07-24 19:34:28,774 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alexander_McKay_(boxer)
+2025-07-24 19:34:30,126 - INFO - fetching URL: https://en.wikipedia.org/wiki/Demsey_McKean
+2025-07-24 19:34:30,337 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Demsey_McKean
+2025-07-24 19:34:31,338 - INFO - fetching URL: https://en.wikipedia.org/wiki/Peter_McNeeley
+2025-07-24 19:34:31,552 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Peter_McNeeley
+2025-07-24 19:34:32,554 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_McNeeley
+2025-07-24 19:34:34,112 - INFO - fetching URL: https://en.wikipedia.org/wiki/Shane_McPhilbin
+2025-07-24 19:34:35,586 - INFO - fetching URL: https://en.wikipedia.org/wiki/Athol_McQueen
+2025-07-24 19:34:37,165 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sam_McVey
+2025-07-24 19:34:37,800 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sam_McVey
+2025-07-24 19:34:38,801 - INFO - fetching URL: https://en.wikipedia.org/wiki/Neville_Meade
+2025-07-24 19:34:40,517 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_Meda
+2025-07-24 19:34:41,877 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kali_Meehan
+2025-07-24 19:34:42,196 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Kali_Meehan
+2025-07-24 19:34:43,196 - INFO - fetching URL: https://en.wikipedia.org/wiki/Willis_Meehan
+2025-07-24 19:34:43,905 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Willis_Meehan
+2025-07-24 19:34:44,906 - INFO - fetching URL: https://en.wikipedia.org/wiki/Reggie_Meen
+2025-07-24 19:34:46,530 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rudolf_Meier
+2025-07-24 19:34:47,949 - INFO - fetching URL: https://en.wikipedia.org/wiki/Egor_Mekhontsev
+2025-07-24 19:34:49,150 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alrie_Meleisea
+2025-07-24 19:34:49,715 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alrie_Meleisea
+2025-07-24 19:34:50,716 - INFO - fetching URL: https://en.wikipedia.org/wiki/Christophe_Mendy
+2025-07-24 19:34:52,559 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bernardo_Mercado
+2025-07-24 19:34:53,170 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bernardo_Mercado
+2025-07-24 19:34:54,171 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ray_Mercer
+2025-07-24 19:34:54,408 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ray_Mercer
+2025-07-24 19:34:55,409 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joe_Mesi
+2025-07-24 19:34:56,596 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kacper_Meyna
+2025-07-24 19:34:56,870 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Kacper_Meyna
+2025-07-24 19:34:57,870 - INFO - fetching URL: https://en.wikipedia.org/wiki/William_Michaels
+2025-07-24 19:34:59,327 - INFO - fetching URL: https://en.wikipedia.org/wiki/Michael_Michaelsen
+2025-07-24 19:35:00,860 - INFO - fetching URL: https://en.wikipedia.org/wiki/Petar_Milas
+2025-07-24 19:35:01,244 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Petar_Milas
+2025-07-24 19:35:02,244 - INFO - fetching URL: https://en.wikipedia.org/wiki/Karl_Mildenberger
+2025-07-24 19:35:02,433 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Karl_Mildenberger
+2025-07-24 19:35:03,434 - INFO - fetching URL: https://en.wikipedia.org/wiki/Johnny_Miler
+2025-07-24 19:35:04,917 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jarrell_Miller
+2025-07-24 19:35:05,193 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jarrell_Miller
+2025-07-24 19:35:06,193 - INFO - fetching URL: https://en.wikipedia.org/wiki/Henry_Milligan
+2025-07-24 19:35:07,363 - INFO - fetching URL: https://en.wikipedia.org/wiki/Petar_Milo%C5%A1
+2025-07-24 19:35:08,750 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ahmed_El-Minabawi
+2025-07-24 19:35:10,272 - INFO - fetching URL: https://en.wikipedia.org/wiki/Brian_Minto
+2025-07-24 19:35:11,580 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mehdi_Mirdavoudi
+2025-07-24 19:35:13,002 - INFO - fetching URL: https://en.wikipedia.org/wiki/Aleksandr_Miroshnichenko
+2025-07-24 19:35:13,191 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Aleksandr_Miroshnichenko
+2025-07-24 19:35:14,193 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bob_Mirovic
+2025-07-24 19:35:15,494 - INFO - fetching URL: https://en.wikipedia.org/wiki/Billy_Miske
+2025-07-24 19:35:16,957 - INFO - fetching URL: https://en.wikipedia.org/wiki/Seth_Mitchell
+2025-07-24 19:35:17,647 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Seth_Mitchell
+2025-07-24 19:35:18,648 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gogea_Mitu
+2025-07-24 19:35:18,950 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Gogea_Mitu
+2025-07-24 19:35:19,951 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mighty_Mo_(kickboxer)
+2025-07-24 19:35:20,158 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mighty_Mo_(kickboxer)
+2025-07-24 19:35:21,159 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gunner_Moir
+2025-07-24 19:35:22,723 - INFO - fetching URL: https://en.wikipedia.org/wiki/Fabio_Moli
+2025-07-24 19:35:24,263 - INFO - fetching URL: https://en.wikipedia.org/wiki/%C3%89ric_Molina
+2025-07-24 19:35:24,434 - INFO - pro boxer added: https://en.wikipedia.org/wiki/%C3%89ric_Molina
+2025-07-24 19:35:25,435 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_Molineaux
+2025-07-24 19:35:26,742 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Mollo
+2025-07-24 19:35:28,224 - INFO - fetching URL: https://en.wikipedia.org/wiki/Louis_Monaco
+2025-07-24 19:35:29,448 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ren%C3%A9_Monse
+2025-07-24 19:35:30,993 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jeff_Monson
+2025-07-24 19:35:31,279 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jeff_Monson
+2025-07-24 19:35:32,279 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sa%C3%BAl_Montana
+2025-07-24 19:35:33,033 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sa%C3%BAl_Montana
+2025-07-24 19:35:34,035 - INFO - fetching URL: https://en.wikipedia.org/wiki/Javier_Mora_(boxer)
+2025-07-24 19:35:35,508 - INFO - fetching URL: https://en.wikipedia.org/wiki/Frank_Moran
+2025-07-24 19:35:37,036 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_Moran_(boxer)
+2025-07-24 19:35:38,635 - INFO - fetching URL: https://en.wikipedia.org/wiki/Carroll_Morgan_(boxer)
+2025-07-24 19:35:40,240 - INFO - fetching URL: https://en.wikipedia.org/wiki/Carl_E._Morris
+2025-07-24 19:35:41,810 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kenzie_Morrison
+2025-07-24 19:35:42,985 - INFO - fetching URL: https://en.wikipedia.org/wiki/Aziz_Abbes_Mouhiidine
+2025-07-24 19:35:44,356 - INFO - fetching URL: https://en.wikipedia.org/wiki/Amrou_Moustafa
+2025-07-24 19:35:45,813 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lev_Mukhin
+2025-07-24 19:35:47,365 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hans_M%C3%BCller_(boxer)
+2025-07-24 19:35:48,923 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hein_M%C3%BCller
+2025-07-24 19:35:50,528 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lazizbek_Mullojonov
+2025-07-24 19:35:50,704 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Lazizbek_Mullojonov
+2025-07-24 19:35:51,706 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tony_Mundine_(boxer)
+2025-07-24 19:35:53,257 - INFO - fetching URL: https://en.wikipedia.org/wiki/Agust%C3%ADn_Mu%C3%B1iz
+2025-07-24 19:35:54,784 - INFO - fetching URL: https://en.wikipedia.org/wiki/Edgar_Mu%C3%B1oz
+2025-07-24 19:35:56,672 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lee_Roy_Murphy
+2025-07-24 19:35:57,186 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Lee_Roy_Murphy
+2025-07-24 19:35:58,186 - INFO - fetching URL: https://en.wikipedia.org/wiki/Angelo_Musone
+2025-07-24 19:35:59,645 - INFO - fetching URL: https://en.wikipedia.org/wiki/Chisanda_Mutti
+2025-07-24 19:36:01,084 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bahram_Muzaffer
+2025-07-24 19:36:02,647 - INFO - fetching URL: https://en.wikipedia.org/wiki/Zack_Mwekassa
+2025-07-24 19:36:03,155 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Zack_Mwekassa
+2025-07-24 19:36:04,156 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bohdan_Myronets
+2025-07-24 19:36:04,443 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bohdan_Myronets
+2025-07-24 19:36:05,445 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ferenc_Nagy_(boxer)
+2025-07-24 19:36:06,895 - INFO - fetching URL: https://en.wikipedia.org/wiki/Antz_Nansen
+2025-07-24 19:36:07,470 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Antz_Nansen
+2025-07-24 19:36:08,471 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marcelo_Nascimento
+2025-07-24 19:36:08,944 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Marcelo_Nascimento
+2025-07-24 19:36:09,945 - INFO - fetching URL: https://en.wikipedia.org/wiki/Willie_Nasio
+2025-07-24 19:36:10,471 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Willie_Nasio
+2025-07-24 19:36:11,471 - INFO - fetching URL: https://en.wikipedia.org/wiki/Johnny_Nelson
+2025-07-24 19:36:11,651 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Johnny_Nelson
+2025-07-24 19:36:12,651 - INFO - fetching URL: https://en.wikipedia.org/wiki/Josef_N%C4%9Bmec
+2025-07-24 19:36:13,966 - INFO - fetching URL: https://en.wikipedia.org/wiki/Yury_Nesterov
+2025-07-24 19:36:15,422 - INFO - fetching URL: https://en.wikipedia.org/wiki/Horym%C3%ADr_Netuka
+2025-07-24 19:36:16,872 - INFO - fetching URL: https://en.wikipedia.org/wiki/Heinz_Neuhaus
+2025-07-24 19:36:18,399 - INFO - fetching URL: https://en.wikipedia.org/wiki/Randy_Neumann
+2025-07-24 19:36:19,579 - INFO - fetching URL: https://en.wikipedia.org/wiki/Walter_Neusel
+2025-07-24 19:36:20,787 - INFO - fetching URL: https://en.wikipedia.org/wiki/Danell_Nicholson
+2025-07-24 19:36:21,980 - INFO - fetching URL: https://en.wikipedia.org/wiki/Brian_Nielsen_(boxer)
+2025-07-24 19:36:22,163 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Brian_Nielsen_(boxer)
+2025-07-24 19:36:23,165 - INFO - fetching URL: https://en.wikipedia.org/wiki/Claus_B%C3%B8rge_Nielsen
+2025-07-24 19:36:24,609 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dries_Niemann
+2025-07-24 19:36:26,049 - INFO - fetching URL: https://en.wikipedia.org/wiki/Yushan_Nijiati
+2025-07-24 19:36:27,399 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jerry_Nijman
+2025-07-24 19:36:28,926 - INFO - fetching URL: https://en.wikipedia.org/wiki/Erling_Nilsen
+2025-07-24 19:36:30,386 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gunnar_Nilsson_(boxer)
+2025-07-24 19:36:31,997 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ulrich_Nitzschke
+2025-07-24 19:36:33,506 - INFO - fetching URL: https://en.wikipedia.org/wiki/Juan_Nogueira
+2025-07-24 19:36:34,779 - INFO - fetching URL: https://en.wikipedia.org/wiki/Leo_Nolan
+2025-07-24 19:36:36,254 - INFO - fetching URL: https://en.wikipedia.org/wiki/Damian_Norris
+2025-07-24 19:36:37,679 - INFO - fetching URL: https://en.wikipedia.org/wiki/Orlin_Norris
+2025-07-24 19:36:38,032 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Orlin_Norris
+2025-07-24 19:36:39,032 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_Norris_(boxer)
+2025-07-24 19:36:40,576 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jan_Nortje
+2025-07-24 19:36:41,887 - INFO - fetching URL: https://en.wikipedia.org/wiki/Horace_Notice
+2025-07-24 19:36:42,298 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Horace_Notice
+2025-07-24 19:36:43,299 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lou_Nova
+2025-07-24 19:36:44,586 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marcelino_Novaes
+2025-07-24 19:36:46,106 - INFO - fetching URL: https://en.wikipedia.org/wiki/Siarhei_Novikau_(boxer)
+2025-07-24 19:36:46,548 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Siarhei_Novikau_(boxer)
+2025-07-24 19:36:47,549 - INFO - fetching URL: https://en.wikipedia.org/wiki/Emmanuel_Nwodo
+2025-07-24 19:36:49,034 - INFO - fetching URL: https://en.wikipedia.org/wiki/Peter_Oboh
+2025-07-24 19:36:49,512 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Peter_Oboh
+2025-07-24 19:36:50,512 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pageuntil=Obunga%2C+Harold%0AHarold+Obunga#mw-pages
+2025-07-24 19:36:52,135 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pagefrom=Shami%2C+Nasser+al-%0ANasser+al-Shami#mw-pages
+2025-07-24 19:36:53,313 - INFO - fetching URL: https://en.wikipedia.org/wiki/Harold_Obunga
+2025-07-24 19:36:54,778 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ossie_Ocasio
+2025-07-24 19:36:55,487 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ossie_Ocasio
+2025-07-24 19:36:56,487 - INFO - fetching URL: https://en.wikipedia.org/wiki/Raymond_Ochieng
+2025-07-24 19:36:58,046 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kenneth_Odeke
+2025-07-24 19:36:59,410 - INFO - fetching URL: https://en.wikipedia.org/wiki/Chris_Odera
+2025-07-24 19:37:00,668 - INFO - fetching URL: https://en.wikipedia.org/wiki/Cathal_O%27Grady
+2025-07-24 19:37:02,288 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_O%27Halloran
+2025-07-24 19:37:03,499 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rasmus_Ojemaye
+2025-07-24 19:37:04,937 - INFO - fetching URL: https://en.wikipedia.org/wiki/Cornelis_O%27Kelly
+2025-07-24 19:37:06,301 - INFO - fetching URL: https://en.wikipedia.org/wiki/Fola_Okesola
+2025-07-24 19:37:07,758 - INFO - fetching URL: https://en.wikipedia.org/wiki/Albert_Oldman
+2025-07-24 19:37:09,297 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sam_Olij
+2025-07-24 19:37:10,749 - INFO - fetching URL: https://en.wikipedia.org/wiki/Art_Oliver
+2025-07-24 19:37:12,254 - INFO - fetching URL: https://en.wikipedia.org/wiki/Paul_Omba-Biongolo
+2025-07-24 19:37:13,642 - INFO - fetching URL: https://en.wikipedia.org/wiki/James_Omondi_(boxer)
+2025-07-24 19:37:15,093 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jai_Opetaia
+2025-07-24 19:37:15,298 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jai_Opetaia
+2025-07-24 19:37:16,299 - INFO - fetching URL: https://en.wikipedia.org/wiki/Fres_Oquendo
+2025-07-24 19:37:17,627 - INFO - fetching URL: https://en.wikipedia.org/wiki/Aibek_Oralbay
+2025-07-24 19:37:19,069 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jos%C3%A9_Ortega_(boxer)
+2025-07-24 19:37:20,239 - INFO - fetching URL: https://en.wikipedia.org/wiki/Luis_Ortiz_(Cuban_boxer)
+2025-07-24 19:37:20,481 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Luis_Ortiz_(Cuban_boxer)
+2025-07-24 19:37:21,482 - INFO - fetching URL: https://en.wikipedia.org/wiki/Teke_Oruh
+2025-07-24 19:37:22,772 - INFO - fetching URL: https://en.wikipedia.org/wiki/Manuel_Ossie
+2025-07-24 19:37:24,476 - INFO - fetching URL: https://en.wikipedia.org/wiki/Newfel_Ouatah
+2025-07-24 19:37:24,974 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Newfel_Ouatah
+2025-07-24 19:37:25,975 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dodovic_Owiny
+2025-07-24 19:37:27,137 - INFO - fetching URL: https://en.wikipedia.org/wiki/James_Oyebola
+2025-07-24 19:37:28,429 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Oywello
+2025-07-24 19:37:29,985 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_Paddock
+2025-07-24 19:37:31,439 - INFO - fetching URL: https://en.wikipedia.org/wiki/Neven_Pajki%C4%87
+2025-07-24 19:37:31,863 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Neven_Pajki%C4%87
+2025-07-24 19:37:32,864 - INFO - fetching URL: https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_P%C3%A1kozdi_(boxer)
+2025-07-24 19:37:34,304 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ond%C5%99ej_P%C3%A1la
+2025-07-24 19:37:34,481 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ond%C5%99ej_P%C3%A1la
+2025-07-24 19:37:35,482 - INFO - fetching URL: https://en.wikipedia.org/wiki/Santiago_Palavecino
+2025-07-24 19:37:36,861 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_Palmer_(boxer)
+2025-07-24 19:37:38,146 - INFO - fetching URL: https://en.wikipedia.org/wiki/Willie_Palms
+2025-07-24 19:37:39,540 - INFO - fetching URL: https://en.wikipedia.org/wiki/Al_Palzer
+2025-07-24 19:37:41,007 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kiril_Pandov_(boxer)
+2025-07-24 19:37:42,379 - INFO - fetching URL: https://en.wikipedia.org/wiki/Radoslav_Pantaleev
+2025-07-24 19:37:43,898 - INFO - fetching URL: https://en.wikipedia.org/wiki/Derek_Panza
+2025-07-24 19:37:45,339 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bomani_Parker
+2025-07-24 19:37:46,996 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joseph_Parker
+2025-07-24 19:37:47,374 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Joseph_Parker
+2025-07-24 19:37:48,375 - INFO - fetching URL: https://en.wikipedia.org/wiki/Frank_Parks
+2025-07-24 19:37:49,778 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dave_Parris
+2025-07-24 19:37:51,640 - INFO - fetching URL: https://en.wikipedia.org/wiki/Cory_Paterson
+2025-07-24 19:37:53,100 - INFO - fetching URL: https://en.wikipedia.org/wiki/Elias_Pavlidis
+2025-07-24 19:37:54,496 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jos%C3%A9_Payares
+2025-07-24 19:37:56,176 - INFO - fetching URL: https://en.wikipedia.org/wiki/Johnny_Paychek
+2025-07-24 19:37:57,787 - INFO - fetching URL: https://en.wikipedia.org/wiki/Craig_Payne
+2025-07-24 19:37:59,348 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Pearce_(boxer)
+2025-07-24 19:38:00,567 - INFO - fetching URL: https://en.wikipedia.org/wiki/Charles_Peguilhan
+2025-07-24 19:38:02,115 - INFO - fetching URL: https://en.wikipedia.org/wiki/Arthur_Pelkey
+2025-07-24 19:38:03,478 - INFO - fetching URL: https://en.wikipedia.org/wiki/Eric_Pen
+2025-07-24 19:38:04,076 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Eric_Pen
+2025-07-24 19:38:05,077 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gregorio_Peralta
+2025-07-24 19:38:05,579 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Gregorio_Peralta
+2025-07-24 19:38:06,580 - INFO - fetching URL: https://en.wikipedia.org/wiki/Yamil_Peralta
+2025-07-24 19:38:07,273 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Yamil_Peralta
+2025-07-24 19:38:08,275 - INFO - fetching URL: https://en.wikipedia.org/wiki/%C3%8Dtalo_Perea
+2025-07-24 19:38:08,864 - INFO - pro boxer added: https://en.wikipedia.org/wiki/%C3%8Dtalo_Perea
+2025-07-24 19:38:09,865 - INFO - fetching URL: https://en.wikipedia.org/wiki/Geovana_Peres
+2025-07-24 19:38:10,215 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Geovana_Peres
+2025-07-24 19:38:11,215 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Perez_(boxer)
+2025-07-24 19:38:11,530 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mike_Perez_(boxer)
+2025-07-24 19:38:12,530 - INFO - fetching URL: https://en.wikipedia.org/wiki/Danielle_Perkins
+2025-07-24 19:38:12,834 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Danielle_Perkins
+2025-07-24 19:38:13,834 - INFO - fetching URL: https://en.wikipedia.org/wiki/Neil_Perkins
+2025-07-24 19:38:15,229 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lenier_Pero
+2025-07-24 19:38:15,543 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Lenier_Pero
+2025-07-24 19:38:16,544 - INFO - fetching URL: https://en.wikipedia.org/wiki/William_Perry_(boxer)
+2025-07-24 19:38:17,941 - INFO - fetching URL: https://en.wikipedia.org/wiki/Harry_Persson_(boxer)
+2025-07-24 19:38:19,506 - INFO - fetching URL: https://en.wikipedia.org/wiki/Okello_Peter
+2025-07-24 19:38:19,991 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Okello_Peter
+2025-07-24 19:38:20,992 - INFO - fetching URL: https://en.wikipedia.org/wiki/S%C3%B8ren_Petersen
+2025-07-24 19:38:22,360 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_Petersen_(boxer)
+2025-07-24 19:38:23,642 - INFO - fetching URL: https://en.wikipedia.org/wiki/John_Pettersson_(boxer)
+2025-07-24 19:38:25,179 - INFO - fetching URL: https://en.wikipedia.org/wiki/Erik_Pfeifer
+2025-07-24 19:38:25,460 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Erik_Pfeifer
+2025-07-24 19:38:26,461 - INFO - fetching URL: https://en.wikipedia.org/wiki/Francesco_Pianeta
+2025-07-24 19:38:26,762 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Francesco_Pianeta
+2025-07-24 19:38:27,763 - INFO - fetching URL: https://en.wikipedia.org/wiki/Stanis%C5%82aw_Pi%C5%82at
+2025-07-24 19:38:29,165 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marek_Piotrowski
+2025-07-24 19:38:29,358 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Marek_Piotrowski
+2025-07-24 19:38:30,359 - INFO - fetching URL: https://en.wikipedia.org/wiki/Teodor_P%C3%AErjol
+2025-07-24 19:38:31,918 - INFO - fetching URL: https://en.wikipedia.org/wiki/Brad_Pitt_(boxer)
+2025-07-24 19:38:32,596 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Brad_Pitt_(boxer)
+2025-07-24 19:38:33,597 - INFO - fetching URL: https://en.wikipedia.org/wiki/Oleg_Platov
+2025-07-24 19:38:33,781 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Oleg_Platov
+2025-07-24 19:38:34,782 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rostislav_Plechko
+2025-07-24 19:38:35,346 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Rostislav_Plechko
+2025-07-24 19:38:36,347 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ato_Plodzicki-Faoagali
+2025-07-24 19:38:36,759 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ato_Plodzicki-Faoagali
+2025-07-24 19:38:37,760 - INFO - fetching URL: https://en.wikipedia.org/wiki/Don_Diego_Poeder
+2025-07-24 19:38:38,608 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Don_Diego_Poeder
+2025-07-24 19:38:39,609 - INFO - fetching URL: https://en.wikipedia.org/wiki/Pavol_Polakovi%C4%8D
+2025-07-24 19:38:42,084 - INFO - fetching URL: https://en.wikipedia.org/wiki/Otto_von_Porat
+2025-07-24 19:38:43,808 - INFO - fetching URL: https://en.wikipedia.org/wiki/Stanley_Poreda
+2025-07-24 19:38:45,205 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alfredo_Porzio
+2025-07-24 19:38:46,455 - INFO - fetching URL: https://en.wikipedia.org/wiki/Samson_Po%CA%BBuha
+2025-07-24 19:38:47,941 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alexander_Povernov
+2025-07-24 19:38:49,305 - INFO - fetching URL: https://en.wikipedia.org/wiki/Boris_Powell
+2025-07-24 19:38:50,985 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nosher_Powell
+2025-07-24 19:38:52,172 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dick_Power
+2025-07-24 19:38:53,668 - INFO - fetching URL: https://en.wikipedia.org/wiki/Denys_Poyatsyka
+2025-07-24 19:38:54,936 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kristian_Prenga
+2025-07-24 19:38:55,496 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Kristian_Prenga
+2025-07-24 19:38:56,497 - INFO - fetching URL: https://en.wikipedia.org/wiki/Johnny_Prescott
+2025-07-24 19:38:57,912 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mario_Preskar
+2025-07-24 19:38:58,436 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mario_Preskar
+2025-07-24 19:38:59,437 - INFO - fetching URL: https://en.wikipedia.org/wiki/Danny_Price_(boxer)
+2025-07-24 19:39:01,053 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Price_(boxer)
+2025-07-24 19:39:01,305 - INFO - pro boxer added: https://en.wikipedia.org/wiki/David_Price_(boxer)
+2025-07-24 19:39:02,306 - INFO - fetching URL: https://en.wikipedia.org/wiki/Percy_Price_Jr.
+2025-07-24 19:39:03,795 - INFO - fetching URL: https://en.wikipedia.org/wiki/James_Pritchard_(boxer)
+2025-07-24 19:39:05,383 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gene_Pukall
+2025-07-24 19:39:06,819 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tervel_Pulev
+2025-07-24 19:39:07,011 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tervel_Pulev
+2025-07-24 19:39:08,012 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ross_Puritty
+2025-07-24 19:39:08,180 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ross_Puritty
+2025-07-24 19:39:09,181 - INFO - fetching URL: https://en.wikipedia.org/wiki/Andre_Purlette
+2025-07-24 19:39:10,964 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bobby_Quarry
+2025-07-24 19:39:12,362 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jerry_Quarry
+2025-07-24 19:39:12,693 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jerry_Quarry
+2025-07-24 19:39:13,694 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hennie_Quentemeijer
+2025-07-24 19:39:15,223 - INFO - fetching URL: https://en.wikipedia.org/wiki/Manuel_Quezada
+2025-07-24 19:39:16,638 - INFO - fetching URL: https://en.wikipedia.org/wiki/Evans_Quinn
+2025-07-24 19:39:18,192 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jorge_Qui%C3%B1onez
+2025-07-24 19:39:19,539 - INFO - fetching URL: https://en.wikipedia.org/wiki/Pete_Rademacher
+2025-07-24 19:39:19,858 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Pete_Rademacher
+2025-07-24 19:39:20,858 - INFO - fetching URL: https://en.wikipedia.org/wiki/Roland_Raforme
+2025-07-24 19:39:22,450 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hasim_Rahman_Jr.
+2025-07-24 19:39:22,629 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Hasim_Rahman_Jr.
+2025-07-24 19:39:23,631 - INFO - fetching URL: https://en.wikipedia.org/wiki/Victor_Emilio_Ram%C3%ADrez
+2025-07-24 19:39:23,836 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Victor_Emilio_Ram%C3%ADrez
+2025-07-24 19:39:24,837 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nils_Ramm
+2025-07-24 19:39:26,231 - INFO - fetching URL: https://en.wikipedia.org/wiki/Manuel_Ramos_(boxer)
+2025-07-24 19:39:27,882 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alfonso_Ratliff
+2025-07-24 19:39:28,403 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alfonso_Ratliff
+2025-07-24 19:39:29,404 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ronald_Rawson
+2025-07-24 19:39:30,893 - INFO - fetching URL: https://en.wikipedia.org/wiki/Adonis_Ray
+2025-07-24 19:39:32,272 - INFO - fetching URL: https://en.wikipedia.org/wiki/Elmer_Ray
+2025-07-24 19:39:33,124 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Elmer_Ray
+2025-07-24 19:39:34,125 - INFO - fetching URL: https://en.wikipedia.org/wiki/J%C3%B3zsef_R%C3%A9der
+2025-07-24 19:39:35,477 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ramiro_Reducindo
+2025-07-24 19:39:37,013 - INFO - fetching URL: https://en.wikipedia.org/wiki/Abdul_Rehman_(boxer)
+2025-07-24 19:39:38,454 - INFO - fetching URL: https://en.wikipedia.org/wiki/Pel%C3%A9_Reid
+2025-07-24 19:39:38,746 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Pel%C3%A9_Reid
+2025-07-24 19:39:39,746 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marcin_Rekowski
+2025-07-24 19:39:41,246 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dieter_Renz
+2025-07-24 19:39:42,748 - INFO - fetching URL: https://en.wikipedia.org/wiki/Charley_Retzlaff
+2025-07-24 19:39:44,496 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jos%C3%A9_Ribalta
+2025-07-24 19:39:44,666 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jos%C3%A9_Ribalta
+2025-07-24 19:39:45,667 - INFO - fetching URL: https://en.wikipedia.org/wiki/Adam_Richards_(boxer)
+2025-07-24 19:39:46,198 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Adam_Richards_(boxer)
+2025-07-24 19:39:47,199 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dick_Richardson_(boxer)
+2025-07-24 19:39:48,876 - INFO - fetching URL: https://en.wikipedia.org/wiki/Franz_Rill
+2025-07-24 19:39:50,445 - INFO - fetching URL: https://en.wikipedia.org/wiki/Claudio_R%C3%AE%C8%99co
+2025-07-24 19:39:51,119 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Claudio_R%C3%AE%C8%99co
+2025-07-24 19:39:52,121 - INFO - fetching URL: https://en.wikipedia.org/wiki/%C3%93scar_Rivas
+2025-07-24 19:39:52,422 - INFO - pro boxer added: https://en.wikipedia.org/wiki/%C3%93scar_Rivas
+2025-07-24 19:39:53,423 - INFO - fetching URL: https://en.wikipedia.org/wiki/Albert_Robbe
+2025-07-24 19:39:54,819 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jim_Robinson_(boxer)
+2025-07-24 19:39:56,318 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joaqu%C3%ADn_Rocha
+2025-07-24 19:39:57,598 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jem_Roche
+2025-07-24 19:39:59,151 - INFO - fetching URL: https://en.wikipedia.org/wiki/Darmani_Rock
+2025-07-24 19:39:59,443 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Darmani_Rock
+2025-07-24 19:40:00,444 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ad%C3%ADlson_Rodrigues
+2025-07-24 19:40:00,623 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ad%C3%ADlson_Rodrigues
+2025-07-24 19:40:01,624 - INFO - fetching URL: https://en.wikipedia.org/wiki/Arturo_Rodr%C3%ADguez_(boxer)
+2025-07-24 19:40:03,099 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Rodriguez_(boxer)
+2025-07-24 19:40:04,268 - INFO - fetching URL: https://en.wikipedia.org/wiki/Martin_Rogan
+2025-07-24 19:40:04,831 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Martin_Rogan
+2025-07-24 19:40:05,832 - INFO - fetching URL: https://en.wikipedia.org/wiki/Krzysztof_Rojek
+2025-07-24 19:40:07,276 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jos%C3%A9_Roman_(boxer)
+2025-07-24 19:40:07,472 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jos%C3%A9_Roman_(boxer)
+2025-07-24 19:40:08,473 - INFO - fetching URL: https://en.wikipedia.org/wiki/Roman_Romanchuk_(boxer)
+2025-07-24 19:40:09,772 - INFO - fetching URL: https://en.wikipedia.org/wiki/Evgenyi_Romanov
+2025-07-24 19:40:10,205 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Evgenyi_Romanov
+2025-07-24 19:40:11,206 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ron_Guerrero
+2025-07-24 19:40:12,768 - INFO - fetching URL: https://en.wikipedia.org/wiki/Giuseppe_Ros
+2025-07-24 19:40:14,389 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kevin_Rosier
+2025-07-24 19:40:14,572 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Kevin_Rosier
+2025-07-24 19:40:15,573 - INFO - fetching URL: https://en.wikipedia.org/wiki/Loren_Ross
+2025-07-24 19:40:16,968 - INFO - fetching URL: https://en.wikipedia.org/wiki/Derric_Rossy
+2025-07-24 19:40:17,273 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Derric_Rossy
+2025-07-24 19:40:18,274 - INFO - fetching URL: https://en.wikipedia.org/wiki/Angelo_Rottoli
+2025-07-24 19:40:19,413 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rick_Roufus
+2025-07-24 19:40:19,652 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Rick_Roufus
+2025-07-24 19:40:20,654 - INFO - fetching URL: https://en.wikipedia.org/wiki/Luigi_Rovati
+2025-07-24 19:40:22,129 - INFO - fetching URL: https://en.wikipedia.org/wiki/Miljan_Rovcanin
+2025-07-24 19:40:22,430 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Miljan_Rovcanin
+2025-07-24 19:40:23,431 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sergey_Rozhnov
+2025-07-24 19:40:23,870 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sergey_Rozhnov
+2025-07-24 19:40:24,871 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alexis_Rubalcaba
+2025-07-24 19:40:26,224 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jos%C3%A9_Arturo_Rubio
+2025-07-24 19:40:27,616 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vojt%C4%9Bch_R%C3%BCckschloss
+2025-07-24 19:40:28,773 - INFO - fetching URL: https://en.wikipedia.org/wiki/Donovan_Ruddock
+2025-07-24 19:40:29,199 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Donovan_Ruddock
+2025-07-24 19:40:30,200 - INFO - fetching URL: https://en.wikipedia.org/wiki/Andriy_Rudenko
+2025-07-24 19:40:30,366 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Andriy_Rudenko
+2025-07-24 19:40:31,366 - INFO - fetching URL: https://en.wikipedia.org/wiki/Steven_Rudic
+2025-07-24 19:40:32,744 - INFO - fetching URL: https://en.wikipedia.org/wiki/Herbert_Runge
+2025-07-24 19:40:34,382 - INFO - fetching URL: https://en.wikipedia.org/wiki/Pekka_Ruokola
+2025-07-24 19:40:35,759 - INFO - fetching URL: https://en.wikipedia.org/wiki/Svilen_Rusinov
+2025-07-24 19:40:37,343 - INFO - fetching URL: https://en.wikipedia.org/wiki/Clemente_Russo
+2025-07-24 19:40:38,524 - INFO - fetching URL: https://en.wikipedia.org/wiki/Paddy_Ryan
+2025-07-24 19:40:40,104 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mourad_Sahraoui
+2025-07-24 19:40:41,496 - INFO - fetching URL: https://en.wikipedia.org/wiki/Przemys%C5%82aw_Saleta
+2025-07-24 19:40:42,187 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Przemys%C5%82aw_Saleta
+2025-07-24 19:40:43,188 - INFO - fetching URL: https://en.wikipedia.org/wiki/Aziz_Salihu
+2025-07-24 19:40:44,465 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hunter_Sam
+2025-07-24 19:40:44,945 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Hunter_Sam
+2025-07-24 19:40:45,946 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sinan_%C5%9Eamil_Sam
+2025-07-24 19:40:46,634 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sinan_%C5%9Eamil_Sam
+2025-07-24 19:40:47,635 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ahmed_Abdel_Samad
+2025-07-24 19:40:49,179 - INFO - fetching URL: https://en.wikipedia.org/wiki/Frank_S%C3%A1nchez_(boxer)
+2025-07-24 19:40:49,347 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Frank_S%C3%A1nchez_(boxer)
+2025-07-24 19:40:50,348 - INFO - fetching URL: https://en.wikipedia.org/wiki/Corey_Sanders
+2025-07-24 19:40:50,655 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Corey_Sanders
+2025-07-24 19:40:51,657 - INFO - fetching URL: https://en.wikipedia.org/wiki/Corrie_Sanders
+2025-07-24 19:40:51,844 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Corrie_Sanders
+2025-07-24 19:40:52,845 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ed_Sanders_(boxer)
+2025-07-24 19:40:54,271 - INFO - fetching URL: https://en.wikipedia.org/wiki/Santa_Camar%C3%A3o
+2025-07-24 19:40:55,616 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sean_Santana
+2025-07-24 19:40:57,142 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vicente_dos_Santos
+2025-07-24 19:40:58,598 - INFO - fetching URL: https://en.wikipedia.org/wiki/Atanas_Sapundzhiev
+2025-07-24 19:41:00,153 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jos%C3%A9_Sartor
+2025-07-24 19:41:01,686 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bob_Satterfield
+2025-07-24 19:41:02,239 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bob_Satterfield
+2025-07-24 19:41:03,240 - INFO - fetching URL: https://en.wikipedia.org/wiki/James_Saunders_(boxer)
+2025-07-24 19:41:04,615 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lou_Savarese
+2025-07-24 19:41:05,966 - INFO - fetching URL: https://en.wikipedia.org/wiki/Denis_Savitsky
+2025-07-24 19:41:06,379 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Denis_Savitsky
+2025-07-24 19:41:07,381 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lee_Savold
+2025-07-24 19:41:07,627 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Lee_Savold
+2025-07-24 19:41:08,628 - INFO - fetching URL: https://en.wikipedia.org/wiki/Erislandy_Sav%C3%B3n
+2025-07-24 19:41:10,251 - INFO - fetching URL: https://en.wikipedia.org/wiki/F%C3%A9lix_Sav%C3%B3n
+2025-07-24 19:41:11,629 - INFO - fetching URL: https://en.wikipedia.org/wiki/Madiyar_Saydrakhimov
+2025-07-24 19:41:13,016 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ernie_Schaaf
+2025-07-24 19:41:13,676 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ernie_Schaaf
+2025-07-24 19:41:14,678 - INFO - fetching URL: https://en.wikipedia.org/wiki/Victor_Schelstraete
+2025-07-24 19:41:16,040 - INFO - fetching URL: https://en.wikipedia.org/wiki/Max_Schmeling
+2025-07-24 19:41:16,257 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Max_Schmeling
+2025-07-24 19:41:17,259 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hans_Sch%C3%B6nrath
+2025-07-24 19:41:18,706 - INFO - fetching URL: https://en.wikipedia.org/wiki/Axel_Schulz
+2025-07-24 19:41:18,879 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Axel_Schulz
+2025-07-24 19:41:19,879 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Schutte_(boxer)
+2025-07-24 19:41:21,410 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_Schwarz
+2025-07-24 19:41:21,693 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tom_Schwarz
+2025-07-24 19:41:22,694 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jo_el_Scott
+2025-07-24 19:41:23,974 - INFO - fetching URL: https://en.wikipedia.org/wiki/Malik_Scott
+2025-07-24 19:41:24,173 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Malik_Scott
+2025-07-24 19:41:25,174 - INFO - fetching URL: https://en.wikipedia.org/wiki/Phil_Scott_(boxer)
+2025-07-24 19:41:26,456 - INFO - fetching URL: https://en.wikipedia.org/wiki/Russell_Scott_(boxer)
+2025-07-24 19:41:27,916 - INFO - fetching URL: https://en.wikipedia.org/wiki/Carlo_Scotti
+2025-07-24 19:41:29,242 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ramzan_Sebiyev
+2025-07-24 19:41:30,673 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sefer_Seferi
+2025-07-24 19:41:30,985 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sefer_Seferi
+2025-07-24 19:41:31,986 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ray_Sefo
+2025-07-24 19:41:32,187 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ray_Sefo
+2025-07-24 19:41:33,187 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rocky_Sekorski
+2025-07-24 19:41:34,980 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bruce_Seldon
+2025-07-24 19:41:35,150 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bruce_Seldon
+2025-07-24 19:41:36,151 - INFO - fetching URL: https://en.wikipedia.org/wiki/Danny_Sewell
+2025-07-24 19:41:37,435 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sam_Sexton
+2025-07-24 19:41:37,750 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sam_Sexton
+2025-07-24 19:41:38,751 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pageuntil=Shami%2C+Nasser+al-%0ANasser+al-Shami#mw-pages
+2025-07-24 19:41:40,317 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pagefrom=Williamson%2C+J.+B.%0AJ.+B.+Williamson#mw-pages
+2025-07-24 19:41:41,498 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nasser_al-Shami
+2025-07-24 19:41:42,761 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jack_Sharkey
+2025-07-24 19:41:42,989 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jack_Sharkey
+2025-07-24 19:41:43,990 - INFO - fetching URL: https://en.wikipedia.org/wiki/Patrick_Sharkey_(boxer)
+2025-07-24 19:41:45,357 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_Sharkey
+2025-07-24 19:41:45,576 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tom_Sharkey
+2025-07-24 19:41:46,578 - INFO - fetching URL: https://en.wikipedia.org/wiki/Earnie_Shavers
+2025-07-24 19:41:46,775 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Earnie_Shavers
+2025-07-24 19:41:47,775 - INFO - fetching URL: https://en.wikipedia.org/wiki/Stephan_Shaw
+2025-07-24 19:41:48,277 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Stephan_Shaw
+2025-07-24 19:41:49,278 - INFO - fetching URL: https://en.wikipedia.org/wiki/Con_Sheehan
+2025-07-24 19:41:50,781 - INFO - fetching URL: https://en.wikipedia.org/wiki/Willbeforce_Shihepo
+2025-07-24 19:41:51,214 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Willbeforce_Shihepo
+2025-07-24 19:41:52,215 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jordan_Shimmell
+2025-07-24 19:41:53,690 - INFO - fetching URL: https://en.wikipedia.org/wiki/Morteza_Shiri
+2025-07-24 19:41:54,991 - INFO - fetching URL: https://en.wikipedia.org/wiki/Charles_Shufford
+2025-07-24 19:41:56,466 - INFO - fetching URL: https://en.wikipedia.org/wiki/Andreas_Sidon
+2025-07-24 19:41:57,834 - INFO - fetching URL: https://en.wikipedia.org/wiki/G%C3%BCnter_Siegmund
+2025-07-24 19:41:59,155 - INFO - fetching URL: https://en.wikipedia.org/wiki/Herb_Siler
+2025-07-24 19:42:00,556 - INFO - fetching URL: https://en.wikipedia.org/wiki/Assu%C3%A9rio_Silva
+2025-07-24 19:42:02,101 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tumba_Silva
+2025-07-24 19:42:03,362 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mark_Simmons_(boxer)
+2025-07-24 19:42:05,075 - INFO - fetching URL: https://en.wikipedia.org/wiki/Abe_Simon
+2025-07-24 19:42:06,376 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mircea_%C8%98imon
+2025-07-24 19:42:08,039 - INFO - fetching URL: https://en.wikipedia.org/wiki/Luke_Simpkin
+2025-07-24 19:42:09,440 - INFO - fetching URL: https://en.wikipedia.org/wiki/Walt_Singer
+2025-07-24 19:42:10,845 - INFO - fetching URL: https://en.wikipedia.org/wiki/Harpreet_Singh_(boxer)
+2025-07-24 19:42:12,403 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hawa_Singh
+2025-07-24 19:42:13,779 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kaliq_Singh
+2025-07-24 19:42:15,241 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lakha_Singh_(boxer)
+2025-07-24 19:42:16,696 - INFO - fetching URL: https://en.wikipedia.org/wiki/Manpreet_Singh_(boxer)
+2025-07-24 19:42:18,253 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vladyslav_Sirenko
+2025-07-24 19:42:18,540 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Vladyslav_Sirenko
+2025-07-24 19:42:19,541 - INFO - fetching URL: https://en.wikipedia.org/wiki/Yustin_Sirutis
+2025-07-24 19:42:19,967 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Yustin_Sirutis
+2025-07-24 19:42:20,968 - INFO - fetching URL: https://en.wikipedia.org/wiki/Matt_Skelton
+2025-07-24 19:42:21,222 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Matt_Skelton
+2025-07-24 19:42:22,222 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kevin_Skinner_(rugby_union)
+2025-07-24 19:42:23,667 - INFO - fetching URL: https://en.wikipedia.org/wiki/Grzegorz_Skrzecz
+2025-07-24 19:42:25,184 - INFO - fetching URL: https://en.wikipedia.org/wiki/Frank_%22Paddy%22_Slavin
+2025-07-24 19:42:26,625 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kimbo_Slice
+2025-07-24 19:42:26,863 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Kimbo_Slice
+2025-07-24 19:42:27,864 - INFO - fetching URL: https://en.wikipedia.org/wiki/Charles_C._Smith_(boxer)
+2025-07-24 19:42:28,303 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Charles_C._Smith_(boxer)
+2025-07-24 19:42:29,304 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dave_Smith_(boxer)
+2025-07-24 19:42:31,273 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dick_Smith_(boxer)
+2025-07-24 19:42:32,859 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gunboat_Smith
+2025-07-24 19:42:34,467 - INFO - fetching URL: https://en.wikipedia.org/wiki/Renaldo_Snipes
+2025-07-24 19:42:35,756 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kisha_Snow
+2025-07-24 19:42:36,255 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Kisha_Snow
+2025-07-24 19:42:37,256 - INFO - fetching URL: https://en.wikipedia.org/wiki/Algirdas_%C5%A0ocikas
+2025-07-24 19:42:38,930 - INFO - fetching URL: https://en.wikipedia.org/wiki/Odlanier_Sol%C3%ADs
+2025-07-24 19:42:39,150 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Odlanier_Sol%C3%ADs
+2025-07-24 19:42:40,151 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mohamed_Soltby
+2025-07-24 19:42:40,528 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mohamed_Soltby
+2025-07-24 19:42:41,530 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sverre_S%C3%B8rsdal
+2025-07-24 19:42:43,011 - INFO - fetching URL: https://en.wikipedia.org/wiki/Albert_Sosnowski
+2025-07-24 19:42:43,222 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Albert_Sosnowski
+2025-07-24 19:42:44,223 - INFO - fetching URL: https://en.wikipedia.org/wiki/Humberto_Soto_(heavyweight_boxer)
+2025-07-24 19:42:45,903 - INFO - fetching URL: https://en.wikipedia.org/wiki/Duilio_Spagnolo
+2025-07-24 19:42:47,156 - INFO - fetching URL: https://en.wikipedia.org/wiki/Erminio_Spalla
+2025-07-24 19:42:48,647 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kerron_Speid
+2025-07-24 19:42:50,172 - INFO - fetching URL: https://en.wikipedia.org/wiki/Thad_Spencer
+2025-07-24 19:42:50,358 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Thad_Spencer
+2025-07-24 19:42:51,359 - INFO - fetching URL: https://en.wikipedia.org/wiki/William_Spengler
+2025-07-24 19:42:52,739 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tyrone_Spong
+2025-07-24 19:42:53,020 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tyrone_Spong
+2025-07-24 19:42:54,021 - INFO - fetching URL: https://en.wikipedia.org/wiki/Michael_Sprott
+2025-07-24 19:42:54,222 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Michael_Sprott
+2025-07-24 19:42:55,223 - INFO - fetching URL: https://en.wikipedia.org/wiki/Obrad_Sretenovi%C4%87
+2025-07-24 19:42:56,756 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dai_St._John
+2025-07-24 19:42:58,233 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ron_Stander
+2025-07-24 19:42:59,412 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Stankovich
+2025-07-24 19:43:00,859 - INFO - fetching URL: https://en.wikipedia.org/wiki/Georgios_Stefanopoulos
+2025-07-24 19:43:02,233 - INFO - fetching URL: https://en.wikipedia.org/wiki/Les_Stevens_(boxer)
+2025-07-24 19:43:03,780 - INFO - fetching URL: https://en.wikipedia.org/wiki/Te%C3%B3filo_Stevenson
+2025-07-24 19:43:05,019 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alex_Stewart_(boxer)
+2025-07-24 19:43:05,722 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alex_Stewart_(boxer)
+2025-07-24 19:43:06,723 - INFO - fetching URL: https://en.wikipedia.org/wiki/Samuel_Stewart_(boxer)
+2025-07-24 19:43:08,204 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marvin_Stinson
+2025-07-24 19:43:09,615 - INFO - fetching URL: https://en.wikipedia.org/wiki/Giannis_Stoforidis
+2025-07-24 19:43:10,168 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Giannis_Stoforidis
+2025-07-24 19:43:11,170 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bogdan_Stoica
+2025-07-24 19:43:12,010 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bogdan_Stoica
+2025-07-24 19:43:13,011 - INFO - fetching URL: https://en.wikipedia.org/wiki/Petar_Stoimenov
+2025-07-24 19:43:14,446 - INFO - fetching URL: https://en.wikipedia.org/wiki/Fred_Storbeck
+2025-07-24 19:43:15,880 - INFO - fetching URL: https://en.wikipedia.org/wiki/Young_Stribling
+2025-07-24 19:43:16,367 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Young_Stribling
+2025-07-24 19:43:17,368 - INFO - fetching URL: https://en.wikipedia.org/wiki/Anthony_Stuart_(boxer)
+2025-07-24 19:43:18,511 - INFO - fetching URL: https://en.wikipedia.org/wiki/John_L._Sullivan
+2025-07-24 19:43:18,710 - INFO - pro boxer added: https://en.wikipedia.org/wiki/John_L._Sullivan
+2025-07-24 19:43:19,711 - INFO - fetching URL: https://en.wikipedia.org/wiki/Obed_Sullivan
+2025-07-24 19:43:20,884 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tom_Sullivan_(boxer)
+2025-07-24 19:43:22,424 - INFO - fetching URL: https://en.wikipedia.org/wiki/Artem_Suslenkov
+2025-07-24 19:43:22,712 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Artem_Suslenkov
+2025-07-24 19:43:23,713 - INFO - fetching URL: https://en.wikipedia.org/wiki/Shane_Sutcliffe
+2025-07-24 19:43:24,882 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jason_Suttie
+2025-07-24 19:43:25,544 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jason_Suttie
+2025-07-24 19:43:26,545 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lee_Swaby
+2025-07-24 19:43:27,121 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Lee_Swaby
+2025-07-24 19:43:28,122 - INFO - fetching URL: https://en.wikipedia.org/wiki/Shane_Swartz
+2025-07-24 19:43:29,530 - INFO - fetching URL: https://en.wikipedia.org/wiki/Apollo_Sweet
+2025-07-24 19:43:31,104 - INFO - fetching URL: https://en.wikipedia.org/wiki/Robert_Swenson
+2025-07-24 19:43:32,281 - INFO - fetching URL: https://en.wikipedia.org/wiki/Albert_Syben
+2025-07-24 19:43:32,792 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Albert_Syben
+2025-07-24 19:43:33,793 - INFO - fetching URL: https://en.wikipedia.org/wiki/Paul_Sykes_(boxer)
+2025-07-24 19:43:33,964 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Paul_Sykes_(boxer)
+2025-07-24 19:43:34,965 - INFO - fetching URL: https://en.wikipedia.org/wiki/Taurus_Sykes
+2025-07-24 19:43:36,485 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joseph_Syoz
+2025-07-24 19:43:38,007 - INFO - fetching URL: https://en.wikipedia.org/wiki/Karel_Sys
+2025-07-24 19:43:39,439 - INFO - fetching URL: https://en.wikipedia.org/wiki/Artur_Szpilka
+2025-07-24 19:43:40,188 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Artur_Szpilka
+2025-07-24 19:43:41,189 - INFO - fetching URL: https://en.wikipedia.org/wiki/Junior_Tafa
+2025-07-24 19:43:41,373 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Junior_Tafa
+2025-07-24 19:43:42,375 - INFO - fetching URL: https://en.wikipedia.org/wiki/Daniel_Tai
+2025-07-24 19:43:42,581 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Daniel_Tai
+2025-07-24 19:43:43,582 - INFO - fetching URL: https://en.wikipedia.org/wiki/Carlos_Takam
+2025-07-24 19:43:43,804 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Carlos_Takam
+2025-07-24 19:43:44,805 - INFO - fetching URL: https://en.wikipedia.org/wiki/Olle_Tandberg
+2025-07-24 19:43:46,532 - INFO - fetching URL: https://en.wikipedia.org/wiki/Steffen_Tangstad
+2025-07-24 19:43:47,834 - INFO - fetching URL: https://en.wikipedia.org/wiki/Malcolm_Tann
+2025-07-24 19:43:48,545 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Malcolm_Tann
+2025-07-24 19:43:49,546 - INFO - fetching URL: https://en.wikipedia.org/wiki/Naman_Tanwar
+2025-07-24 19:43:50,090 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Naman_Tanwar
+2025-07-24 19:43:51,091 - INFO - fetching URL: https://en.wikipedia.org/wiki/Antonio_Tarver
+2025-07-24 19:43:51,432 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Antonio_Tarver
+2025-07-24 19:43:52,433 - INFO - fetching URL: https://en.wikipedia.org/wiki/Toakipa_Tasefa
+2025-07-24 19:43:52,902 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Toakipa_Tasefa
+2025-07-24 19:43:53,904 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bill_Tate_(boxer)
+2025-07-24 19:43:55,371 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tevita_Taufo%CA%BBou
+2025-07-24 19:43:56,848 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ron_Taylor_(footballer)
+2025-07-24 19:43:58,368 - INFO - fetching URL: https://en.wikipedia.org/wiki/Joshua_Temple
+2025-07-24 19:43:59,805 - INFO - fetching URL: https://en.wikipedia.org/wiki/Erkan_Teper
+2025-07-24 19:43:59,998 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Erkan_Teper
+2025-07-24 19:44:00,999 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ernie_Terrell
+2025-07-24 19:44:01,213 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ernie_Terrell
+2025-07-24 19:44:02,214 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bert_Teuchert
+2025-07-24 19:44:03,669 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Thomas_(boxer)
+2025-07-24 19:44:04,951 - INFO - fetching URL: https://en.wikipedia.org/wiki/Isiah_Thomas_(boxer)
+2025-07-24 19:44:06,217 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lenroy_Thomas
+2025-07-24 19:44:06,659 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Lenroy_Thomas
+2025-07-24 19:44:07,660 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tony_Thompson_(boxer)
+2025-07-24 19:44:08,042 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tony_Thompson_(boxer)
+2025-07-24 19:44:09,042 - INFO - fetching URL: https://en.wikipedia.org/wiki/Warren_Thompson_(boxer)
+2025-07-24 19:44:10,554 - INFO - fetching URL: https://en.wikipedia.org/wiki/Hasse_Thoms%C3%A9n
+2025-07-24 19:44:12,125 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mairtin_Thornton
+2025-07-24 19:44:13,525 - INFO - fetching URL: https://en.wikipedia.org/wiki/Christian_Thun
+2025-07-24 19:44:13,705 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Christian_Thun
+2025-07-24 19:44:14,706 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jimmy_Thunder
+2025-07-24 19:44:15,022 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jimmy_Thunder
+2025-07-24 19:44:16,022 - INFO - fetching URL: https://en.wikipedia.org/wiki/Elijah_Tillery
+2025-07-24 19:44:17,607 - INFO - fetching URL: https://en.wikipedia.org/wiki/James_Tillis
+2025-07-24 19:44:18,335 - INFO - pro boxer added: https://en.wikipedia.org/wiki/James_Tillis
+2025-07-24 19:44:19,336 - INFO - fetching URL: https://en.wikipedia.org/wiki/Henry_Tillman
+2025-07-24 19:44:20,642 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ian_Tims
+2025-07-24 19:44:21,258 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ian_Tims
+2025-07-24 19:44:22,259 - INFO - fetching URL: https://en.wikipedia.org/wiki/Evgeny_Tishchenko
+2025-07-24 19:44:22,438 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Evgeny_Tishchenko
+2025-07-24 19:44:23,439 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marko_Tomasovi%C4%87_(boxer)
+2025-07-24 19:44:23,732 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Marko_Tomasovi%C4%87_(boxer)
+2025-07-24 19:44:24,733 - INFO - fetching URL: https://en.wikipedia.org/wiki/James_Toney
+2025-07-24 19:44:25,044 - INFO - pro boxer added: https://en.wikipedia.org/wiki/James_Toney
+2025-07-24 19:44:26,044 - INFO - fetching URL: https://en.wikipedia.org/wiki/James_Obede_Toney
+2025-07-24 19:44:26,472 - INFO - pro boxer added: https://en.wikipedia.org/wiki/James_Obede_Toney
+2025-07-24 19:44:27,474 - INFO - fetching URL: https://en.wikipedia.org/wiki/Abdelaziz_Touilbini
+2025-07-24 19:44:28,985 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ernest_Toussaint
+2025-07-24 19:44:30,383 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marat_Tovmasian
+2025-07-24 19:44:31,817 - INFO - fetching URL: https://en.wikipedia.org/wiki/Richard_Towers
+2025-07-24 19:44:32,287 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Richard_Towers
+2025-07-24 19:44:33,288 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Trafton
+2025-07-24 19:44:35,104 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lucjan_Trela
+2025-07-24 19:44:36,715 - INFO - fetching URL: https://en.wikipedia.org/wiki/David_Tua
+2025-07-24 19:44:36,952 - INFO - pro boxer added: https://en.wikipedia.org/wiki/David_Tua
+2025-07-24 19:44:37,953 - INFO - fetching URL: https://en.wikipedia.org/wiki/Art_Tucker
+2025-07-24 19:44:39,329 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tony_Tucker
+2025-07-24 19:44:39,525 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tony_Tucker
+2025-07-24 19:44:40,526 - INFO - fetching URL: https://en.wikipedia.org/wiki/Fabio_Tuiach
+2025-07-24 19:44:40,832 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Fabio_Tuiach
+2025-07-24 19:44:41,833 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rustam_Tulaganov
+2025-07-24 19:44:42,235 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Rustam_Tulaganov
+2025-07-24 19:44:43,235 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bowie_Tupou
+2025-07-24 19:44:43,880 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bowie_Tupou
+2025-07-24 19:44:44,882 - INFO - fetching URL: https://en.wikipedia.org/wiki/Fabio_Turchi
+2025-07-24 19:44:45,556 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Fabio_Turchi
+2025-07-24 19:44:46,557 - INFO - fetching URL: https://en.wikipedia.org/wiki/Kwamena_Turkson
+2025-07-24 19:44:47,970 - INFO - fetching URL: https://en.wikipedia.org/wiki/Buddy_Turman
+2025-07-24 19:44:49,540 - INFO - fetching URL: https://en.wikipedia.org/wiki/Izu_Ugonoh
+2025-07-24 19:44:49,754 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Izu_Ugonoh
+2025-07-24 19:44:50,755 - INFO - fetching URL: https://en.wikipedia.org/wiki/Viktor_Ulyanich
+2025-07-24 19:44:52,155 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jos%C3%A9_Manuel_Urtain
+2025-07-24 19:44:53,317 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alexander_Ustinov
+2025-07-24 19:44:53,654 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Alexander_Ustinov
+2025-07-24 19:44:54,656 - INFO - fetching URL: https://en.wikipedia.org/wiki/Paulino_Uzcudun
+2025-07-24 19:44:54,951 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Paulino_Uzcudun
+2025-07-24 19:44:55,952 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vyacheslav_Uzelkov
+2025-07-24 19:44:57,551 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ni%C3%B1o_Vald%C3%A9s
+2025-07-24 19:44:57,859 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Ni%C3%B1o_Vald%C3%A9s
+2025-07-24 19:44:58,860 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nikolai_Valuev
+2025-07-24 19:44:59,090 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Nikolai_Valuev
+2025-07-24 19:45:00,090 - INFO - fetching URL: https://en.wikipedia.org/wiki/Chad_Van_Sickle
+2025-07-24 19:45:00,704 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Chad_Van_Sickle
+2025-07-24 19:45:01,705 - INFO - fetching URL: https://en.wikipedia.org/wiki/Arnold_Vanderlyde
+2025-07-24 19:45:02,872 - INFO - fetching URL: https://en.wikipedia.org/wiki/Devin_Vargas
+2025-07-24 19:45:03,464 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Devin_Vargas
+2025-07-24 19:45:04,465 - INFO - fetching URL: https://en.wikipedia.org/wiki/Wilmer_V%C3%A1squez
+2025-07-24 19:45:05,901 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dominic_Vea
+2025-07-24 19:45:07,340 - INFO - fetching URL: https://en.wikipedia.org/wiki/Willy_Venneman
+2025-07-24 19:45:08,876 - INFO - fetching URL: https://en.wikipedia.org/wiki/Danie_Venter
+2025-07-24 19:45:09,054 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Danie_Venter
+2025-07-24 19:45:10,054 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rico_Verhoeven
+2025-07-24 19:45:10,314 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Rico_Verhoeven
+2025-07-24 19:45:11,315 - INFO - fetching URL: https://en.wikipedia.org/wiki/Guido_Vianello
+2025-07-24 19:45:11,604 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Guido_Vianello
+2025-07-24 19:45:12,606 - INFO - fetching URL: https://en.wikipedia.org/wiki/Paolo_Vidoz
+2025-07-24 19:45:13,274 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Paolo_Vidoz
+2025-07-24 19:45:14,275 - INFO - fetching URL: https://en.wikipedia.org/wiki/Doug_Viney
+2025-07-24 19:45:14,745 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Doug_Viney
+2025-07-24 19:45:15,746 - INFO - fetching URL: https://en.wikipedia.org/wiki/Carmine_Vingo
+2025-07-24 19:45:16,909 - INFO - fetching URL: https://en.wikipedia.org/wiki/Volodymyr_Virchis
+2025-07-24 19:45:18,409 - INFO - fetching URL: https://en.wikipedia.org/wiki/Igor_Vysotsky
+2025-07-24 19:45:18,569 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Igor_Vysotsky
+2025-07-24 19:45:19,570 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mariusz_Wach
+2025-07-24 19:45:19,763 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mariusz_Wach
+2025-07-24 19:45:20,764 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jersey_Joe_Walcott
+2025-07-24 19:45:21,409 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jersey_Joe_Walcott
+2025-07-24 19:45:22,410 - INFO - fetching URL: https://en.wikipedia.org/wiki/Donald_Walheim
+2025-07-24 19:45:23,858 - INFO - fetching URL: https://en.wikipedia.org/wiki/Billy_Walker_(boxer)
+2025-07-24 19:45:25,046 - INFO - fetching URL: https://en.wikipedia.org/wiki/George_Alfred_Walker
+2025-07-24 19:45:26,220 - INFO - fetching URL: https://en.wikipedia.org/wiki/Obie_Walker
+2025-07-24 19:45:27,125 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Obie_Walker
+2025-07-24 19:45:28,126 - INFO - fetching URL: https://en.wikipedia.org/wiki/Travis_Walker
+2025-07-24 19:45:29,867 - INFO - fetching URL: https://en.wikipedia.org/wiki/Coley_Wallace
+2025-07-24 19:45:31,179 - INFO - fetching URL: https://en.wikipedia.org/wiki/Otto_Wallin
+2025-07-24 19:45:31,370 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Otto_Wallin
+2025-07-24 19:45:32,371 - INFO - fetching URL: https://en.wikipedia.org/wiki/Michael_Wallisch
+2025-07-24 19:45:32,550 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Michael_Wallisch
+2025-07-24 19:45:33,552 - INFO - fetching URL: https://en.wikipedia.org/wiki/Wang_Xuanxuan
+2025-07-24 19:45:34,923 - INFO - fetching URL: https://en.wikipedia.org/wiki/Franco_Wanyama
+2025-07-24 19:45:35,485 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Franco_Wanyama
+2025-07-24 19:45:36,486 - INFO - fetching URL: https://en.wikipedia.org/wiki/Forrest_Ward
+2025-07-24 19:45:38,017 - INFO - fetching URL: https://en.wikipedia.org/wiki/Fabio_Wardley
+2025-07-24 19:45:38,183 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Fabio_Wardley
+2025-07-24 19:45:39,184 - INFO - fetching URL: https://en.wikipedia.org/wiki/Gerald_Washington_(boxer)
+2025-07-24 19:45:39,515 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Gerald_Washington_(boxer)
+2025-07-24 19:45:40,517 - INFO - fetching URL: https://en.wikipedia.org/wiki/Wesley_Watson
+2025-07-24 19:45:41,686 - INFO - fetching URL: https://en.wikipedia.org/wiki/Adam_Watt
+2025-07-24 19:45:41,999 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Adam_Watt
+2025-07-24 19:45:43,000 - INFO - fetching URL: https://en.wikipedia.org/wiki/Andrzej_Wawrzyk
+2025-07-24 19:45:43,291 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Andrzej_Wawrzyk
+2025-07-24 19:45:44,291 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nick_Webb_(boxer)
+2025-07-24 19:45:44,676 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Nick_Webb_(boxer)
+2025-07-24 19:45:45,677 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jo_Weidin
+2025-07-24 19:45:47,185 - INFO - fetching URL: https://en.wikipedia.org/wiki/Scott_Welch
+2025-07-24 19:45:47,486 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Scott_Welch
+2025-07-24 19:45:48,486 - INFO - fetching URL: https://en.wikipedia.org/wiki/Roy_Welensky
+2025-07-24 19:45:49,837 - INFO - fetching URL: https://en.wikipedia.org/wiki/Chauncy_Welliver
+2025-07-24 19:45:51,242 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bombardier_Billy_Wells
+2025-07-24 19:45:52,440 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nick_Wells
+2025-07-24 19:45:53,730 - INFO - fetching URL: https://en.wikipedia.org/wiki/Robert_Wells_(boxer)
+2025-07-24 19:45:55,084 - INFO - fetching URL: https://en.wikipedia.org/wiki/Chuck_Wepner
+2025-07-24 19:45:55,300 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Chuck_Wepner
+2025-07-24 19:45:56,300 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jason_Whateley
+2025-07-24 19:45:56,783 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jason_Whateley
+2025-07-24 19:45:57,784 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ray_Wheatley
+2025-07-24 19:45:59,266 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lance_Whitaker
+2025-07-24 19:46:00,715 - INFO - fetching URL: https://en.wikipedia.org/wiki/Dillian_Whyte
+2025-07-24 19:46:01,053 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Dillian_Whyte
+2025-07-24 19:46:02,054 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jess_Willard
+2025-07-24 19:46:02,262 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jess_Willard
+2025-07-24 19:46:03,263 - INFO - fetching URL: https://en.wikipedia.org/wiki/Adam_Willett
+2025-07-24 19:46:04,790 - INFO - fetching URL: https://en.wikipedia.org/wiki/Carl_Williams_(boxer)
+2025-07-24 19:46:05,091 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Carl_Williams_(boxer)
+2025-07-24 19:46:06,092 - INFO - fetching URL: https://en.wikipedia.org/wiki/Cleveland_Williams
+2025-07-24 19:46:06,291 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Cleveland_Williams
+2025-07-24 19:46:07,292 - INFO - fetching URL: https://en.wikipedia.org/wiki/Danny_Williams_(boxer)
+2025-07-24 19:46:07,530 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Danny_Williams_(boxer)
+2025-07-24 19:46:08,531 - INFO - fetching URL: https://en.wikipedia.org/wiki/Derek_Williams_(boxer)
+2025-07-24 19:46:10,072 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jason_Williams_(rugby_league,_born_1981)
+2025-07-24 19:46:11,485 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jeremy_Williams_(boxer)
+2025-07-24 19:46:11,660 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jeremy_Williams_(boxer)
+2025-07-24 19:46:12,660 - INFO - fetching URL: https://en.wikipedia.org/wiki/Johnny_Williams_(boxer)
+2025-07-24 19:46:14,384 - INFO - fetching URL: https://en.wikipedia.org/wiki/Lewis_Williams_(boxer)
+2025-07-24 19:46:15,850 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Williams_(boxer)
+2025-07-24 19:46:16,152 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Mike_Williams_(boxer)
+2025-07-24 19:46:17,153 - INFO - fetching URL: https://en.wikipedia.org/wiki/Rubin_Williams
+2025-07-24 19:46:17,892 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Rubin_Williams
+2025-07-24 19:46:18,893 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sherman_Williams_(boxer)
+2025-07-24 19:46:20,640 - INFO - fetching URL: https://en.wikipedia.org/wiki/Sonny_Bill_Williams
+2025-07-24 19:46:21,029 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Sonny_Bill_Williams
+2025-07-24 19:46:22,029 - INFO - fetching URL: https://en.wikipedia.org/wiki/DaVarryl_Williamson
+2025-07-24 19:46:23,648 - INFO - fetching URL: https://en.wikipedia.org/w/index.php?title=Category:Heavyweight_boxers&pageuntil=Williamson%2C+J.+B.%0AJ.+B.+Williamson#mw-pages
+2025-07-24 19:46:25,224 - INFO - fetching URL: https://en.wikipedia.org/wiki/J._B._Williamson
+2025-07-24 19:46:25,744 - INFO - pro boxer added: https://en.wikipedia.org/wiki/J._B._Williamson
+2025-07-24 19:46:26,746 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jonte_Willis
+2025-07-24 19:46:28,282 - INFO - fetching URL: https://en.wikipedia.org/wiki/Harry_Wills
+2025-07-24 19:46:28,649 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Harry_Wills
+2025-07-24 19:46:29,650 - INFO - fetching URL: https://en.wikipedia.org/wiki/Colin_Wilson_(boxer)
+2025-07-24 19:46:31,310 - INFO - fetching URL: https://en.wikipedia.org/wiki/Darroll_Wilson
+2025-07-24 19:46:32,476 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marion_Wilson_(boxer)
+2025-07-24 19:46:32,818 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Marion_Wilson_(boxer)
+2025-07-24 19:46:33,819 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mike_Wilson_(boxer)
+2025-07-24 19:46:35,175 - INFO - fetching URL: https://en.wikipedia.org/wiki/T._J._Wilson_(boxer)
+2025-07-24 19:46:36,700 - INFO - fetching URL: https://en.wikipedia.org/wiki/Shawndell_Winters
+2025-07-24 19:46:37,324 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Shawndell_Winters
+2025-07-24 19:46:38,324 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ron_Withell
+2025-07-24 19:46:39,730 - INFO - fetching URL: https://en.wikipedia.org/wiki/Chazz_Witherspoon
+2025-07-24 19:46:39,903 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Chazz_Witherspoon
+2025-07-24 19:46:40,904 - INFO - fetching URL: https://en.wikipedia.org/wiki/Paea_Wolfgramm
+2025-07-24 19:46:41,191 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Paea_Wolfgramm
+2025-07-24 19:46:42,192 - INFO - fetching URL: https://en.wikipedia.org/wiki/Nick_Wolmarans
+2025-07-24 19:46:43,799 - INFO - fetching URL: https://en.wikipedia.org/wiki/Ricky_Womack
+2025-07-24 19:46:45,540 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tim_Wood_(boxer)
+2025-07-24 19:46:46,693 - INFO - fetching URL: https://en.wikipedia.org/wiki/Bruce_Woodcock_(boxer)
+2025-07-24 19:46:47,397 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Bruce_Woodcock_(boxer)
+2025-07-24 19:46:48,397 - INFO - fetching URL: https://en.wikipedia.org/wiki/Billy_Wright_(boxer)
+2025-07-24 19:46:49,645 - INFO - fetching URL: https://en.wikipedia.org/wiki/Junior_Anthony_Wright
+2025-07-24 19:46:49,955 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Junior_Anthony_Wright
+2025-07-24 19:46:50,956 - INFO - fetching URL: https://en.wikipedia.org/wiki/Oliver_Wright_(boxer)
+2025-07-24 19:46:52,461 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alexander_Yagubkin
+2025-07-24 19:46:54,144 - INFO - fetching URL: https://en.wikipedia.org/wiki/Yang_Xiaoli
+2025-07-24 19:46:55,638 - INFO - fetching URL: https://en.wikipedia.org/wiki/%C5%9Eemsi_Yaral%C4%B1
+2025-07-24 19:46:57,301 - INFO - fetching URL: https://en.wikipedia.org/wiki/Oleksandr_Yatsenko_(boxer)
+2025-07-24 19:46:58,766 - INFO - fetching URL: https://en.wikipedia.org/wiki/Awusone_Yekeni
+2025-07-24 19:47:00,167 - INFO - fetching URL: https://en.wikipedia.org/wiki/Vadim_Yemelyanov
+2025-07-24 19:47:01,446 - INFO - fetching URL: https://en.wikipedia.org/wiki/Tony_Yoka
+2025-07-24 19:47:01,630 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Tony_Yoka
+2025-07-24 19:47:02,630 - INFO - fetching URL: https://en.wikipedia.org/wiki/Doug_Young_(boxer)
+2025-07-24 19:47:04,190 - INFO - fetching URL: https://en.wikipedia.org/wiki/Jimmy_Young_(boxer)
+2025-07-24 19:47:04,366 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Jimmy_Young_(boxer)
+2025-07-24 19:47:05,367 - INFO - fetching URL: https://en.wikipedia.org/wiki/Yu_Fengkai
+2025-07-24 19:47:07,053 - INFO - fetching URL: https://en.wikipedia.org/wiki/Georgiy_Yunovidov
+2025-07-24 19:47:08,252 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Georgiy_Yunovidov
+2025-07-24 19:47:09,253 - INFO - fetching URL: https://en.wikipedia.org/wiki/Mikhail_Yurchenko
+2025-07-24 19:47:10,703 - INFO - fetching URL: https://en.wikipedia.org/wiki/Pyotr_Zayev
+2025-07-24 19:47:11,157 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Pyotr_Zayev
+2025-07-24 19:47:12,158 - INFO - fetching URL: https://en.wikipedia.org/wiki/Marcel_Zeller
+2025-07-24 19:47:13,680 - INFO - fetching URL: https://en.wikipedia.org/wiki/Roman_Zentsov
+2025-07-24 19:47:15,010 - INFO - fetching URL: https://en.wikipedia.org/wiki/Zhang_Junlong
+2025-07-24 19:47:15,511 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Zhang_Junlong
+2025-07-24 19:47:16,512 - INFO - fetching URL: https://en.wikipedia.org/wiki/Zhilei_Zhang
+2025-07-24 19:47:16,826 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Zhilei_Zhang
+2025-07-24 19:47:17,827 - INFO - fetching URL: https://en.wikipedia.org/wiki/Krzysztof_Zimnoch
+2025-07-24 19:47:18,424 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Krzysztof_Zimnoch
+2025-07-24 19:47:19,425 - INFO - fetching URL: https://en.wikipedia.org/wiki/Steve_Zouski
+2025-07-24 19:47:19,958 - INFO - pro boxer added: https://en.wikipedia.org/wiki/Steve_Zouski
+2025-07-24 19:47:20,958 - INFO - fetching URL: https://en.wikipedia.org/wiki/Alfredo_Zuany
+2025-07-24 19:47:22,556 - INFO - fetching URL: https://en.wikipedia.org/wiki/Viktar_Zuyev
+2025-07-24 19:47:23,998 - INFO - added 467 fighter URLs to urls.txt.

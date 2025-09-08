@@ -41,16 +41,23 @@ def parse_links(url):
 
     # extract the fighter links from the category block
     while True:
-        cat_block = soup.find("div", class_="mw-category")
+        cat_block = soup.find("div", id="mw-pages")
         if not cat_block:
-            logging.warning("No category block found.")
+            logging.warning("No category block found. aborting")
             break
 
-        # for each boxer, extract the URL
+        # extract URL link
         for link in cat_block.find_all("a", href=True):
-            complete_url = BASE_URL + link["href"]
-            if complete_url not in boxer_urls:
-                boxer_urls.append(complete_url)
+            href = link["href"]
+
+            # skip subcategories and help pages
+            if href.startswith("/wiki/Category:") or href.startswith("/wiki/Help:"):
+                continue
+
+            # reform complete page URL and store
+            full_url = BASE_URL + href
+            if full_url not in boxer_urls:
+                boxer_urls.append(full_url)
 
         # extract the next page link and store it as the soup variable
         next_page = soup.find("a", string="next page")

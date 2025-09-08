@@ -1,5 +1,4 @@
 # import general packages
-from app import app
 import requests
 import re
 from dateutil import parser
@@ -8,7 +7,6 @@ from dateutil import parser
 from bs4 import BeautifulSoup
 
 # import database models
-from models import db, Boxer, Fight, Statline, RankingMetrics
 
 # import .env database credentials
 from dotenv import load_dotenv

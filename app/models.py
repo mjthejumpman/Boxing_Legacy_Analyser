@@ -1,6 +1,5 @@
-from flask_sqlalchemy import SQLAlchemy
-
-db = SQLAlchemy()
+# import the db from the app
+from app import db
 
 class Boxer(db.Model):
     __tablename__ = 'boxers'

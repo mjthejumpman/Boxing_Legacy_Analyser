@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!-- page fade in animation -->
+<div class="fade-in">
+    <!-- load the bell sound, to be triggered by JavaScript -->
+    <audio id="ding-ding" src="{{ url_for('static', filename='sounds/boxing-bell.mp3') }}"></audio>
+    <h1 class="text-center retro-gradient-main-title">The Boxing Legacy Analyser</h1>
+    <h1 class="text-center retro-gradient-text bobbing-select">Select Your Fighters</h1>
+    <!-- submit the fighter id from the dropdown via POST request, and display the results.html page -->
+    <form method="post" action="{{ url_for('main.results') }}">
+        <div class="row text-center">
+
+            <!-- Fighter 1 photo, selection and info panel -->
+            <div class="col-md-5">
+                <!-- fighter photo -->
+                <img id="fighter1-photo" src="/static/images/placeholder.png" class="boxer-portrait">
+                <!-- fighter alias -->
+                <p id="fighter1-alias" class="retro-gradient-alias">Alias</p>
+                <!-- dropdown element, showing the boxer names, but submitting the id in the form.  -->
+                <select id="fighter1-select" name="boxer_a" class="retro-select option">
+                    {% for b in boxers %}
+                        <option value="{{ b.id }}">{{ b.name }}</option>
+                    {% endfor %}
+                </select>
+                <!-- fighter height/reach/stance -->
+                <p id="fighter1-height" class="retro-gradient-subtitle bobbing">Height: -- cm</p>
+                <p id="fighter1-reach" class="retro-gradient-subtitle bobbing">Reach: -- cm</p>
+                <p id="fighter1-stance" class="retro-gradient-subtitle bobbing">Stance: --</p>
+                <p id="fighter1-eras" class="retro-gradient-subtitle bobbing">Stance: --</p>
+
+            </div>
+
+            <!-- VS text -->
+            <div class="col-12 col-md-2 align-self-center">
+                <h2 class="vs-text">VS</h2>
+            </div>
+
+            <!-- Fighter 2 photo, selection and info panel -->
+            <div class="col-md-5">
+                <!-- fighter photo -->
+                <img id="fighter2-photo" src="/static/images/placeholder.png" class="boxer-portrait">
+                <!-- fighter alias -->
+                <p id="fighter2-alias" class="retro-gradient-alias">Alias</p>
+                <!-- dropdown element, showing the boxer names, but submitting the id in the form.  -->
+                <select id="fighter2-select" name="boxer_b" class="retro-select">
+                    {% for b in boxers %}
+                        <option value="{{ b.id }}">{{ b.name }}</option>
+                    {% endfor %}
+                </select>
+                <!-- fighter height/reach/stance -->
+                <p id="fighter2-height" class="retro-gradient-subtitle bobbing">Height: -- cm</p>
+                <p id="fighter2-reach" class="retro-gradient-subtitle bobbing">Reach: -- cm</p>
+                <p id="fighter2-stance" class="retro-gradient-subtitle bobbing">Stance: --</p>
+            </div>
+        </div>
+
+        <!-- "Fight!" button. Bell sound triggered upon click -->
+        <!-- calls the JavaScript function to delay the form submission, and wait for the bell sound to play -->
+        <div class="text-center mt-4">
+            <button type="button"
+                    class="btn btn-danger retro-button"
+                    onclick="bellSoundSubmit()">
+                    FIGHT!
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}

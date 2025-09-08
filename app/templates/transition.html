@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- fade-in effect -->
+<div class="fade-in">
+    <div class="text-center mt-5">
+
+        <!-- "Ding-ding" text -->
+        <h2 class="retro-title-ding mt-4">Let's Rumble!</h2>
+
+        <!-- glove touch & explosion layer -->
+        <img src="{{ url_for('static', filename='images/glove_touch_layer.png') }}" class="glove-animation">
+
+        <!-- lets-rumble audio -->
+        <audio id="lets-rumble" src="{{ url_for('static', filename='sounds/lets-get-ready-to-rumble.mp3') }}"></audio>
+
+
+        <!-- "Result" button. glove touch animation and lets-rumble sound triggered upon click via Javascript -->
+        <div class="text-center mt-4">
+            <button type="button"
+                    class="btn btn-danger retro-button"
+                    onclick="gloveTouch()">
+                    RESULT
+            </button>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

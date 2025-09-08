@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- scaling fixes for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Boxing Legacy Analyser</title>
+
+    <!-- links to bootstrap, custom CSS stylesheet, JavaScript scripts and retro style Google font -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- base to be extended by .html pages -->
+<body class="retro-bg">
+    <div class="container py-3">
+        {% block content %}{% endblock %}
+    </div>
+
+</body>
+</html>

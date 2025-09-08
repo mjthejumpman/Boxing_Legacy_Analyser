@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!-- fade-in effect -->
+<div class="fade-in">
+    <!-- title element with a hyperlink to the select page. Underline removed for visual consistency with the select screen -->
+    <h1 class="text-center retro-gradient-main-title">
+        <a href="{{ url_for('main.select') }}" style="text-decoration: none; color: inherit;">The Boxing Legacy Analyser</a>
+    </h1>
+    <h1 class="text-center retro-gradient-text bobbing-select">{{ winner_name }} Wins</h1>
+    <h1 class="text-center retro-gradient-text bobbing-select">By {{ win_type }}!</h1>
+
+    <div class="row text-center mt-4">
+        <!-- Fighter 1 photo and info panel -->
+        <div class="col-md-5">
+            <img src="{{ boxer_a.photo }}" class="boxer-portrait">
+            <p class="retro-gradient-alias">{{ boxer_a.alias }}</p>
+            <p class="retro-gradient-subtitle bobbing">Record: {{ boxer_a.ranking.wins }}–{{ boxer_a.ranking.losses }}</p>
+            <p class="retro-gradient-subtitle bobbing">Height: {{ boxer_a.height_cm }} cm</p>
+            <p class="retro-gradient-subtitle bobbing">Reach: {{ boxer_a.reach_cm }} cm</p>
+            <p class="retro-gradient-subtitle bobbing">Eras: {{ boxer_a.era }}</p>
+        </div>
+
+
+            <!-- Fight stats, percentages and algorithm results -->
+            <div class="col-md-2 results-center align-self-center">
+                <p id="victory-percentage" class="retro-gradient-subtitle-elo bobbing">{{ percentage_victory }} % Likelihood</p>
+                <p id="rating-disparity" class="retro-gradient-subtitle-elo bobbing"> {{ elo_differential }}</p>
+            </div>
+
+
+        <!-- Fighter 2 photo and info panel -->
+        <div class="col-md-5">
+            <img src="{{ boxer_b.photo }}" class="boxer-portrait">
+            <p class="retro-gradient-alias">{{ boxer_b.alias }}</p>
+            <p class="retro-gradient-subtitle bobbing">Record: {{ boxer_b.ranking.wins }}–{{ boxer_b.ranking.losses }}</p>
+            <p class="retro-gradient-subtitle bobbing">Height: {{ boxer_b.height_cm }} cm</p>
+            <p class="retro-gradient-subtitle bobbing">Reach: {{ boxer_b.reach_cm }} cm</p>
+            <p class="retro-gradient-subtitle bobbing">Eras: {{ boxer_b.era }}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

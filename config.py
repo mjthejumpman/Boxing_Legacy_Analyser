@@ -4,8 +4,14 @@ import os
 # .env variables
 load_dotenv()
 
-# SQLAlchemy database URL
+# DB environment variables
+USER = os.getenv("user")
+PASSWORD = os.getenv("password")
+HOST = os.getenv("host")
+PORT = os.getenv("port")
+DBNAME = os.getenv("dbname")
+
+# database URL
 DATABASE_URL = (
-    f"postgresql+psycopg2://{os.getenv('user')}:{os.getenv('password')}"
-    f"@{os.getenv('host')}:{os.getenv('port')}/{os.getenv('dbname')}"
+    f"postgresql+psycopg2://{USER}:{PASSWORD}@{HOST}:{PORT}/{DBNAME}?sslmode=require"
 )

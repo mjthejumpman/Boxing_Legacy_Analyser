@@ -1,14 +1,21 @@
-# import general packages
-from app import app
-import requests
+# import Flask app
+import app
+
+# import regular expressions for advanced parsing
 import re
+
+# import progress bar utility
+from tqdm import tqdm
+
+# import date parsing utility
 from dateutil import parser
 
-# import HTML parser
+# import HTML parser and requests
 from bs4 import BeautifulSoup
+import requests
 
 # import database models
-from models import db, Boxer, Fight, RankingMetrics
+from app.models import db, Boxer, Fight, RankingMetrics
 
 # import .env database credentials
 from dotenv import load_dotenv
@@ -20,6 +27,21 @@ logging.basicConfig(
     filename='scraper.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s')
+
+# helper functions
+
+# helper function to parse dates of various formats
+def parse_date(date_str):
+    try:
+        return parser.parse(date_str, fuzzy=True)
+    except Exception:
+        return None
+
+# helper function to check if boxer is already in db
+def boxer_exists(name):
+    with app.app_context():
+        return Boxer.query.filter_by(name=name).first() is not None
+
 
 
 # function to fetch the contents of wiki pages. return error message to log file if unsuccessful
@@ -46,6 +68,8 @@ def parse_data(html):
     # extract name
     try:
         name = soup.find(class_='mw-page-title-main').text
+        name = name.replace(" (boxer)", "").strip()
+
 
         # insert name into data dictionary
         data['name'] = name
@@ -55,9 +79,15 @@ def parse_data(html):
 
     # extract the infobox from the rest of the page elements
     info_card = soup.find(class_='infobox')
+    if not info_card:
+        logging.warning(f"Infobox not found. Skipping boxer.")
+        return None, None  # or return empty dict, matrix
 
     # extract the table rows from the info card
     tr = info_card.find_all('tr')
+
+    # define a default fighter photo
+    DEFAULT_BOXER_IMAGE = "https://www.nicepng.com/png/detail/272-2725101_silhouette-fighter.png"
 
     for row in tr:
 
@@ -68,7 +98,7 @@ def parse_data(html):
             if photo_cell:
                 img_url = photo_cell.get('src')
                 complete_image_url = "https:" + img_url
-                data['photo'] = complete_image_url
+                data['photo'] = complete_image_url if img_url else DEFAULT_BOXER_IMAGE
                 logging.info(f"Extracted image URL: {complete_image_url}")
         except AttributeError as e:
             logging.error(f"Unable to extract photo cell from page element. {e}")
@@ -115,7 +145,11 @@ def parse_data(html):
                 # extract stance
                 try:
                     if k == 'Stance':
-                        stance = v
+                        # find stance in string, remove wiki superscript links and strip any unnecessary words from the string
+                        raw_stance = re.sub(r'\[\d+]', '', v).strip()
+                        match = re.search(r'\b(Orthodox|Southpaw|Switch)\b', raw_stance, re.IGNORECASE)
+                        stance = match.group(1).capitalize() if match else None
+
 
                         # insert stance into data dictionary
                         data['stance'] = stance
@@ -194,6 +228,11 @@ def parse_data(html):
                 except AttributeError as e:
                     logging.error(f"Unable to extract {data.get('name')} reach from page element. {e}")
 
+    # additional default for the fighter photo in case the previous did not work as planned
+    if 'photo' not in data:
+        data['photo'] = DEFAULT_BOXER_IMAGE
+        logging.info(f"no photo for {data.get('name')}. Using default.")
+
     """
     Sequence of extraction operations to continue to pull data for the "boxers" database table
     and to pull data for the "fights" database table
@@ -218,6 +257,10 @@ def parse_data(html):
     except AttributeError as e:
         logging.error(f"Unable to locate fight table. {e}")
 
+    # fallback, in case there is no fight table
+    fight_data_rows = []
+    headers = []
+
     # extract the headers and rows from the table
     try:
         fight_header_row = fight_table.find('tr')
@@ -228,20 +271,15 @@ def parse_data(html):
 
     # construct matrix
     fight_matrix = []
-    for row in fight_data_rows:
-        cells = [td.get_text(strip=True) for td in row.find_all('td')]
-        if len(cells) == len(headers):
-            fight = dict(zip(headers, cells))
-            fight_matrix.append(fight)
+    if fight_data_rows and headers:
+        for row in fight_data_rows:
+            cells = [td.get_text(strip=True) for td in row.find_all('td')]
+            if len(cells) == len(headers):
+                fight = dict(zip(headers, cells))
+                fight_matrix.append(fight)
 
 
     # find and extract date first and last active
-    # helper function to parse dates of various formats
-    def parse_date(date_str):
-        try:
-            return parser.parse(date_str, fuzzy=True)
-        except Exception:
-            return None
 
     # put all dates in a list
     dates = []
@@ -263,7 +301,7 @@ def parse_data(html):
             data['active_until'] = active_until
             logging.info("active dates inserted successfully")
         else:
-            print("None found.")
+            logging.info("no active dates found")
     except AttributeError as e:
         logging.error(f"Unable to extract {data.get('name')} active to and until dates from page element. {e}")
 
@@ -293,11 +331,15 @@ def parse_data(html):
 
     # enter the oldest and newest dates from the fight list
     try:
-        boxer_eras = define_eras(min(dates), max(dates))
-
-        # insert eras into data dictionary
-        data['era'] = boxer_eras
-        logging.info("era insertion successful")
+        if dates:
+            boxer_eras = define_eras(min(dates), max(dates))
+            # insert eras into data dictionary
+            data['era'] = boxer_eras
+            logging.info("era insertion successful")
+        else:
+            # default to empty era list
+            data['era'] = None
+            logging.warning(f"No dates found for {data.get('name')}. Skipping eras calc.")
     except AttributeError as e:
         logging.error(f"Unable to extract {data.get('name')} eras. {e}")
 
@@ -346,6 +388,10 @@ def parse_data(html):
         number_of_fights = 0
         number_of_wins = 0
 
+        # detect potentially incomplete records with zero fights
+        if number_of_fights == 0:
+            logging.warning(f"{data.get('name')} displays 0 recorded fights. Ratios will be defaulted to 0")
+
         for cell in record_header_row:
             text = cell.get_text(strip=True)
 
@@ -371,17 +417,24 @@ def parse_data(html):
         logging.error(f"Unable to extract {data.get('name')} fights, wins and loss figures from page elements. {e}")
 
     # extract number of wins by KO, decision and DQ from data rows
+
+    # defaults, in the case of a scraping error
+    wins_by_ko = 0
+    wins_by_decision = 0
+    wins_by_dq = 0
+
     try:
         wins_by = [td.get_text(strip=True) for td in record_table.find_all('td', class_='table-yes2')]
 
         # wins by KO
-        wins_by_ko = int(wins_by[0])
+        wins_by_ko = int(wins_by[0]) if len(wins_by) > 0 else 0
 
         # insert wins_by_ko into data dictionary
         data['wins_by_ko'] = wins_by_ko
 
         # wins by decision
-        wins_by_decision = int(wins_by[1])
+        wins_by_decision = int(wins_by[1]) if len(wins_by) > 1 else 0
+
 
         # insert wins_by_decision into data dictionary
         data['wins_by_decision'] = wins_by_decision
@@ -389,7 +442,7 @@ def parse_data(html):
 
         # wins by DQ
         try:
-            wins_by_dq = int(wins_by[2])
+            wins_by_dq = int(wins_by[2]) if len(wins_by) > 2 else 0
 
             # insert wins_by_dq into data dictionary
             data['wins_by_dq'] = wins_by_dq
@@ -407,37 +460,36 @@ def parse_data(html):
         losses_by = [td.get_text(strip=True) for td in record_table.find_all('td', class_='table-no2')]
 
         # losses by KO
-        losses_by_ko = int(losses_by[0])
+        losses_by_ko = int(losses_by[0]) if len(losses_by) > 0 else 0
 
         # insert losses_by_ko into data dictionary
         data['losses_by_ko'] = losses_by_ko
 
         # losses by decision
-        losses_by_decision = int(losses_by[1])
+        losses_by_decision = int(losses_by[1]) if len(losses_by) > 1 else 0
 
         # insert losses_by_decision into data dictionary
         data['losses_by_decision'] = losses_by_decision
         logging.info("loss type insertion successful")
 
         # losses by DQ
-        try:
-            losses_by_dq = int(losses_by[2])
+        losses_by_dq = int(losses_by[2]) if len(losses_by) > 2 else 0
 
-            # insert losses_by_dq into data dictionary
-            data['losses_by_dq'] = losses_by_dq
-        except IndexError:
-            data['losses_by_dq'] = 0
-            logging.info("losses_by_dq unavailable, defaulting to 0")
+        # insert losses_by_dq into data dictionary
+        data['losses_by_dq'] = losses_by_dq
 
-        else:
-            losses_by_dq = None
     except AttributeError as e:
         logging.error(f"Unable to extract {data.get('name')} losses by KO, decision and DQ  from page elements. {e}")
 
     # calculate the KO and win ratios
     try:
-        win_ratio = round((number_of_wins / number_of_fights), 2)
-        ko_ratio = round((wins_by_ko / number_of_wins), 2)
+        if number_of_fights > 0 and number_of_wins > 0:
+            win_ratio = round((number_of_wins / number_of_fights), 2)
+            ko_ratio = round((wins_by_ko / number_of_wins), 2)
+        else:
+            win_ratio = 0.0
+            ko_ratio = 0.0
+            logging.warning(f"no fights or wins for {data.get('name')}. Defaulting ratios to 0.")
 
         # insert ko_ratio and win_ratio into data dictionary
         data['ko_ratio'] = ko_ratio
@@ -537,8 +589,21 @@ def insert_fights(fight_matrix, data):
             raw_method = fight_data.get('Type', '').strip().upper()
             method = METHOD_MAPPING.get(raw_method, None)
 
+            # normalise dates before insertion to avoid errors
+            raw_date = fight_data.get('Date')
+            parsed_date = parse_date(raw_date)
+            iso_date = parsed_date.strftime('%Y-%m-%d') if parsed_date else None
+
+            # make a composite key to check for duplicates
+            existing_fight = Fight.query.filter_by(date=iso_date, boxer_a_id=boxer.id, opponent_name=opponent_name).first()
+
+            # if existing_fight is already in db, skip the fight
+            if existing_fight:
+                logging.info(f"Skipping duplicate fight vs {opponent_name} on {iso_date} ")
+                continue
+
             fight = Fight(
-                date=fight_data.get('Date'),
+                date=iso_date,
                 rounds_completed=fight_data.get('Round, time') or fight_data.get('Round') or None,
                 location=fight_data.get('Location'),
                 title_fight=bool(fight_data.get('Notes', '').strip()),
@@ -575,14 +640,36 @@ def batch_scrape():
         logging.error("No URLs to process.")
         return
 
-    for url in url_list:
+    # track profile scraping with a progress bar, and track in log file
+    for idx, url in enumerate(tqdm(url_list, desc="Scraping progress", unit="fighter")):
         logging.info(f"Processing URL: {url}")
 
         html = get_html_content(url)
         if not html:
             continue
 
+        html = get_html_content(url)
+        if not html:
+            continue
+
+        # quick parse of the fighter name to avoid parsing the entire page if boxer already in db
+        soup = BeautifulSoup(html, 'html.parser')
+        try:
+            name = soup.find(class_='mw-page-title-main').text.strip()
+        except Exception as e:
+            logging.warning(f"unable to extract fighter name: {url}. Skipping. {e}")
+            continue
+
+        # use helper function to verify is boxer already in db
+        if boxer_exists(name):
+            logging.info(f"{name} already exists in DB. Skipping.")
+            continue
+
         data, fight_matrix = parse_data(html)
+        if not data:
+            logging.warning(f"No data returned for {url}. Skipping data insertion")
+            continue
+
         insert_boxer(data)
         if fight_matrix:
             insert_fights(fight_matrix, data)
